@@ -1,20 +1,19 @@
 ---
-title : "Truy cập S3 từ môi trường truyền thống"
-date : 2024-01-01 
-weight : 4 
+title : "Kết nối EduCloud với Amazon Cognito"
+date : 2024-01-01
+weight : 4
 chapter : false
 pre : " <b> 5.4. </b> "
 ---
 
 #### Tổng quan
 
-+ Trong phần này, bạn sẽ tạo một Interface Endpoint để truy cập Amazon S3 từ môi trường truyền thống mô phỏng. Interface Endpoint sẽ cho phép bạn định tuyến đến Amazon S3 qua kết nối VPN từ môi trường truyền thống mô phỏng của bạn.
+Ở phần 5.3, bạn đã có một Cognito User Pool hoạt động độc lập, kiểm tra được bằng CLI. Trong phần này, bạn sẽ nối User Pool đó vào code thật của EduCloud Lite:
 
-+ Tại sao nên sử dụng **Interface Endpoint**:
-    + Các Gateway endpoints chỉ hoạt động với các tài nguyên đang chạy trong VPC nơi chúng được tạo. Interface Endpoint  hoạt động với tài nguyên chạy trong VPC và cả tài nguyên chạy trong môi trường truyền thống. Khả năng kết nối từ môi trường truyền thống của bạn với aws cloud có thể được cung cấp bởi AWS Site-to-Site VPN hoặc AWS Direct Connect.
-    + Interface Endpoint cho phép bạn kết nối với các dịch vụ do AWS PrivateLink cung cấp. Các dịch vụ này bao gồm một số dịch vụ AWS, dịch vụ do các đối tác và khách hàng AWS lưu trữ trong VPC của riêng họ (gọi tắt là Dịch vụ PrivateLink endpoints) và các dịch vụ Đối tác AWS Marketplace. Đối với workshop này, chúng ta sẽ tập trung vào việc kết nối với Amazon S3.
-    
-![Interface endpoint architecture](/images/5-Workshop/5.4-S3-onprem/diagram3.png)
++ Cấu hình backend FastAPI để **xác minh** Cognito ID token và phát hành JWT nội bộ (`app/services/cognito_service.py`).
++ Cấu hình frontend React để **gọi trực tiếp** Cognito qua SDK cho các luồng đăng ký/đăng nhập/quên mật khẩu (`src/services/cognitoService.ts`, `src/auth/AuthContext.tsx`).
++ Kiểm thử toàn bộ luồng người dùng thật trên trình duyệt: đăng ký, xác thực email, đăng nhập, quên mật khẩu.
 
+![auth flow](/images/5-Workshop/5.4-S3-onprem/auth-flow.png)
 
-
+*(Ảnh trên là placeholder — bạn tự vẽ sơ đồ luồng request giữa React → Cognito → FastAPI → Supabase rồi lưu vào đường dẫn trên)*

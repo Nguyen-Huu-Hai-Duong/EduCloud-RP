@@ -1,95 +1,52 @@
 ---
-title : "VPC Endpoint Policies"
+title : "Bảo mật nâng cao (làm thêm)"
 date : 2024-01-01
 weight : 5
 chapter : false
 pre : " <b> 5.5 </b> "
 ---
 
-Khi bạn tạo một Interface Endpoint  hoặc cổng, bạn có thể đính kèm một chính sách điểm cuối để kiểm soát quyền truy cập vào dịch vụ mà bạn đang kết nối. Chính sách VPC Endpoint là chính sách tài nguyên IAM mà bạn đính kèm vào điểm cuối. Nếu bạn không đính kèm chính sách khi tạo điểm cuối, thì AWS sẽ đính kèm chính sách mặc định cho bạn để cho phép toàn quyền truy cập vào dịch vụ thông qua điểm cuối.
+Phần bắt buộc của workshop đã kết thúc ở 5.4. Phần này (làm thêm) khảo sát các lớp bảo mật mà EduCloud Lite đã tích hợp sẵn xung quanh luồng xác thực Cognito, và cho bạn tự tay kiểm chứng từng lớp.
 
-Bạn có thể tạo chính sách chỉ hạn chế quyền truy cập vào các S3 bucket cụ thể. Điều này hữu ích nếu bạn chỉ muốn một số Bộ chứa S3 nhất định có thể truy cập được thông qua điểm cuối.
+#### Giới hạn tần suất request (rate limiting)
 
-Trong phần này, bạn sẽ tạo chính sách VPC Endpoint hạn chế quyền truy cập vào S3 bucket được chỉ định trong chính sách VPC Endpoint.
+`app/middleware/security_middleware.py` cài một bộ đếm sliding-window trong bộ nhớ, áp dụng cho các endpoint xác thực nhạy cảm (`/api/auth/login`, `/api/auth/register`, `/api/auth/forgot-password`, `/api/auth/cognito/exchange`):
 
-![endpoint diagram](/images/5-Workshop/5.5-Policy/s3-bucket-policy.png)
-
-#### Kết nối tới EC2 và xác minh kết nối tới S3. 
-
-1. Bắt đầu một phiên AWS Session Manager mới trên máy chủ có tên là Test-Gateway-Endpoint. Từ phiên này, xác minh rằng bạn có thể liệt kê nội dung của bucket mà bạn đã tạo trong Phần 1: Truy cập S3 từ VPC.
-
-```
-aws s3 ls s3://<your-bucket-name>
-```
-![test](/images/5-Workshop/5.5-Policy/test1.png)
-
-Nội dung của bucket bao gồm hai tệp có dung lượng 1GB đã được tải lên trước đó.
-
-2. Tạo một bucket S3 mới; tuân thủ mẫu đặt tên mà bạn đã sử dụng trong Phần 1, nhưng thêm '-2' vào tên. Để các trường khác là mặc định và nhấp vào **Create**.
-
-![create bucket](/images/5-Workshop/5.5-Policy/create-bucket.png)
-
-3. Tạo bucket thành công.
-
-![Success](/images/5-Workshop/5.5-Policy/create-bucket-success.png)
-
-Policy mặc định cho phép truy cập vào tất cả các S3 Buckets thông qua VPC endpoint.
-
-4. Trong giao diện **Edit Policy**, sao chép và dán theo policy sau, thay thế yourbucketname-2 với tên bucket thứ hai của bạn. Policy này sẽ cho phép truy cập đến bucket mới thông qua VPC endpoint, nhưng không cho phép truy cập đến các bucket còn lại. Chọn **Save** để kích hoạt policy.
-
-
-```
-{
-  "Id": "Policy1631305502445",
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "Stmt1631305501021",
-      "Action": "s3:*",
-      "Effect": "Allow",
-      "Resource": [
-      				"arn:aws:s3:::yourbucketname-2",
-       				"arn:aws:s3:::yourbucketname-2/*"
-       ],
-      "Principal": "*"
-    }
-  ]
-}
+```python
+def is_rate_limited(client_ip, path, *, limit: int = 10, window_seconds: int = 60) -> bool:
+    ...
 ```
 
-![custom policy](/images/5-Workshop/5.5-Policy/policy2.png)
+**Thử làm:** gửi liên tiếp hơn 10 request trong 60 giây tới `/api/auth/login` (ví dụ vòng lặp `curl` hoặc Postman Runner) và quan sát các request vượt ngưỡng bị chặn. Cơ chế này giúp làm chậm tấn công dò mật khẩu (credential stuffing) nhắm vào endpoint xác thực.
 
-Cấu hình policy thành công.
+{{% notice note %}}
+Bộ đếm này lưu trong bộ nhớ tiến trình (in-memory), sẽ mất khi backend restart và không đồng bộ nếu chạy nhiều instance — README của dự án ghi rõ đây là giải pháp phù hợp cho demo, production nên chuyển sang WAF/API Gateway/Redis.
+{{% /notice %}}
 
-![success](/images/5-Workshop/5.5-Policy/success.png)
+#### HTTP security headers
 
-5. Từ session của bạn trên Test-Gateway-Endpoint instance, kiểm tra truy cập đến S3 bucket bạn tạo ở bước đầu
+Mọi response JSON đều được gắn thêm các header sau (cùng file `security_middleware.py`):
 
-```
-aws s3 ls s3://<yourbucketname>
-```
+| Header | Giá trị | Mục đích |
+|---|---|---|
+| `X-Content-Type-Options` | `nosniff` | Chặn trình duyệt tự đoán loại nội dung |
+| `X-Frame-Options` | `DENY` | Chặn nhúng trang vào iframe (chống clickjacking) |
+| `Referrer-Policy` | `strict-origin-when-cross-origin` | Hạn chế rò rỉ URL qua header Referer |
+| `Permissions-Policy` | tắt camera/microphone/geolocation | Vô hiệu hoá các quyền trình duyệt không dùng đến |
+| `Cache-Control` | `no-store` | Không cache response JSON chứa dữ liệu người dùng |
 
-Câu lệnh trả về lỗi bởi vì truy cập vào S3 bucket không có quyền trong VPC endpoint policy.
+**Thử làm:** mở DevTools → Network, gọi bất kỳ API nào của EduCloud và kiểm tra các header trên trong response.
 
-![error](/images/5-Workshop/5.5-Policy/error.png)
+#### Chống downgrade tài khoản đã migrate sang Cognito
 
-6. Trở lại home directory của bạn trên EC2 instance ```cd~```
+Trong `auth_service.login_user()`, nếu một tài khoản đã có `cognito_sub` (tức đã từng xác thực qua Cognito), backend **từ chối** cho đăng nhập lại bằng đường legacy (`/api/auth/login`), kể cả khi `ALLOW_LEGACY_AUTH=true`. Điều này ngăn kẻ tấn công lợi dụng đường xác thực cũ, yếu hơn để bỏ qua Cognito một khi tài khoản đã migrate.
 
-+ Tạo file ```fallocate -l 1G test-bucket2.xyz ```
-+ Sao chép file lên bucket thứ  2 ```aws s3 cp test-bucket2.xyz s3://<your-2nd-bucket-name>```
+#### Cửa sau chỉ dành cho development
 
-![success](/images/5-Workshop/5.5-Policy/test2.png)
+`middleware/auth_middleware.get_current_user_from_token()` chấp nhận một token đặc biệt `dev-instructor-token` để dev nhanh không cần đăng nhập thật — nhưng chỉ khi **đồng thời** `APP_ENV=development` **và** `ENABLE_DEV_AUTH=true`. Đây là lý do checklist bảo mật trong README yêu cầu bắt buộc set `ENABLE_DEV_AUTH=false` khi triển khai ngoài local.
 
-Thao tác này được cho phép bởi VPC endpoint policy.
+**Thử làm:** với `backend/.env` đang chạy ở `ENABLE_DEV_AUTH=false` (giá trị mặc định trong `.env.example`), gọi một API cần xác thực với header `Authorization: Bearer dev-instructor-token` và xác nhận bị từ chối (401).
 
-![success](/images/5-Workshop/5.5-Policy/test2-success.png)
+#### Vòng đời JWT nội bộ
 
-Sau đó chúng ta kiểm tra truy cập vào S3 bucket đầu tiên
-
- ```aws s3 cp test-bucket2.xyz s3://<your-1st-bucket-name>```
-
- ![fail](/images/5-Workshop/5.5-Policy/test2-fail.png)
-
- Câu lệnh xảy ra lỗi bởi vì bucket không có quyền truy cập bởi VPC endpoint policy.
-
-Trong phần này, bạn đã tạo chính sách VPC Endpoint cho Amazon S3 và sử dụng AWS CLI để kiểm tra chính sách. Các hoạt động AWS CLI liên quan đến bucket S3 ban đầu của bạn thất bại vì bạn áp dụng một chính sách chỉ cho phép truy cập đến bucket thứ hai mà bạn đã tạo. Các hoạt động AWS CLI nhắm vào bucket thứ hai của bạn thành công vì chính sách cho phép chúng. Những chính sách này có thể hữu ích trong các tình huống khi bạn cần kiểm soát quyền truy cập vào tài nguyên thông qua VPC Endpoint.
+JWT do `create_access_token()` phát hành dùng thuật toán HS256, hết hạn sau 12 giờ, và hiện được lưu ở `sessionStorage` phía frontend thay vì cookie `HttpOnly`. README liệt kê đây là điểm cần nâng cấp cho production: chuyển sang access token sống ngắn kết hợp cookie `Secure, HttpOnly, SameSite` và cơ chế refresh-token rotation.

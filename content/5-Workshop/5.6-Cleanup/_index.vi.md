@@ -8,30 +8,22 @@ pre : " <b> 5.6. </b> "
 
 #### Dọn dẹp tài nguyên
 
-Xin chúc mừng bạn đã hoàn thành xong lab này!
-Trong lab này, bạn đã học về các mô hình kiến trúc để truy cập Amazon S3 mà không sử dụng Public Internet.
+Xin chúc mừng bạn đã hoàn thành workshop!
 
-+ Bằng cách tạo Gateway endpoint, bạn đã cho phép giao tiếp trực tiếp giữa các tài nguyên EC2 và Amazon S3, mà không đi qua Internet Gateway.
-Bằng cách tạo Interface endpoint, bạn đã mở rộng kết nối S3 đến các tài nguyên chạy trên trung tâm dữ liệu trên chỗ của bạn thông qua AWS Site-to-Site VPN hoặc Direct Connect.
+Trong workshop này, bạn đã dựng lại toàn bộ lớp xác thực của EduCloud Lite bằng Amazon Cognito: tạo User Pool và App Client, nối chúng vào backend FastAPI (xác minh ID token qua JWKS, phát hành JWT nội bộ, tự động đồng bộ user sang Supabase) và frontend React (gọi Cognito SDK trực tiếp cho đăng ký/đăng nhập/quên mật khẩu), rồi kiểm chứng thêm các lớp bảo mật đi kèm (rate limiting, chống dò email, chống downgrade tài khoản).
 
 #### Dọn dẹp
-1. Điều hướng đến Hosted Zones trên phía trái của bảng điều khiển Route 53. Nhấp vào tên của  s3.us-east-1.amazonaws.com zone. Nhấp vào Delete và xác nhận việc xóa bằng cách nhập từ khóa "delete".
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/delete-zone.png)
+1. Mở Cognito console → User pool → tab **Users**, xoá các tài khoản thử nghiệm bạn đã tạo trong lúc test (CLI test user, tài khoản đăng ký qua UI...).
 
-2. Disassociate Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
+*(Chèn ảnh danh sách Users trước khi xoá)*
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/vpc.png)
+2. Nếu User Pool này chỉ tạo riêng cho workshop và không dùng tiếp, xoá luôn cả pool: User pool → **Delete user pool**, gõ tên pool để xác nhận.
 
-4.Mở console của CloudFormation và xóa hai stack CloudFormation mà bạn đã tạo cho bài thực hành này:
-+ PLOnpremSetup
-+ PLCloudSetup
+*(Chèn ảnh xác nhận xoá User pool)*
 
-![delete stack](/images/5-Workshop/5.6-Cleanup/delete-stack.png)
+3. Kiểm tra lại `backend/.env` và `frontend/.env`: đảm bảo hai file này **không** bị commit lên Git (đã có trong `.gitignore`). Không đưa `COGNITO_CLIENT_ID`, `JWT_SECRET_KEY` hay chuỗi kết nối Supabase vào bất kỳ commit hay ảnh chụp màn hình nào bạn đính vào báo cáo.
 
-5. Xóa các S3 bucket
+4. Trước khi triển khai ngoài môi trường local, đặt lại theo checklist bảo mật của EduCloud: `ALLOW_LEGACY_AUTH=false`, `ENABLE_DEV_AUTH=false`, thay `JWT_SECRET_KEY` bằng một chuỗi ngẫu nhiên dài, và giới hạn `CORS_ORIGINS` về đúng domain triển khai thật.
 
-+ Mở bảng điều khiển S3
-+ Chọn bucket chúng ta đã tạo cho lab, nhấp chuột và xác nhận là empty. Nhấp Delete và xác nhận delete.
-+ 
-![delete s3](/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+5. Dừng các tiến trình dev đang chạy local (`uvicorn`, `npm run dev`) bằng `Ctrl+C` ở từng terminal.

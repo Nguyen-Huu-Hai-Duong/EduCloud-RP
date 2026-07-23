@@ -1,55 +1,39 @@
 ---
-title : "Kiểm tra Interface Endpoint"
+title : "Kiểm thử luồng đăng ký & xác thực email"
 date : 2024-01-01
 weight : 3
 chapter : false
 pre : " <b> 5.4.3 </b> "
 ---
 
-#### Lấy regional DNS name (tên DNS khu vực) của S3 interface endpoint
-1. Trong Amazon VPC menu, chọn Endpoints.
+#### Đăng ký tài khoản Student mới
 
-2. Click tên của endpoint chúng ta mới tạo ở mục 4.2: s3-interface-endpoint. Click details và lưu lại regional DNS name của endpoint (cái đầu tiên) vào text-editor của bạn để dùng ở các bước sau.
+1. Mở `http://localhost:5173`, vào trang **Register**, chọn vai trò **Student**, điền họ tên/email/mật khẩu và submit.
 
-![dns name](/images/5-Workshop/5.4-S3-onprem/dns.png)
+*(Chèn ảnh form đăng ký EduCloud)*
 
-#### Kết nối đến EC2 instance ở trong "VPC On-prem" (giả lập môi trường truyền thống)
+Thao tác này gọi `signUpWithCognito()` → Cognito tạo user ở trạng thái **Unconfirmed** và gửi email chứa mã xác nhận 6 số. Vì luồng này gọi thẳng Cognito, **chưa có bản ghi nào** được tạo trong bảng `users` của Supabase ở bước này.
 
-1. Đi đến **Session manager** bằng cách gõ "session manager" vào ô tìm kiếm
+2. Mở Cognito console → User pool → tab **Users**, xác nhận user mới xuất hiện với **Confirmation status = Unconfirmed**.
 
-2. Click **Start Session**, chọn EC2 instance có tên **Test-Interface-Endpoint**. EC2 instance này đang chạy trên "VPC On-prem" và sẽ được sử dụng để kiểm tra kết nối đến Amazon S3 thông qua Interface endpoint. Session Manager sẽ mở 1 browser tab mới với shell prompt: **sh-4.2 $**
+*(Chèn ảnh danh sách Users, trạng thái Unconfirmed)*
 
-![Start session](/images/5-Workshop/5.4-S3-onprem/start-session.png)
+3. Quay lại ứng dụng, nhập mã 6 số vừa nhận được vào màn hình xác nhận (gọi `confirmCognitoSignUp()`). Nếu mã hết hạn/không nhận được, dùng nút gửi lại (gọi `resendCognitoConfirmation()`).
 
-3. Đi đến ssm-user's home directory với lệnh "cd ~"
+*(Chèn ảnh màn hình nhập mã xác nhận)*
 
-4. Tạo 1 file tên testfile2.xyz
-```
-fallocate -l 1G testfile2.xyz
-```
+4. Sau khi xác nhận thành công, kiểm tra lại Cognito console: trạng thái user chuyển thành **Confirmed**.
 
-![user](/images/5-Workshop/5.4-S3-onprem/cli1.png)
+*(Chèn ảnh trạng thái Confirmed)*
 
-5. Copy file vào S3 bucket mình tạo ở section 4.2
-```
-aws s3 cp --endpoint-url https://bucket.<Regional-DNS-Name> testfile2.xyz s3://<your-bucket-name>
-``` 
-+ Câu lệnh này yêu cầu thông số --endpoint-url, bởi vì bạn cần sử dụng DNS name chỉ định cho endpoint để truy cập vào S3 thông qua Interface endpoint.
-+ Không lấy ' * ' khi copy/paste tên DNS khu vực.
-+ Cung cấp tên S3 bucket của bạn
+#### Kiểm tra Supabase đã tự tạo user tương ứng
 
-![copy file](/images/5-Workshop/5.4-S3-onprem/cli2.png)
+5. Đăng nhập bằng tài khoản vừa đăng ký. Lần đăng nhập đầu tiên này gọi `POST /api/auth/cognito/exchange`, kích hoạt `exchange_token()` ở backend tự động tạo một dòng mới trong bảng `users` của Supabase với `cognito_sub` được gắn với subject của Cognito và `role = student`.
 
-Bây giờ tệp đã được thêm vào bộ chứa S3 của bạn. Hãy kiểm tra bộ chứa S3 của bạn trong bước tiếp theo.
+6. Mở Supabase table editor, kiểm tra bảng `users`: user mới phải có `email` khớp, `cognito_sub` không rỗng, `password_hash` là `NULL` (vì tài khoản này không đi qua đường legacy).
 
-#### Kiểm tra Object trong S3 bucket
+*(Chèn ảnh bảng users trên Supabase)*
 
-1. Đi đến S3 console
-2. Click Buckets
-3. Click tên bucket của bạn và bạn sẽ thấy testfile2.xyz đã được thêm vào s3 bucket của bạn
+#### Tóm tắt
 
-![check bucket](/images/5-Workshop/5.4-S3-onprem/check-bucket.png)
-
-
-
-
+Bạn đã xác minh được rằng: Cognito sở hữu toàn bộ vòng đời đăng ký/xác thực email, còn Supabase chỉ được cập nhật **sau khi** có một ID token hợp lệ được trao đổi qua backend — đúng như thiết kế tách bạch giữa "ai được xác thực" (Cognito) và "ai được phép làm gì" (Supabase) của EduCloud Lite.

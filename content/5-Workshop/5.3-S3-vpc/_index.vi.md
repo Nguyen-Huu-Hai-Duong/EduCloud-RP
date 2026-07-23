@@ -1,18 +1,16 @@
 ---
-title : "Truy cập S3 từ VPC"
-date : 2024-01-01 
+title : "Tạo và cấu hình Amazon Cognito User Pool"
+date : 2024-01-01
 weight : 3
 chapter : false
 pre : " <b> 5.3. </b> "
 ---
 
-#### Sử dụng Gateway endpoint
+#### Tạo kho danh tính cho EduCloud Lite
 
-Trong phần này, bạn sẽ tạo một Gateway endpoint để truy cập Amazon S3 từ một EC2 instance. Gateway endpoint sẽ cho phép tải một object lên S3 bucket mà không cần sử dụng Internet Công cộng. Để tạo endpoint, bạn phải chỉ định VPC mà bạn muốn tạo endpoint và dịch vụ (trong trường hợp này là S3) mà bạn muốn thiết lập kết nối.
-
-![overview](/images/5-Workshop/5.3-S3-vpc/diagram2.png)
+Trong phần này, bạn sẽ tạo một **Amazon Cognito User Pool** dành riêng cho EduCloud Lite — nơi lưu trữ tài khoản, mật khẩu (đã băm), trạng thái xác thực email và phát hành token cho ứng dụng. Sau đó, bạn sẽ tạo một **App Client** (không có client secret, phù hợp cho ứng dụng SPA React chạy phía trình duyệt) và kiểm tra nhanh User Pool bằng AWS CLI trước khi nối vào code.
 
 #### Nội dung
 
-- [Tạo gateway endpoint](3.1-create-gwe/)
-- [Test gateway endpoint](3.2-test-gwe/)
+- [Tạo Cognito User Pool](5.3.1-create-gwe/)
+- [Tạo App Client & kiểm tra bằng CLI](5.3.2-test-gwe/)

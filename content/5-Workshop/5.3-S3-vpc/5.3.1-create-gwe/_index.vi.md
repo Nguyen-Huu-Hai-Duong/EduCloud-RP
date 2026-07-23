@@ -1,40 +1,44 @@
 ---
-title : "Tạo một Gateway Endpoint"
-date : 2024-01-01 
+title : "Tạo Cognito User Pool"
+date : 2024-01-01
 weight : 1
 chapter : false
 pre : " <b> 5.3.1 </b> "
 ---
 
-1. Mở [Amazon VPC console](https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#Home:)
-2. Trong thanh điều hướng, chọn **Endpoints**, click **Create Endpoint**:
+1. Mở [Amazon Cognito console](https://ap-southeast-1.console.aws.amazon.com/cognito/v2/idp/user-pools?region=ap-southeast-1), chọn **Create user pool**.
 
-{{% notice note %}}
-Bạn sẽ thấy 6 điểm cuối VPC hiện có hỗ trợ AWS Systems Manager (SSM). Các điểm cuối này được Mẫu CloudFormation triển khai tự động cho workshop này.
-{{% /notice %}}
+*(Chèn ảnh màn hình danh sách User pools tại đây)*
 
-![endpoint](/images/5-Workshop/5.3-S3-vpc/endpoints.png)
+2. **Configure sign-in experience**
++ Cognito user pool sign-in options: chọn **Email** (người dùng đăng nhập bằng địa chỉ email, khớp với cách EduCloud gọi `signInWithCognito(email, password)`).
 
-3. Trong Create endpoint console:
-+ Đặt tên cho endpoint: s3-gwe
-+ Trong service category, chọn **aws services**
+*(Chèn ảnh bước chọn sign-in option)*
 
-![endpoint](/images/5-Workshop/5.3-S3-vpc/create-s3-gwe1.png)
+3. **Configure security requirements**
++ Password policy: dùng mặc định của Cognito (tối thiểu 8 ký tự, có chữ hoa/thường/số/ký tự đặc biệt) — đủ mạnh cho một LMS thật.
++ Multi-factor authentication: chọn **No MFA** để đơn giản hoá lab (README của EduCloud có ghi chú MFA là hướng nâng cao dành cho tài khoản Admin sau này).
++ User account recovery: giữ **Enable self-service account recovery**, phương thức khôi phục là **Email only**.
 
-+ Trong **Services**, gõ "s3" trong hộp tìm kiếm và chọn dịch vụ với loại **gateway**
+4. **Configure sign-up experience**
++ Bật **Enable self-registration**.
++ Cognito assigns user confirmation: chọn **Send email message, verify email address**.
++ Required attributes: chọn thêm **name**, ngoài **email** đã bắt buộc sẵn — khớp với 2 attribute mà `signUpWithCognito()` trong `cognitoService.ts` gửi lên (`email`, `name`).
 
-![endpoint](/images/5-Workshop/5.3-S3-vpc/services.png)
+*(Chèn ảnh bước cấu hình sign-up experience)*
 
-+ Đối với VPC, chọn **VPC Cloud** từ drop-down menu.
-+ Đối với Route tables, chọn bảng định tuyến mà đã liên kết với 2 subnets (lưu ý: đây không phải là bảng định tuyến chính cho VPC mà là bảng định tuyến thứ hai do CloudFormation tạo).
+5. **Configure message delivery**
++ Email provider: chọn **Send email with Cognito** (đủ dùng cho lab; production nên chuyển sang Amazon SES).
 
-![endpoint](/images/5-Workshop/5.3-S3-vpc/vpc.png)
+6. **Integrate your app**
++ User pool name: đặt ví dụ `educloud-lite-user-pool`.
++ Hosted authentication pages: **không bật** — EduCloud dùng UI đăng nhập tự viết bằng React, gọi thẳng Cognito SDK, không dùng Hosted UI.
++ Initial app client: đặt tên ví dụ `educloud-lite-web-client`, loại **Public client** (không cần client secret vì client chạy trên trình duyệt).
 
-+ Đối với Policy, để tùy chọn mặc định là Full access để cho phép toàn quyền truy cập vào dịch vụ. Bạn sẽ triển khai VPC endpoint policy trong phần sau để chứng minh việc hạn chế quyền truy cập vào S3 bucket dựa trên các policies.
+*(Chèn ảnh bước Integrate your app)*
 
-![endpoint](/images/5-Workshop/5.3-S3-vpc/policy.png)
+7. **Review and create**, kiểm tra lại các lựa chọn rồi bấm **Create user pool**.
 
-+ Không thêm tag vào VPC endpoint.
-+ Click Create endpoint, click x sau khi nhận được thông báo tạo thành công.
+*(Chèn ảnh xác nhận tạo thành công)*
 
-![endpoint](/images/5-Workshop/5.3-S3-vpc/complete.png)
+8. Sau khi tạo xong, mở lại User pool vừa tạo và ghi lại **User pool ID** (dạng `ap-southeast-1_xxxxxxxxx`) — bạn sẽ dùng giá trị này ở phần 5.3.2 và 5.4.
