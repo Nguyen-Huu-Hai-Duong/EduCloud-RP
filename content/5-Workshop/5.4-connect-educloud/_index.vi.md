@@ -14,6 +14,6 @@ pre : " <b> 5.4. </b> "
 + Cấu hình frontend React để **gọi trực tiếp** Cognito qua SDK cho các luồng đăng ký/đăng nhập/quên mật khẩu (`src/services/cognitoService.ts`, `src/auth/AuthContext.tsx`).
 + Kiểm thử toàn bộ luồng người dùng thật trên trình duyệt: đăng ký, xác thực email, đăng nhập, quên mật khẩu.
 
-![auth flow](/images/5-Workshop/5.4-S3-onprem/auth-flow.png)
+![auth flow](/images/5-Workshop/5.4-connect-educloud/auth-flow.png)
 
 *(Ảnh trên là placeholder — bạn tự vẽ sơ đồ luồng request giữa React → Cognito → FastAPI → Supabase rồi lưu vào đường dẫn trên)*

@@ -12,5 +12,5 @@ Trong phần này, bạn sẽ tạo một **Amazon Cognito User Pool** dành ri�
 
 #### Nội dung
 
-- [Tạo Cognito User Pool](5.3.1-create-gwe/)
-- [Tạo App Client & kiểm tra bằng CLI](5.3.2-test-gwe/)
+- [Tạo Cognito User Pool](5.3.1-create-user-pool/)
+- [Tạo App Client & kiểm tra bằng CLI](5.3.2-app-client-cli-test/)
