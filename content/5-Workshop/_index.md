@@ -1,31 +1,24 @@
 ---
 title: "Workshop"
-date: 2024-01-01
+date: 2026-07-26
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# Secure Hybrid Access to S3 using VPC Endpoints
+# AWS Integration for the EduCloud Lite Online Learning Platform
 
 #### Overview
 
-**AWS PrivateLink** provides private connectivity to AWS services from VPCs and your on-premises networks, without exposing your traffic to the Public Internet.
+**EduCloud Lite** is an online learning platform with a **FastAPI (Python)** backend and a **React + TypeScript (Vite)** frontend, backed by **PostgreSQL (Supabase)**. This Workshop chapter walks back through the three AWS service areas actually integrated into EduCloud Lite:
 
-In this lab, you will learn how to create, configure, and test VPC endpoints that enable your workloads to reach AWS services without traversing the Public Internet.
-
-You will create two types of endpoints to access Amazon S3: a Gateway VPC endpoint, and an Interface VPC endpoint. These two types of VPC endpoints offer different benefits depending on if you are accessing Amazon S3 from the cloud or your on-premises location
-+ **Gateway** - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses.You route traffic from your VPC to the gateway endpoint using route tables.
-+ **Interface** - Create an interface endpoint to send traffic to endpoint services that use a Network Load Balancer to distribute traffic. Traffic destined for the endpoint service is resolved using DNS.
++ **Amazon Cognito** — user authentication (sign-up, sign-in, forgot password) instead of a hand-rolled auth system.
++ **Amazon S3** — storage for user-uploaded files (course thumbnails, lesson materials, lecture videos).
++ **Deployment & monitoring** — deploying the app on AWS and enabling CloudWatch/Cost Explorer read-only metrics for the Admin Health page.
 
 #### Content
 
-1. [Workshop overview](5.1-Workshop-overview)
-2. [Prerequiste](5.2-Prerequiste/)
-3. [Access S3 from VPC](5.3-cognito-user-pool/)
-4. [Access S3 from On-premises](5.4-connect-educloud/)
-5. [VPC Endpoint Policies (Bonus)](5.5-advanced-security/)
-6. [Clean up](5.6-Cleanup/)
+1. [Architecture overview](5.1-Tong-quan/)
+2. [Prerequisites](5.2-Chuan-bi/)
+3. [Deploying AWS for EduCloud](5.3-Trien-khai-AWS/)
+4. [Cleaning up resources](5.4-Don-dep/)

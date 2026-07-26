@@ -1,32 +1,24 @@
 ---
 title: "Workshop"
-date: 2024-01-01
+date: 2026-07-26
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-# Triển khai xác thực người dùng an toàn cho EduCloud Lite bằng Amazon Cognito
+# Triển khai AWS cho nền tảng học trực tuyến EduCloud Lite
 
 #### Tổng quan
 
-**EduCloud Lite** là một hệ thống quản lý học tập (LMS) được xây dựng bằng React + FastAPI, dùng Supabase PostgreSQL làm cơ sở dữ liệu ứng dụng và **Amazon Cognito** làm nhà cung cấp danh tính (identity provider) chịu trách nhiệm đăng ký, xác thực email, đăng nhập và khôi phục mật khẩu.
+**EduCloud Lite** là nền tảng học trực tuyến gồm backend **FastAPI (Python)** và frontend **React + TypeScript (Vite)**, dữ liệu lưu ở **PostgreSQL (Supabase)**. Phần Workshop này trình bày lại các bước triển khai ba mảng dịch vụ AWS đã được tích hợp thực tế vào EduCloud Lite:
 
-Trong workshop này, bạn sẽ tự tay dựng lại phần xác thực của EduCloud Lite: tạo một Amazon Cognito User Pool, cấu hình App Client, rồi kết nối User Pool đó vào backend FastAPI và frontend React sẵn có trong repo. Sau khi hoàn thành, bạn sẽ hiểu được:
-
-+ **Cognito User Pool** quản lý danh tính người dùng (email, mật khẩu, trạng thái xác thực) như thế nào, độc lập với cơ sở dữ liệu ứng dụng.
-+ **FastAPI backend** xác minh Cognito ID token (JWKS, RS256) và phát hành JWT nội bộ của EduCloud ra sao, kèm cơ chế tự động tạo/liên kết user trong Supabase.
-+ **React frontend** gọi trực tiếp Cognito (qua `amazon-cognito-identity-js`) cho luồng đăng ký/đăng nhập/quên mật khẩu, rồi mới trao đổi token với backend như thế nào.
++ **Amazon Cognito** — xác thực người dùng (đăng ký, đăng nhập, quên mật khẩu) thay cho việc tự xây dựng cơ chế auth.
++ **Amazon S3** — lưu trữ file người dùng tải lên (ảnh thumbnail khóa học, tài liệu bài học, video bài giảng).
++ **Triển khai & giám sát** — build/deploy ứng dụng lên AWS và bật giám sát chi phí/tài nguyên bằng CloudWatch và Cost Explorer cho trang Admin Health.
 
 #### Nội dung
 
-1. [Giới thiệu workshop](5.1-Workshop-overview/)
-2. [Chuẩn bị](5.2-Prerequiste/)
-3. [Tạo và cấu hình Amazon Cognito User Pool](5.3-cognito-user-pool/)
-4. [Kết nối EduCloud với Amazon Cognito](5.4-connect-educloud/)
-5. [Bảo mật nâng cao (làm thêm)](5.5-advanced-security/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
+1. [Tổng quan kiến trúc](5.1-Tong-quan/)
+2. [Chuẩn bị](5.2-Chuan-bi/)
+3. [Triển khai AWS cho EduCloud](5.3-Trien-khai-AWS/)
+4. [Dọn dẹp tài nguyên](5.4-Don-dep/)
