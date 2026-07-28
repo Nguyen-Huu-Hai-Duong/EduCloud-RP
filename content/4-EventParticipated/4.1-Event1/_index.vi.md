@@ -1,125 +1,114 @@
 ---
-title: "Event 1"
+title: "Sự kiện 1"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Báo cáo tóm tắt: "FCAJ x Agentic AI Build Week 2026 — Trao giải Hackathon và trình diễn dự án Agentic AI"
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Thông tin sự kiện
 
-### Mục Đích Của Sự Kiện
+- **Tên sự kiện:** FCAJ x Agentic AI Build Week 2026 — Trao giải Hackathon và trình diễn dự án
+- **Ngày & thời gian:** 25/07/2026
+- **Địa điểm:** AWS Office, 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+- **Đơn vị tổ chức:** First Cloud AI Journey (FCAJ), Amazon Web Services (AWS) và cộng đồng Agentic AI Build Week
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+### Mục tiêu sự kiện
 
-### Danh Sách Diễn Giả
+- Ghi nhận các đội và giải pháp nổi bật trong cuộc thi Agentic AI Build Week (AABW) Hackathon.
+- Chia sẻ hành trình tham gia hackathon từ xây dựng ý tưởng, phân chia công việc, thử nghiệm thất bại, thu hẹp phạm vi đến trình diễn sản phẩm.
+- Giới thiệu các sản phẩm Agentic AI thực tế trong đặt hàng, thiết kế kiến trúc cloud, phân tích chiến lược và an toàn đám đông.
+- Giúp cộng đồng hiểu cách sử dụng dịch vụ AWS để đưa AI Agent từ nguyên mẫu đến một hệ thống có khả năng vận hành thực tế.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+### Các đội trình bày
 
-### Nội Dung Nổi Bật
+- **3KA — S.H.E.P.H.E.R.D:** Huỳnh An Khương, Nguyễn Quốc Huy, Ngô Quang Khôi, Hoàng Lê Thành Đức, Đặng Nguyễn Phước Lộc và Đặng Trường Hưng.
+- **OneTeam — KFC Bot Agent:** Anh Duy, Trần Đồng, Đoàn Trung, Minh Việt và Anshul Roy.
+- **Plan V — Solution Architect Professional Native App:** Phạm Tiến Thuận Phát, Huỳnh Hoàng Long, Lê Minh Nghĩa, Trần Đại Vĩ và Nguyễn An.
+- **SignalScout:** Lê Tấn Lực, Đỗ Hoàng Hiếu, Triệu Quốc Hào, Nguyễn Văn Duy Khiêm, Nguyễn Công Minh và Nguyễn Trần Minh Quân.
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+### Nội dung nổi bật
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### Hành trình hackathon của 3KA và S.H.E.P.H.E.R.D
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+- Đội 3KA trình bày toàn bộ quá trình từ chọn track, phân chia vai trò đến xây dựng, gặp lỗi, điều chỉnh phạm vi và chuẩn bị bản demo trong thời gian giới hạn.
+- Dự án S.H.E.P.H.E.R.D đánh giá luồng người, dự đoán tắc nghẽn, phát hiện nguy hiểm và hỗ trợ quyết định phản ứng, điều phối.
+- Nguyên mẫu kết hợp YOLO và ByteTrack để phát hiện, theo dõi đám đông; Amazon SageMaker cho tác vụ mô hình; Amazon Bedrock AgentCore và Strands Agents cho hành vi agent; cùng dashboard vận hành viết bằng React.
+- Bài học quan trọng của đội là một sản phẩm nhỏ nhưng hoàn chỉnh, giải thích được và demo ổn định có giá trị hơn một ý tưởng quá lớn nhưng không thể hoàn thành.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### OneTeam và KFC Bot Agent đạt giải
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+- OneTeam giới thiệu AI Agent đặt món đa kênh, cho phép khách hàng đặt hàng qua các ứng dụng nhắn tin quen thuộc như Zalo và WhatsApp.
+- Giải pháp tuân theo chu trình Mục tiêu → Lập kế hoạch → Công cụ → Hành động → Xác minh, đồng thời tách adapter của từng kênh khỏi công cụ đặt hàng và logic nghiệp vụ dùng chung.
+- Slide trình bày mức chi phí khoảng 0,006 USD cho mỗi đơn hàng, ước tính 88 USD mỗi tháng và độ trễ phản hồi khoảng ba đến năm giây.
+- Dự án cho thấy Amazon Bedrock AgentCore có thể giảm mã hạ tầng trong khi vẫn giữ kiến trúc agent dạng module và dễ mở rộng sang kênh mới.
 
-#### Domain-Driven Design (DDD)
+#### Plan V và Solution Architect Professional Native App
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- Plan V giải quyết công việc tốn thời gian của Solution Architect như trích xuất yêu cầu, phác thảo kiến trúc, tạo sơ đồ và ước tính chi phí.
+- Ứng dụng chuyển yêu cầu ngôn ngữ tự nhiên thành bản kiến trúc theo tiêu chuẩn, sinh sơ đồ draw.io có thể chỉnh sửa với icon AWS chính thức và tạo ước tính chi phí định hướng cho Region ap-southeast-1.
+- Hệ thống cũng hiển thị giả định và yêu cầu còn thiếu để Solution Architect kiểm tra, trao đổi và điều chỉnh kết quả thay vì chấp nhận một câu trả lời khó giải thích.
 
-#### Event-Driven Architecture
+#### SignalScout và quyết định chiến lược dựa trên bằng chứng
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+- SignalScout là nền tảng hỗ trợ quyết định bằng AI, có khả năng phát hiện tín hiệu tổ chức và thị trường, phân tích kịch bản kinh doanh, sau đó đề xuất duy trì, thích nghi hoặc tăng tốc chiến lược.
+- Kiến trúc sử dụng các dịch vụ như Amazon Bedrock, AgentCore, Amazon Cognito, AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon S3, AWS WAF, AWS CloudTrail, Amazon CloudWatch và AWS Secrets Manager.
+- Đội trình bày nhiều kịch bản chi phí thực tế và giải thích sự đánh đổi giữa thu thập dữ liệu, sử dụng mô hình, khả năng quan sát, bảo mật và quy mô vận hành.
 
-#### Compute Evolution
+### Bài học rút ra
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+#### Kiến thức kỹ thuật
 
-#### Amazon Q Developer
+- Một AI Agent cần mục tiêu rõ ràng, kế hoạch cụ thể, công cụ đáng tin cậy, bước xác minh và kết quả có thể quan sát; chỉ có câu trả lời của mô hình chưa tạo thành hệ thống production.
+- Tách adapter và giao diện công cụ giúp tái sử dụng cùng một agent cho nhiều kênh và thay đổi tích hợp bên ngoài mà không phải thiết kế lại toàn bộ ứng dụng.
+- Sơ đồ kiến trúc, ước tính chi phí, giám sát, bảo mật và cơ chế con người kiểm tra nên được cân nhắc ngay từ đầu thay vì bổ sung sau khi demo.
+- Hệ thống thị giác máy tính phụ thuộc nhiều vào chất lượng dữ liệu, góc camera, độ ổn định của tracking, độ trễ suy luận và cơ chế dự phòng.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+#### Giá trị thực tiễn
 
-### Những Gì Học Được
+- Một đội hackathon hiệu quả cần giới hạn phạm vi sớm, phân vai rõ ràng, chuẩn bị luồng demo và ưu tiên một kịch bản end-to-end hoạt động được.
+- Giá trị sản phẩm cần được chứng minh bằng số liệu như độ trễ, chi phí cho mỗi giao dịch, thời gian tiết kiệm, độ tin cậy và chất lượng quyết định.
+- Giải thưởng và thứ hạng có ý nghĩa, nhưng kết quả có thể áp dụng lâu dài nhất là quy trình kỹ thuật: kiểm tra giả định, xử lý thất bại và giải thích lý do chọn từng dịch vụ.
 
-#### Tư Duy Thiết Kế
+### Liên hệ với EduCloud Lite
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- Các bài trình bày củng cố giá trị của việc tách riêng frontend, backend, xác thực, lưu trữ và cơ sở dữ liệu trong EduCloud Lite.
+- Cách Plan V tạo sơ đồ AWS có thể chỉnh sửa và ghi rõ giả định hữu ích cho việc mô tả kiến trúc triển khai, giúp người đánh giá hiểu luồng request của EduCloud.
+- Kiến trúc module của OneTeam phù hợp với cách EduCloud tách xác thực, API khóa học, phân phối tệp và giao diện người dùng.
+- Các kịch bản chi phí của SignalScout nhắc tôi giữ hệ thống EduCloud ở quy mô vừa đủ, theo dõi đúng dịch vụ đang sử dụng và không thêm hạ tầng không cần thiết.
 
-#### Kiến Trúc Kỹ Thuật
+### Áp dụng vào công việc
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- Xác định một luồng nghiệp vụ nhỏ nhưng có thể trình diễn hoàn chỉnh trước khi thêm tính năng tùy chọn.
+- Tài liệu hóa kiến trúc, trách nhiệm, luồng dữ liệu, ranh giới bảo mật và chi phí vận hành cùng với mã nguồn.
+- Xem dịch vụ bên ngoài là tích hợp có thể thay thế và luôn đặt thông tin bí mật bên ngoài repository.
+- Kiểm thử toàn bộ hành trình người dùng và chuẩn bị demo ổn định thay vì chỉ kiểm tra từng thành phần riêng lẻ.
+- Giữ bước con người kiểm tra đối với quyết định quan trọng và bảo đảm kết quả tự động có thể giải thích.
 
-#### Chiến Lược Hiện Đại Hóa
+### Trải nghiệm sự kiện
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+Sự kiện giúp tôi thấy cách nhiều đội chuyển ý tưởng Agentic AI thành sản phẩm có thể trình diễn, đo lường và giải thích bằng giá trị kinh doanh. Phần trao giải và chia sẻ dự án đặc biệt hữu ích vì các đội không chỉ nói về kết quả thành công mà còn trình bày những lần thử sai, giới hạn và quyết định thiết kế.
 
-### Ứng Dụng Vào Công Việc
+#### Học hỏi từ các đội thi
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- Tôi học được cách trình bày kiến trúc phức tạp bằng việc bắt đầu từ vấn đề của người dùng, sau đó ánh xạ từng dịch vụ AWS vào một trách nhiệm cụ thể.
+- So sánh bốn dự án cho thấy cùng một nguyên tắc Agentic AI có thể áp dụng cho nhiều lĩnh vực khác nhau: đặt hàng bán lẻ, thiết kế giải pháp cloud, phân tích chiến lược và an toàn không gian đông người.
 
-### Trải nghiệm trong event
+#### Trải nghiệm cộng đồng và thảo luận
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- Các phần trình bày cung cấp ví dụ thực tế về quản lý phạm vi, làm việc nhóm, kể câu chuyện kỹ thuật và chuẩn bị demo trong thời gian ngắn.
+- Việc quan sát cả giải pháp đạt giải và các đội nổi bật khác giúp tôi hiểu rõ hơn tiêu chí đánh giá: kết quả hữu ích, khả năng thực thi, kiến trúc giải thích được và tư duy sẵn sàng cho production.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+#### Kinh nghiệm rút ra
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+- Một triển khai tập trung và hoạt động end-to-end mạnh hơn một thiết kế rộng nhưng chưa hoàn thiện luồng quan trọng.
+- Chi phí, độ trễ, khả năng quan sát, an toàn và niềm tin của người dùng là yêu cầu sản phẩm, không chỉ là vấn đề hạ tầng.
+- Agentic AI nên hỗ trợ con người bằng bằng chứng có căn cứ và hành động có thể kiểm soát, không loại bỏ trách nhiệm của con người.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+#### Minh chứng sự kiện
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+*Thêm ảnh minh chứng sự kiện của bạn tại đây*
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+> Nhìn chung, FCAJ x Agentic AI Build Week 2026 giúp tôi có góc nhìn thực tế về cách các đội xây dựng, đánh giá, trình bày và cải tiến giải pháp Agentic AI trên AWS. Sự kiện cũng mang lại nhiều bài học có thể áp dụng trực tiếp cho EduCloud Lite trong tài liệu kiến trúc, kế hoạch triển khai, kiểm soát chi phí và kiểm thử end-to-end.
