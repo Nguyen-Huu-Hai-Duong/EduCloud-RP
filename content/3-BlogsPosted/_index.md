@@ -1,22 +1,28 @@
 ---
 title: "Blogs Posted"
-date: 2024-01-01
 weight: 3
 chapter: false
-pre: " <b> 3. </b> "
+pre: "<b>3.</b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+<h2 class="blog-list-title"><a href="educloud-aws-deployment/">Blog 1 - Deploying EduCloud Lite on AWS</a></h2>
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+This blog explains how EduCloud Lite was moved from a local development project
+to a public cloud-based learning platform. It focuses on the AWS services used
+in the deployment, including Elastic Beanstalk, Amazon Cognito, Systems Manager
+Parameter Store, Amazon S3, CloudFront, and Amplify Hosting.
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+<h2 class="blog-list-title"><a href="s3-cloudfront-private-media/">Blog 2 - Private Course Media Delivery with Amazon S3 and CloudFront</a></h2>
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+This blog summarizes how private course assets such as thumbnails, documents,
+and videos are stored in S3 and delivered through CloudFront while keeping the
+bucket blocked from direct public access.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+<h2 class="blog-list-title"><a href="cognito-fastapi-auth/">Blog 3 - Authentication Design with Amazon Cognito and FastAPI</a></h2>
+
+This blog describes how Cognito handles identity, password recovery, and
+first-login password setup while EduCloud Lite keeps application roles and
+profile data in the backend database.
+
+> If the instructor requires external blog URLs, publish these drafts to the
+> required platform and replace the internal links with public blog links.
