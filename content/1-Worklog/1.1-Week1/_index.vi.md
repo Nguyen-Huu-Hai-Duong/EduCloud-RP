@@ -1,59 +1,41 @@
 ---
 title: "Worklog Tuần 1"
-date: 2024-01-01
+date: 2026-07-28
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Tuần 1 - Tham gia chương trình thực tập
 
-### Mục tiêu tuần 1:
+**Thời gian:** 05/06/2026 - 12/06/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Mục tiêu
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Hoàn tất thủ tục tham gia chương trình thực tập First Cloud AI Journey.
+- Tự tạo và bảo mật tài khoản AWS cá nhân, hiểu cách kiểm soát chi phí ngay từ đầu.
+- Chuẩn bị công cụ làm việc cho phần backend và hạ tầng.
 
+### Giai đoạn tìm hiểu chương trình
 
-### Kết quả đạt được tuần 1:
+| Giai đoạn | Nội dung tìm hiểu | Nguồn tài liệu | Kết quả |
+| :--- | :--- | :--- | :--- |
+| Khởi động | Tìm hiểu mục tiêu First Cloud Journey, các nhóm nội dung AWS và hình thức học qua workshop thực hành. | [The First Cloud Journey](https://cloudjourney.awsstudygroup.com/) | Hiểu tổng quan lộ trình học và cách tra cứu workshop phù hợp. |
+| Chuẩn bị | Tìm hiểu yêu cầu của kỳ thực tập, cấu trúc báo cáo, worklog và cách lưu minh chứng. | Tài liệu chương trình và mẫu báo cáo thực tập | Có checklist tài liệu cần hoàn thành trong suốt kỳ thực tập. |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Công việc thực hiện
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+| Ngày | Công việc | Kết quả |
+| :--- | :--- | :--- |
+| 05/06 | Tiếp nhận thông tin và chính thức tham gia chương trình thực tập First Cloud AI Journey. | Xác nhận phạm vi, thời gian thực tập và đầu mối liên hệ. |
+| 08/06 | Tự tạo tài khoản AWS Free Tier cá nhân, bật MFA cho root user và tạo IAM user riêng để làm việc hằng ngày. | Tài khoản AWS sẵn sàng, không dùng root user cho công việc thường xuyên. |
+| 09/06 | Thiết lập AWS Budgets và cảnh báo chi phí; đọc quy định báo cáo, tiêu chí đánh giá của chương trình. | Có cảnh báo chi phí sớm; nắm được yêu cầu nộp bài. |
+| 10/06 | Cài đặt Python 3.12, VS Code, Git; clone repo backend về máy và chạy thử server local. | Máy cá nhân sẵn sàng cho việc phát triển backend. |
+| 11/06 - 12/06 | Cùng nhóm thống nhất lịch trao đổi hằng tuần và cách lưu ảnh minh chứng công việc (báo cáo sẽ được tổng hợp và viết vào cuối đợt thực tập). | Có quy trình lưu minh chứng thống nhất cho cả nhóm. |
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+### Kết quả đạt được
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Chính thức tham gia chương trình từ ngày 05/06/2026.
+- Có tài khoản AWS cá nhân được bảo mật cơ bản (MFA, IAM user, budget alert).
+- Môi trường Python/Git/VS Code sẵn sàng cho việc phát triển backend.
+- Thống nhất được quy trình lưu minh chứng công việc hằng tuần với nhóm.

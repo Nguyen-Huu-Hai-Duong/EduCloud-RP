@@ -1,59 +1,42 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
+date: 2026-07-28
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Tuần 2 - AWS cơ bản, thành lập nhóm và chọn đề tài
 
-### Mục tiêu tuần 2:
+**Thời gian:** 15/06/2026 - 19/06/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Mục tiêu
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Hiểu các nhóm dịch vụ AWS cơ bản, tập trung vào Compute/Database/Storage phục vụ backend.
+- Tham gia nhóm thảo luận từ ngày 16/06 và thống nhất phương pháp phối hợp.
+- Khảo sát đề tài phù hợp, xác định EduCloud Lite là sản phẩm thực tập.
 
+### Giai đoạn học AWS
 
-### Kết quả đạt được tuần 2:
+| Giai đoạn | Nội dung học | Nguồn tài liệu | Áp dụng |
+| :--- | :--- | :--- | :--- |
+| Tổng quan | Compute, Storage, Database, Networking, Security và Monitoring. | [Explore AWS Services](https://cloudjourney.awsstudygroup.com/1-explore/) | Nhận diện nhóm dịch vụ cần thiết cho phần backend/hạ tầng. |
+| Tài khoản và chi phí | AWS Free Tier, credit, dịch vụ dễ phát sinh phí và cách đặt ngân sách cảnh báo. | [AWS Free Tier](https://000001.awsstudygroup.com/), [AWS Budgets](https://000007.awsstudygroup.com/) | Ưu tiên dịch vụ chi phí thấp khi thiết kế hạ tầng backend. |
+| Công cụ quản trị | Cài đặt AWS CLI, profile, Region mặc định và các định dạng output. | [Getting Started with AWS CLI](https://000011.awsstudygroup.com/) | Chuẩn bị thao tác/triển khai tài nguyên backend bằng lệnh. |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Công việc thực hiện
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+| Ngày | Công việc | Kết quả |
+| :--- | :--- | :--- |
+| 15/06 | Cài đặt và cấu hình AWS CLI (profile, region), thử các lệnh `describe`/`list` cơ bản trên EC2, S3, RDS. | Thao tác được AWS qua dòng lệnh, hiểu output JSON trả về. |
+| 16/06 | Tham gia họp nhóm thảo luận đề tài, ghi biên bản họp và tổng hợp ý tưởng của các thành viên. | Bắt đầu phối hợp nhóm từ ngày 16/06/2026. |
+| 17/06 | Khảo sát lựa chọn database quan hệ (Supabase PostgreSQL so với AWS RDS) cho backend LMS. | Có cơ sở chọn Supabase PostgreSQL cho giai đoạn phát triển. |
+| 18/06 | Cùng nhóm xác định ba vai trò Student/Instructor/Admin; phác thảo sơ bộ các bảng dữ liệu chính (user, course, lesson). | Có bản nháp mô hình dữ liệu ban đầu. |
+| 19/06 | Chia yêu cầu thành backlog phần backend (auth, course, lesson, enrollment...); ước lượng độ ưu tiên theo tuần. | Có backlog backend và kế hoạch triển khai theo giai đoạn. |
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+### Kết quả đạt được
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Thao tác thành thạo AWS CLI cho các dịch vụ Compute/Storage/Database cơ bản.
+- Biết sử dụng AWS Budgets để kiểm soát chi phí ngay từ đầu dự án.
+- Tham gia nhóm thảo luận từ ngày 16/06 và thống nhất đề tài EduCloud Lite.
+- Có backlog phần backend và bản nháp mô hình dữ liệu đầu tiên.

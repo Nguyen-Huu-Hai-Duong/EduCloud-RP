@@ -1,40 +1,40 @@
 ---
 title: "Nhật ký công việc"
-date: 2024-01-01
+date: 2026-07-28
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Worklog này bao quát thời gian thực tập chính thức từ **01/06/2026** đến **15/08/2026**. Hoạt động First Cloud AI Journey đầu tiên được ghi nhận vào ngày **05/06**. Workshop EduCloud Lite được lên kế hoạch hoàn thiện và nộp trước **31/07/2026**; hai tuần cuối chỉ dành cho việc tiếp tục học First Cloud AI Journey và các dịch vụ AWS, không mở rộng thêm phạm vi project.
 
-**Trong trang này** bạn sẽ cần giới thiệu worklog của bạn **như thế nào**? Bạn hoàn thành chương trình trong vòng **bao nhiêu tuần**? Bạn **đã làm gì** trong các tuần đó?
+Dưới đây là nội dung tóm tắt các tuần:
 
+**Tuần 1:** [Tham gia chương trình và chuẩn bị](1.1-Week1/)
 
-Thông thường và cũng là tiêu chuẩn, một worklog được thực hiện trong khoảng 3 tháng (trong suốt thời gian thực tập) với nội dung các tuần như sau:
+**Tuần 2:** [AWS cơ bản, tham gia nhóm và chọn đề tài](1.2-Week2/)
 
-**Tuần 1:** [Làm quen với AWS và các dịch vụ cơ bản trong AWS](1.1-week1/)
+**Tuần 3:** [Thiết kế kiến trúc và xây dựng khung backend](1.3-Week3/)
 
-**Tuần 2:** [Làm công việc A...](1.2-week2/)
+**Tuần 4:** [Xác thực cơ bản và phân quyền](1.4-Week4/)
 
-**Tuần 3:** [Làm công việc B...](1.3-week3/)
+**Tuần 5:** [Quản lý khóa học, bài học và tài nguyên](1.5-Week5/)
 
-**Tuần 4:** [Làm công việc C...](1.4-week4/)
+**Tuần 6:** [Ghi danh, học tập và theo dõi tiến độ](1.6-Week6/)
 
-**Tuần 5:** [Làm công việc D...](1.5-week5/)
+**Tuần 7:** [Final assessment, chứng chỉ và triển khai AWS](1.7-Week7/)
 
-**Tuần 6:** [Làm công việc E...](1.6-week6/)
+**Tuần 8:** [Kiểm tra cuối, hoàn thiện báo cáo và nộp bài](1.8-Week8/)
 
-**Tuần 7:** [Làm công việc G...](1.7-week7/)
+**Tuần 9:** [Học vận hành và bảo mật theo First Cloud Journey (dự kiến)](1.9-Week9/)
 
-**Tuần 8:** [Làm công việc H...](1.8-week8/)
+**Tuần 10:** [Học Generative AI, Agentic AI và tổng kết AWS (dự kiến)](1.10-Week10/)
 
-**Tuần 9:** [Làm công việc I...](1.9-week9/)
+#### Năng lực tích lũy
 
-**Tuần 10:** [Làm công việc L...](1.10-week10/)
-
-**Tuần 11:** [Làm công việc M...](1.11-week11/)
-
-**Tuần 12:** [Làm công việc N...](1.12-week12/)
+- Phân tích yêu cầu và thiết kế một hệ thống LMS theo kiến trúc nhiều lớp (routes/services/models/schemas).
+- Xây dựng REST API bằng FastAPI, SQLAlchemy và PostgreSQL cho các tính năng auth, course, lesson, enrollment, progress, assessment và certificate.
+- Xây dựng JWT, middleware xác thực và phân quyền Student/Instructor/Admin ở tầng API.
+- Triển khai backend lên AWS Elastic Beanstalk; sử dụng S3, CloudFront, IAM, Parameter Store và CloudWatch.
+- Viết test tự động bằng pytest, phối hợp với thành viên frontend và biên soạn tài liệu kỹ thuật bằng Hugo.
+- Tiếp tục học bảo mật, vận hành, chi phí và Agentic AI trên AWS sau khi nộp workshop.

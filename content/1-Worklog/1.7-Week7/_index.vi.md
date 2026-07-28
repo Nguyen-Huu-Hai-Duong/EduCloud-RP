@@ -1,59 +1,41 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
-weight: 1
+date: 2026-07-28
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Tuần 7 - Final assessment, chứng chỉ và triển khai AWS
 
-### Mục tiêu tuần 7:
+**Thời gian:** 20/07/2026 - 24/07/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Mục tiêu
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Xây dựng API cấu hình bài đánh giá cuối khóa, chấm điểm và cấp chứng chỉ ở backend.
+- Triển khai backend lên hạ tầng AWS thật (Elastic Beanstalk, S3, CloudFront) và phối hợp deploy frontend qua Amplify trước tuần kiểm tra cuối.
 
+### Giai đoạn học AWS
 
-### Kết quả đạt được tuần 7:
+| Nội dung học | Nguồn tài liệu | Áp dụng vào EduCloud |
+| :--- | :--- | :--- |
+| Metrics, logs, alarms và dashboard cho ứng dụng. | [AWS CloudWatch Workshop](https://000008.awsstudygroup.com/) | Xác định dữ liệu cần theo dõi cho lượt làm bài, lỗi submit và latency. |
+| Thiết kế ứng dụng có trạng thái nhất quán, xử lý retry và thao tác idempotent. | [Application Modernization on AWS](https://cloudjourney.awsstudygroup.com/) | Bảo đảm submit bài và cấp chứng chỉ không tạo bản ghi trùng. |
+| Elastic Beanstalk environment, cấu hình biến môi trường và health monitoring. | AWS Elastic Beanstalk Developer Guide | Triển khai backend FastAPI lên môi trường production. |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Công việc thực hiện
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+| Ngày | Công việc | Kết quả |
+| :--- | :--- | :--- |
+| 20/07 | Thiết kế bảng course_assessments, assessment_questions, assessment_attempts; xây dựng API cấu hình bài thi (thời gian, điểm đạt, số lần thi, publish, nhiều loại đáp án). | Instructor cấu hình được final assessment linh hoạt qua API, database lưu đủ dữ liệu. |
+| 21/07 | Xây dựng API làm bài cho Student (nộp bài, chấm điểm tự động theo đáp án); triển khai scoring, deadline, attempt limit ở backend. | Backend kiểm soát chấm điểm/thời hạn/số lần thi, không phụ thuộc client. |
+| 22/07 | Xây dựng logic cấp certificate idempotent (chỉ cấp một lần sau khi hoàn thành lesson và thi đạt); tạo Elastic Beanstalk environment cho backend. | Certificate không bị cấp trùng; backend chạy được trên Elastic Beanstalk. |
+| 23/07 | Cấu hình biến môi trường production qua AWS Systems Manager Parameter Store; tạo S3 bucket, chuyển UPLOAD_STORAGE sang s3, cấu hình CloudFront với Origin Access Control. | Secret quản lý an toàn; ảnh/video/tài liệu phục vụ qua CloudFront thay vì lưu local. |
+| 24/07 | Phối hợp deploy frontend lên AWS Amplify Hosting (CORS, domain backend/Cognito); kiểm thử API end-to-end trên môi trường thật. | Ứng dụng EduCloud Lite chạy đầy đủ trên domain public, API phản hồi đúng từ production. |
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+### Kết quả đạt được
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- API kiểm soát thời gian, số lần thi, chấm điểm và cấp chứng chỉ idempotent.
+- Backend chạy trên AWS Elastic Beanstalk, secret quản lý qua Parameter Store.
+- Ảnh, video, tài liệu chuyển sang phục vụ qua S3 + CloudFront (Origin Access Control) thay vì lưu local.
+- Backend production sẵn sàng phục vụ frontend đã deploy qua AWS Amplify.

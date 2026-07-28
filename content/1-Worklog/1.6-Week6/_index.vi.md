@@ -1,58 +1,41 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-07-28
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Tuần 6 - Ghi danh, học tập và theo dõi tiến độ
 
-### Mục tiêu tuần 6:
+**Thời gian:** 13/07/2026 - 17/07/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Mục tiêu
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Xây dựng API catalog khóa học công khai, chỉ trả outline (không lộ nội dung riêng tư).
+- Xây dựng API ghi danh (enrollment) và API tiến độ học tập (progress).
+- Xây dựng API tổng hợp dữ liệu cho dashboard Student/Instructor.
 
+### Giai đoạn học AWS
 
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+| Nội dung học | Nguồn tài liệu | Áp dụng vào EduCloud |
+| :--- | :--- | :--- |
+| Luồng frontend đăng nhập, truy cập API và sử dụng storage theo access level. | [Amplify Authentication and Storage](https://000134.awsstudygroup.com/) | Thiết kế điều kiện chỉ người đã ghi danh mới truy cập nội dung học qua API. |
+| Cache nội dung tĩnh tại edge và bảo vệ origin S3. | [CloudFront with S3 Origin](https://000094.awsstudygroup.com/) | Chuẩn bị hướng phân phối video, thumbnail và tài liệu cho Learning Page. |
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Công việc thực hiện
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+| Ngày | Công việc | Kết quả |
+| :--- | :--- | :--- |
+| 13/07 | Xây dựng endpoint public course (danh sách + chi tiết khóa học Published), chỉ trả outline bài học. | Người dùng chưa đăng nhập xem được catalog nhưng không thấy nội dung riêng tư. |
+| 14/07 | Triển khai `enrollment_service`/API với unique constraint (course, student) và kiểm tra role Student. | Ghi danh idempotent, không tạo bản ghi trùng khi gọi lại API. |
+| 15/07 | Xây dựng API trả nội dung học đầy đủ (video, notes, tài liệu) chỉ cho Student đã ghi danh hoặc chủ khóa học. | Kiểm soát được ai được xem nội dung học ở tầng API, không chỉ ở UI. |
+| 16/07 | Tạo `progress_service`/API để complete/undo lesson; tính số bài đã học và phần trăm hoàn thành. | Tiến độ được lưu và tính toán chính xác theo từng Student và lesson. |
+| 17/07 | Xây dựng API tổng hợp My Learning (Student) và thống kê enrollment/completion (Instructor); viết test cho enrollment/progress. | Có API dashboard trả dữ liệu thật từ Supabase, có test bảo vệ logic. |
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+### Kết quả đạt được
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Public API chỉ trả outline, không làm lộ video và tài liệu riêng tư.
+- API ghi danh idempotent, API tiến độ lưu đúng theo từng Student và lesson.
+- API dashboard Student/Instructor phản ánh dữ liệu thật thay vì số liệu cố định.
+- Có test tự động cho enrollment và progress.

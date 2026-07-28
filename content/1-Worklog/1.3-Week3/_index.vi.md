@@ -1,59 +1,42 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+date: 2026-07-28
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Tuần 3 - Thiết kế hệ thống và xây dựng khung backend đầu tiên
 
-### Mục tiêu tuần 3:
+**Thời gian:** 22/06/2026 - 26/06/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Mục tiêu
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Cùng nhóm thiết kế kiến trúc tổng thể hệ thống EduCloud Lite (frontend, backend, database, AWS).
+- Khởi tạo project backend, kết nối được tới database.
+- Xác định cấu trúc thư mục chuẩn cho backend (routes/services/models/schemas).
 
+### Giai đoạn thiết kế và triển khai
 
-### Kết quả đạt được tuần 3:
+| Giai đoạn | Nội dung | Kết quả |
+| :--- | :--- | :--- |
+| Thiết kế kiến trúc | Vẽ sơ đồ luồng dữ liệu tổng thể (User → Cognito → Backend → Database/S3), xác định công nghệ từng phần. | Có bản kiến trúc hệ thống được cả nhóm thống nhất. |
+| Chuẩn hóa backend | Nghiên cứu FastAPI + SQLAlchemy, cấu trúc thư mục `routes`/`services`/`models`/`schemas`. | Xác định cấu trúc project chuẩn cho toàn bộ backend. |
+| Kết nối database | Tạo project Supabase PostgreSQL, lấy connection string Session Pooler. | Backend kết nối được database qua SQLAlchemy. |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Công việc thực hiện
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+| Ngày | Công việc | Kết quả |
+| :--- | :--- | :--- |
+| 22/06 | Họp nhóm thiết kế kiến trúc tổng thể hệ thống (frontend/backend/database/AWS). | Có sơ đồ kiến trúc được cả nhóm thống nhất. |
+| 23/06 | Khởi tạo project backend bằng FastAPI, cấu hình cấu trúc thư mục `routes`/`services`/`models`/`schemas`. | Project backend khởi tạo thành công, chạy được `uvicorn` ở local. |
+| 24/06 | Tạo project Supabase, cấu hình `config.py`/`.env` và kết nối SQLAlchemy tới PostgreSQL (SSL). | Backend kết nối ổn định tới database qua session pooler. |
+| 25/06 | Xây dựng model nền tảng đầu tiên (User) và endpoint health-check `/`. | Backend phản hồi được request đầu tiên, ghi/đọc được bảng users. |
+| 26/06 | Tổng hợp kiến trúc và tiến độ backend vào ghi chú nội bộ của nhóm. | Có ghi chú kiến trúc đầy đủ để tham khảo khi viết báo cáo sau này. |
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+### Kết quả đạt được
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Có bản kiến trúc hệ thống EduCloud Lite được cả nhóm thống nhất.
+- Khởi tạo thành công project backend (FastAPI + SQLAlchemy).
+- Backend kết nối ổn định tới Supabase PostgreSQL.
+- Có model và endpoint đầu tiên hoạt động được, sẵn sàng phát triển các tính năng tiếp theo.

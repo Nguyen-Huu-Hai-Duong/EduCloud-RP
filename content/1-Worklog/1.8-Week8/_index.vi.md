@@ -1,59 +1,46 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+date: 2026-07-28
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Tuần 8 - Kiểm tra cuối, hoàn thiện báo cáo và nộp bài
 
-### Mục tiêu tuần 8:
+**Thời gian:** 27/07/2026 - 31/07/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+**Hạn nộp workshop:** 31/07/2026
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Mục tiêu
 
+- Đóng phạm vi backend/hạ tầng và không bổ sung thay đổi rủi ro trước khi nộp.
+- Chạy lại toàn bộ test backend, siết cấu hình bảo mật production và xác minh các dịch vụ AWS.
+- Phối hợp với thành viên frontend hoàn thiện Hugo workshop và hồ sơ nộp bài.
 
-### Kết quả đạt được tuần 8:
+### Kiểm tra cuối project và AWS
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+| Phạm vi kiểm tra | Hoạt động xác minh | Minh chứng nộp bài |
+| :--- | :--- | :--- |
+| Danh tính và bảo mật | Kiểm tra login/JWT, đặt `ALLOW_LEGACY_AUTH`/`ENABLE_DEV_AUTH` đúng cho production, IAM role và secret trong Parameter Store. | Screenshot xác thực, ghi chú cấu hình và link mã nguồn. |
+| Hosting ứng dụng | Kiểm tra Elastic Beanstalk health check, log CloudWatch, CORS và biến môi trường production. | Link EduCloud public và trạng thái triển khai thành công. |
+| Lưu trữ và dữ liệu | Xác minh phân phối S3 private qua CloudFront, kết nối Supabase, đường dẫn upload và role lấy từ database. | Sơ đồ kiến trúc và ảnh trong workshop. |
+| Tài liệu | Rà soát proposal, worklog, blogs, events, workshop, self-assessment và feedback ở cả hai ngôn ngữ. | Hugo report public và GitHub repository. |
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Kế hoạch công việc và tiến độ hiện tại
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+| Ngày | Công việc | Kết quả cần đạt |
+| :--- | :--- | :--- |
+| 27/07 | Chạy lại toàn bộ bộ test backend bằng pytest; sửa lỗi phát sinh nếu có. | Toàn bộ test pass, backend ổn định trước khi nộp. |
+| 28/07 | Rà soát cấu hình production (`APP_ENV`, `ALLOW_LEGACY_AUTH=false`, `ENABLE_DEV_AUTH=false`, `JWT_SECRET_KEY` dài ngẫu nhiên, `CORS_ORIGINS`). | Backend production không còn cấu hình chỉ dành cho dev. |
+| 29/07 | Kiểm tra CloudWatch log/metrics và Cost Explorer trên trang Admin Health; rà soát sơ đồ AWS, screenshot cho phần Workshop. | Số liệu giám sát hiển thị đúng; mentor có thể hiểu nội dung nộp bài. |
+| 30/07 | Phối hợp thành viên frontend chạy checklist demo (login, xem khóa học, ghi danh, học bài, assessment, certificate); đọc lại báo cáo bản Anh/Việt. | Các luồng demo hoạt động qua website public, Hugo report không còn placeholder. |
+| 31/07 | Chuẩn bị hồ sơ cuối và gửi website, repository mã nguồn, workshop cùng các file PDF được chọn. | Nộp workshop đúng hạn. |
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+### Kết quả hiện tại
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Backend FastAPI chạy ổn định trên Elastic Beanstalk, đọc secret production từ Parameter Store.
+- Toàn bộ test backend pass, cấu hình production đã được siết chặt (tắt legacy/dev auth).
+- CloudWatch và Cost Explorer hiển thị đúng số liệu trên trang Admin Health.
+- S3, CloudFront, Supabase đã kết nối ổn định với backend production.
+- Công việc còn lại chỉ gồm phối hợp kiểm tra cuối với frontend, rà soát minh chứng và nộp bài.

@@ -1,59 +1,41 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+date: 2026-07-28
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Tuần 4 - Xác thực cơ bản và phân quyền
 
-### Mục tiêu tuần 4:
+**Thời gian:** 29/06/2026 - 03/07/2026
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Mục tiêu
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Xây dựng API đăng ký, đăng nhập và cấp JWT cho môi trường phát triển.
+- Bảo vệ API theo vai trò người dùng bằng middleware/dependency.
+- Chuẩn bị lớp abstraction để chuyển sang Cognito ở giai đoạn production.
 
+### Giai đoạn học AWS
 
-### Kết quả đạt được tuần 4:
+| Nội dung học | Nguồn tài liệu | Áp dụng vào EduCloud |
+| :--- | :--- | :--- |
+| IAM Policy, Role, temporary access và nguyên tắc least privilege. | [Access Control with AWS IAM](https://000002.awsstudygroup.com/) | Thiết kế authorization helper và giới hạn API theo vai trò. |
+| User Pool, JWT và sự khác nhau giữa xác thực người dùng với cấp quyền truy cập tài nguyên AWS. | [Amazon Cognito Across Sites](https://000141.awsstudygroup.com/) | Chuẩn bị kiến trúc chuyển từ local JWT sang Cognito ở production. |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Công việc thực hiện
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+| Ngày | Công việc | Kết quả |
+| :--- | :--- | :--- |
+| 29/06 | Xây dựng `security.py`: hash mật khẩu bằng bcrypt, hàm tạo/giải mã JWT (`create_access_token`, `decode_access_token`). | Backend có cơ chế mã hoá mật khẩu và cấp token an toàn. |
+| 30/06 | Xây dựng route `POST /api/auth/register` và `POST /api/auth/login`, trả về JWT khi đăng ký/đăng nhập thành công. | Đăng ký/đăng nhập hoạt động end-to-end qua API. |
+| 01/07 | Xây dựng `auth_middleware.py`: dependency `get_current_user` đọc `Authorization: Bearer` và giải mã token. | Mọi route cần đăng nhập đều xác thực được người gọi. |
+| 02/07 | Xây dựng helper phân quyền theo vai trò (`require_instructor`, kiểm tra `role` trong token) áp cho các route nhạy cảm. | API chỉ cho đúng vai trò Student/Instructor/Admin truy cập. |
+| 03/07 | Viết test cho luồng đăng ký/đăng nhập/token hết hạn bằng pytest. | Có bộ test xác nhận auth hoạt động đúng trước khi phát triển tiếp. |
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+### Kết quả đạt được
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hoàn thiện API đăng ký/đăng nhập, cấp JWT cho môi trường phát triển.
+- Có middleware xác thực và helper phân quyền dùng chung cho toàn bộ API.
+- Có test tự động cho luồng auth, chạy được bằng pytest.
+- Thiết kế theo hướng dễ thay thế bằng Cognito ở giai đoạn production (tuần 7).

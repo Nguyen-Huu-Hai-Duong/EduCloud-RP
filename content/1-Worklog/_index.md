@@ -1,39 +1,32 @@
 ---
 title: "Worklog"
-date: 2024-01-01
+date: 2026-07-28
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+This worklog covers the official internship period from **June 1, 2026** to **August 15, 2026**. The first First Cloud AI Journey activity was recorded on **June 5**. The EduCloud Lite workshop was planned to be finished and submitted before **July 31, 2026**; the last two weeks are dedicated solely to continuing First Cloud AI Journey and AWS service learning, without expanding the project's scope any further.
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
+| Week | Period | Main content | Expected/achieved result |
+| :--- | :--- | :--- | :--- |
+| [Week 1](1.1-Week1/) | Jun 5 - Jun 12 | Joining the program and preparation | Understanding the roadmap, rules, and reporting tools |
+| [Week 2](1.2-Week2/) | Jun 15 - Jun 19 | AWS basics, joining the team, and choosing the topic | AWS CLI, team discussion, and the EduCloud backlog |
+| [Week 3](1.3-Week3/) | Jun 22 - Jun 26 | Architecture, backend, and database | React, FastAPI, PostgreSQL, and the API foundation |
+| [Week 4](1.4-Week4/) | Jun 29 - Jul 3 | Basic authentication and authorization | JWT, middleware, and role guards |
+| [Week 5](1.5-Week5/) | Jul 6 - Jul 10 | Course, lesson, and resource management | Instructor workspace and curriculum editor |
+| [Week 6](1.6-Week6/) | Jul 13 - Jul 17 | Enrollment, learning, and progress | Learning page, enrollment, and progress |
+| [Week 7](1.7-Week7/) | Jul 20 - Jul 24 | Final assessment, certificates, and AWS deployment | Complete application and a public website on AWS |
+| [Week 8](1.8-Week8/) | Jul 27 - Jul 31 | Final testing, finishing the report, and submission | Repository, website, Hugo workshop, and submission package |
+| [Week 9](1.9-Week9/) | Aug 3 - Aug 7 | Learning operations and security via First Cloud Journey | Well-Architected review and AWS knowledge notes |
+| [Week 10](1.10-Week10/) | Aug 10 - Aug 15 | Learning Generative AI, Agentic AI, and an AWS wrap-up | Knowledge summary and the next learning roadmap |
 
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+#### Skills gained
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
-
-**Week 2:** [Doing task A...](1.2-week2/)
-
-**Week 3:** [Doing task B...](1.3-week3/)
-
-**Week 4:** [Doing task C...](1.4-week4/)
-
-**Week 5:** [Doing task D...](1.5-week5/)
-
-**Week 6:** [Doing task E...](1.6-week6/)
-
-**Week 7:** [Doing task G...](1.7-week7/)
-
-**Week 8:** [Doing task H...](1.8-week8/)
-
-**Week 9:** [Doing task I...](1.9-week9/)
-
-**Week 10:** [Doing task L...](1.10-week10/)
-
-**Week 11:** [Doing task M...](1.11-week11/)
-
-**Week 12:** [Doing task N...](1.12-week12/)
+- Analyzing requirements and designing a multi-layered LMS architecture.
+- Building the frontend with React, TypeScript, and Vite.
+- Building a REST API with FastAPI, SQLAlchemy, and PostgreSQL.
+- Integrating Cognito, JWT, and Student/Instructor/Admin role authorization.
+- Using S3, CloudFront, Elastic Beanstalk, Amplify, IAM, and Parameter Store.
+- Writing tests, handling production errors, and authoring technical documentation with Hugo.
+- Continuing to learn AWS security, operations, cost management, and Agentic AI after submitting the workshop.
