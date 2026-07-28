@@ -1,114 +1,135 @@
 ---
 title: "Proposal"
-date: 2026-07-26
 weight: 2
 chapter: false
-pre: " <b> 2. </b> "
+pre: "<b>2.</b>"
 ---
 
-## Project Proposal — EduCloud
+<div class="proposal-hero-title">EDUCLOUD LITE - CLOUD LEARNING PLATFORM ON AWS</div>
 
-### Background
+## 1. Project Overview
 
-The demand for online learning is growing, bringing with it the need for course management, document/video storage, user role management, and learning-progress tracking. Deploying the system on the cloud makes the application accessible online, easy to scale, easy to monitor, and aligned with modern software development practices.
+EduCloud Lite is a cloud-based learning management platform that allows
+instructors to create courses, upload learning resources, manage final
+assessments, and issue completion certificates. Students can browse published
+courses, enroll, learn through lesson content, track progress, complete a final
+assessment, and receive a certificate after meeting all requirements.
 
-### Problems to Solve
+The project focuses on building a complete web application and deploying it with
+AWS services in a way that is practical for an internship submission: clear
+architecture, managed authentication, private storage, HTTPS delivery, and
+cost-aware operations.
 
-- Managing users and their roles.
-- Managing courses and lessons.
-- Securely storing documents and videos.
-- Tracking learning progress.
-- Deploying a system that is accessible online.
-- Tracking system logs and errors.
-- Cleaning up AWS resources to avoid unnecessary cost.
+## 2. Problem Statement
 
-### Project Objectives
+Small training teams and workshop organizers often need more than static
+documents or video links. They need a system that can manage users, publish
+structured learning content, track student progress, evaluate final results, and
+provide evidence of completion.
 
-**Functional objectives**
+- **Limited learning control:** Static course pages do not verify enrollment,
+  lesson completion, assessment attempts, or certificate eligibility.
+- **Weak role separation:** A simple frontend-only website cannot safely protect
+  Instructor and Admin actions.
+- **Fragmented resources:** Course videos, materials, thumbnails, and
+  certificates are often stored separately without a consistent delivery flow.
+- **Deployment complexity:** A full LMS can become too complex or expensive for
+  a student project if the architecture is not scoped carefully.
 
-- Registration and sign-in; Student, Instructor, and Admin roles.
-- Browsing the course list, course details, and lessons.
-- Enrolling in courses, marking lessons complete, and viewing learning progress.
-- Uploading images, videos, or documents for course content.
+## 3. Project Objectives
 
-**Technical objectives**
+The goal is to build an LMS that is usable, secure, and demonstrable through an
+independent website link.
 
-- A stable, clearly structured backend API.
-- Database running on AWS RDS; files stored on AWS S3.
-- Backend deployed to AWS EC2 or Lambda.
-- Logs recorded via AWS CloudWatch.
-- Step-by-step deployment documentation and a resource clean-up guide.
+- **Course management:** Allow Instructors to create courses, lessons,
+  thumbnails, resources, and publish-ready final assessments.
+- **Student learning flow:** Support enrollment, lesson navigation, progress
+  tracking, assessment submission, and certificate viewing.
+- **Authentication and roles:** Use Amazon Cognito for identity and keep
+  Student, Instructor, and Admin authorization inside the application database.
+- **Private resource delivery:** Store course files in a private S3 bucket and
+  deliver them through CloudFront without exposing the bucket publicly.
+- **Reproducible deployment:** Document the AWS setup so another student can
+  deploy the project with their own database, secrets, and AWS account.
 
-**Learning objectives**
+## 4. Solution Architecture
 
-- Understand the process of building a web application on AWS.
-- Practice integrating frontend, backend, database, and cloud services.
-- Build teamwork, progress management, testing, and technical-writing skills.
+EduCloud Lite uses a separated frontend, backend, identity, storage, and
+database architecture.
 
-### Project Scope
+![EduCloud AWS architecture](/images/educloud-aws-architecture.png)
 
-| In scope | Out of scope |
-| :--- | :--- |
-| User authentication; Course management; Lesson management; Enrollment; Progress tracking; S3 upload; RDS database; CloudWatch logging; Basic UI. | Real payment processing; Livestreaming; AI recommendations; Mobile app; Advanced certificate system. |
+- **Frontend:** React, TypeScript, and Vite provide the browser interface.
+  Amplify Hosting builds and deploys the frontend from GitHub.
+- **Backend:** FastAPI runs on Elastic Beanstalk and exposes REST APIs for
+  courses, lessons, enrollment, progress, assessments, certificates, profiles,
+  Instructor requests, and Admin operations.
+- **Authentication:** Amazon Cognito manages user passwords, confirmation,
+  first-login password changes, and password recovery. The backend validates
+  Cognito tokens and maps identities to Supabase users.
+- **Database:** Supabase PostgreSQL stores application data such as users,
+  roles, courses, lessons, enrollments, progress, attempts, certificates, and
+  review requests.
+- **Storage and delivery:** Amazon S3 stores uploaded course assets privately.
+  CloudFront routes `/api/*` traffic to Elastic Beanstalk and `/courses/*`
+  assets to S3 through Origin Access Control.
+- **Secrets and operations:** AWS Systems Manager Parameter Store stores
+  production secrets. IAM roles grant the backend only the permissions it needs.
+  CloudWatch and Elastic Beanstalk health are used for operational checks.
 
-### System Architecture
+## 5. Deployment Timeline
 
-*(Insert your own system architecture diagram here)*
+- **Phase 1 - Preparation and AWS fundamentals:** Join the program, review Cloud
+  Journey materials, set up tools, join the discussion group, and define the
+  EduCloud Lite topic.
+- **Phase 2 - Application foundation:** Design the React -> FastAPI ->
+  PostgreSQL architecture and implement the core database models, routes, and
+  development authentication.
+- **Phase 3 - LMS features:** Build course authoring, lesson management,
+  enrollment, progress tracking, final assessments, certificates, profiles, and
+  Admin review flows.
+- **Phase 4 - AWS integration:** Configure Cognito, Parameter Store, Elastic
+  Beanstalk, S3, CloudFront, and Amplify Hosting.
+- **Phase 5 - Validation and report:** Test Student, Instructor, and Admin
+  flows, fix production issues, complete the Draw.io architecture diagram, and
+  publish the Hugo workshop report.
 
-![EduCloud system architecture](/images/2-Proposal/architecture-diagram.png)
+## 6. Budget and Cost Optimization
 
-**Proposed architecture flow:**
+The architecture is designed around a minimal submission cost while still using
+real AWS services.
 
-- User → Frontend Web → Backend API → AWS RDS.
-- Backend API → AWS S3.
-- Backend API → AWS CloudWatch.
-- AWS IAM manages access permissions between services.
+- **Single-instance backend:** Elastic Beanstalk is configured as a single
+  instance environment to reduce fixed compute cost for demonstration traffic.
+- **Private S3 with CloudFront:** Course assets are stored once in S3 and served
+  through CloudFront instead of routing every asset request through the backend.
+- **Managed identity:** Cognito removes the need to run a custom password and
+  recovery service.
+- **External managed PostgreSQL:** Supabase is used as the PostgreSQL database
+  for this submission to avoid provisioning an additional RDS instance.
+- **Cost guardrails:** AWS Budgets, limited logging, careful WAF choices, and a
+  cleanup checklist help protect remaining credits.
 
-**Main components**
+## 7. Risk Assessment and Mitigation
 
-- **Frontend Web:** Interface for Student, Instructor, and Admin.
-- **Backend API:** Handles business logic, authentication, and data management.
-- **AWS EC2 or Lambda:** Backend deployment environment.
-- **AWS RDS PostgreSQL:** Stores user, course, lesson, enrollment, and progress data.
-- **AWS S3:** Stores course images, lesson videos, and PDF documents.
-- **AWS CloudWatch:** Tracks logs, errors, and system activity.
-- **AWS IAM:** Securely manages access permissions between services.
+| Risk Type | Problem Description | Mitigation Strategy |
+| --- | --- | --- |
+| Authentication mismatch | Cognito identities and database users can become inconsistent. | Map Cognito `sub` to the Supabase user record and keep application roles in PostgreSQL. |
+| Secret leakage | Database URLs and JWT secrets can be exposed through code, screenshots, or frontend variables. | Store production secrets in Parameter Store and never place them in GitHub, Amplify `VITE_*` variables, or report screenshots. |
+| Public media exposure | Course files could become public if S3 permissions are misconfigured. | Keep Block Public Access enabled, disable ACLs, use OAC, and scope bucket policies to CloudFront. |
+| Cross-region latency | Supabase is outside `ap-southeast-1`, which may add latency. | Use the Supabase pooler with TLS and keep traffic volume low for the internship submission. |
+| Broken SPA refresh | Direct browser refresh on `/login`, `/profile`, or `/instructor` can return 404. | Configure Amplify rewrite rules to serve `/index.html` for client-side routes. |
+| AWS cost growth | Cloud services can continue charging after testing. | Use single-instance settings, budgets, and a documented cleanup order. |
 
-### Why These AWS Services
+## 8. Expected Outcomes
 
-| AWS Service | Purpose | Reason for choosing it |
-| :--- | :--- | :--- |
-| EC2 or Lambda | Deploy the backend API | Well-suited to deploying web apps/APIs, easy to configure for the project's needs. |
-| S3 | Store images, videos, documents | A widely used, durable object-storage service that's easy to integrate for upload/download. |
-| RDS PostgreSQL | Store relational data | Stable managed database, reduces manual operational effort. |
-| CloudWatch | Logging and monitoring | Tracks logs, errors, and metrics, and supports debugging the system. |
-| IAM | Access management | Increases security when the backend accesses S3, CloudWatch, and other services. |
-
-### Project Timeline
-
-| Week | Goal | Main tasks | Expected output | Owner |
-| :--- | :--- | :--- | :--- | :--- |
-| Week 1 | Cloud web overview | Study web architecture on the cloud, finalize the topic, assign roles | Initial proposal | [Fill in] |
-| Week 2 | Requirements analysis | Design the database, design the AWS architecture | SRS, ERD, architecture draft | [Fill in] |
-| Week 3 | Project bootstrap | Bootstrap backend, frontend, GitHub repo, project structure | Source base | [Fill in] |
-| Week 4 | Authentication | Build authentication, user roles, JWT | Auth API | [Fill in] |
-| Week 5 | Course/Lesson API | Build the course API and lesson API | Core API | [Fill in] |
-| Week 6 | Basic frontend | Build the frontend for the main pages | UI prototype | [Fill in] |
-| Week 7 | S3 upload | Integrate file/video/document upload | Upload module | [Fill in] |
-| Week 8 | RDS/Backend deploy | Integrate RDS, deploy backend to AWS | Public backend endpoint | [Fill in] |
-| Week 9 | Enrollment/Progress | Build enrollment and progress tracking | Learning flow | [Fill in] |
-| Week 10 | Monitoring | Configure CloudWatch, logging, monitoring | Log dashboard/basic metrics | [Fill in] |
-| Week 11 | E2E testing | End-to-end testing, bug fixes, UI/API optimization | Test report | [Fill in] |
-| Week 12 | Finalization | Finalize documentation, clean-up guide, slides, and demo | Final draft/demo | [Fill in] |
-
-### Risks and Mitigation
-
-| Risk | Impact level | Cause | Mitigation |
-| :--- | :--- | :--- | :--- |
-| Cannot connect to RDS | High | Wrong security group, endpoint, or credentials | Check the inbound rule, VPC, endpoint, username/password, and backend logs. |
-| Permission error when uploading to S3 | High | Incorrect IAM policy or bucket policy | Apply least privilege, test with the AWS CLI, check S3 CORS if needed. |
-| Unexpected AWS cost | High | Forgetting to disable/delete resources | Monitor the Billing Dashboard, set a budget alert, follow the clean-up checklist. |
-| CORS error between frontend and backend | Medium | Backend origin not configured | Configure CORS for the frontend domain and the local environment. |
-| Frontend/backend API mismatch | Medium | Missing API contract | Agree on an API spec, keep Postman/OpenAPI updated, and review periodically. |
-| Team member misses a deadline | Medium | Workload not well distributed | Break tasks down further, keep the worklog updated, and support each other as needed. |
-| Deployment failure on EC2/Lambda | High | Missing environment variables or wrong runtime | Prepare a deployment checklist, check logs, and roll back to a stable release. |
+- A working public website that can be accessed through an independent Amplify
+  link.
+- A production backend running on Elastic Beanstalk and reachable through
+  CloudFront.
+- Secure Cognito authentication with Student, Instructor, and Admin application
+  roles.
+- Private course thumbnails, videos, and materials delivered through S3 and
+  CloudFront.
+- A complete workshop report showing architecture, deployment steps,
+  troubleshooting, worklog, and evidence.
