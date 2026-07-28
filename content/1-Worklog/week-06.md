@@ -36,9 +36,3 @@ pre: "<b>1.6.</b>"
 - Student enrollments and progress persist in Supabase.
 - Learning supports lesson navigation and completion.
 - Dashboards use database data instead of fixed demo values.
-
-## Project evidence
-
-- [Enrollment service](https://github.com/Funacius/EduCloud/blob/main/backend/app/services/enrollment_service.py)
-- [Progress service](https://github.com/Funacius/EduCloud/blob/main/backend/app/services/progress_service.py)
-- [Learning Page](https://github.com/Funacius/EduCloud/blob/main/frontend/src/pages/LearningPage.tsx)

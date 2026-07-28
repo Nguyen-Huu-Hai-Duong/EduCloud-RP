@@ -38,8 +38,3 @@ pre: "<b>1.2.</b>"
 - Biết sử dụng AWS Budgets và chú ý dọn dẹp tài nguyên để hạn chế chi phí.
 - Tham gia nhóm thảo luận từ ngày 16/06 và thống nhất đề tài **EduCloud Lite**.
 - Hoàn thành danh sách vai trò, use case và backlog đầu tiên của dự án.
-
-## Minh chứng từ dự án
-
-- [README và phạm vi chức năng](https://github.com/Funacius/EduCloud/blob/main/README.md)
-- [Hợp đồng API ban đầu](https://github.com/Funacius/EduCloud/blob/main/api/api-contract.md)

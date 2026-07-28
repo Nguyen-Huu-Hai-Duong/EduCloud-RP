@@ -36,9 +36,3 @@ pre: "<b>1.5.</b>"
 - Added Draft, Published, and Hidden states.
 - Protected private curriculum content.
 - Added drag, zoom, replace, and crop behavior for thumbnails.
-
-## Project evidence
-
-- [Course routes](https://github.com/Funacius/EduCloud/blob/main/backend/app/routes/course_routes.py)
-- [Curriculum Editor](https://github.com/Funacius/EduCloud/blob/main/frontend/src/components/CourseCurriculumEditor.tsx)
-- [Thumbnail Crop Editor](https://github.com/Funacius/EduCloud/blob/main/frontend/src/components/ThumbnailCropEditor.tsx)

@@ -36,9 +36,3 @@ pre: "<b>1.4.</b>"
 - Protected Instructor and Admin functionality on both application layers.
 - Prevented public registration from assigning Admin.
 - Preserved a clean path for Cognito migration.
-
-## Project evidence
-
-- [Authentication routes](https://github.com/Funacius/EduCloud/blob/main/backend/app/routes/auth_routes.py)
-- [Auth middleware](https://github.com/Funacius/EduCloud/blob/main/backend/app/middleware/auth_middleware.py)
-- [Frontend AuthContext](https://github.com/Funacius/EduCloud/blob/main/frontend/src/auth/AuthContext.tsx)

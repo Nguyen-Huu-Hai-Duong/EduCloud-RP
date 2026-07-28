@@ -36,7 +36,3 @@ pre: "<b>1.1.</b>"
 - Understood the learning, reporting, and evidence collection process.
 - Located the Cloud Journey workshop library and learned how to choose relevant workshops.
 - Prepared the tools needed to begin AWS learning and EduCloud implementation in the next week.
-
-## Project evidence
-
-- [Cloud Journey learning portal](https://cloudjourney.awsstudygroup.com/)

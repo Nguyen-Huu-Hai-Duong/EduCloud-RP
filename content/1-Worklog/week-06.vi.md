@@ -36,9 +36,3 @@ pre: "<b>1.6.</b>"
 - Student ghi danh và theo dõi tiến độ trên Supabase.
 - Learning Page hỗ trợ chuyển bài và đánh dấu hoàn thành.
 - Dashboard phản ánh dữ liệu thật thay vì số liệu cố định.
-
-## Minh chứng từ dự án
-
-- [Enrollment service](https://github.com/Funacius/EduCloud/blob/main/backend/app/services/enrollment_service.py)
-- [Progress service](https://github.com/Funacius/EduCloud/blob/main/backend/app/services/progress_service.py)
-- [Learning Page](https://github.com/Funacius/EduCloud/blob/main/frontend/src/pages/LearningPage.tsx)

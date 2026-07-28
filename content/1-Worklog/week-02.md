@@ -38,8 +38,3 @@ pre: "<b>1.2.</b>"
 - Learned to use AWS Budgets and plan cleanup to limit credit usage.
 - Joined the group discussion from June 16 and finalized **EduCloud Lite** as the project topic.
 - Completed the first list of roles, use cases, and backlog items.
-
-## Project evidence
-
-- [Project README](https://github.com/Funacius/EduCloud/blob/main/README.md)
-- [Initial API contract](https://github.com/Funacius/EduCloud/blob/main/api/api-contract.md)

@@ -38,9 +38,3 @@ pre: "<b>1.3.</b>"
 - Hoàn thiện cấu trúc backend theo hướng router → service → model.
 - Có script kiểm tra kết nối mà không làm lộ mật khẩu.
 - Chuẩn bị dữ liệu mẫu cho Student, Instructor và Admin.
-
-## Minh chứng từ dự án
-
-- [Database configuration](https://github.com/Funacius/EduCloud/blob/main/backend/app/database.py)
-- [Compatibility migrations](https://github.com/Funacius/EduCloud/blob/main/backend/app/database_migrations.py)
-- [Database check script](https://github.com/Funacius/EduCloud/blob/main/backend/scripts/check_database.py)

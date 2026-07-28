@@ -36,9 +36,3 @@ pre: "<b>1.5.</b>"
 - Tách trạng thái Draft, Published và Hidden.
 - Hỗ trợ curriculum có thứ tự cùng nội dung riêng tư.
 - Xây dựng thumbnail crop editor với kéo, zoom và thay ảnh.
-
-## Minh chứng từ dự án
-
-- [Course routes](https://github.com/Funacius/EduCloud/blob/main/backend/app/routes/course_routes.py)
-- [Curriculum editor](https://github.com/Funacius/EduCloud/blob/main/frontend/src/components/CourseCurriculumEditor.tsx)
-- [Thumbnail crop editor](https://github.com/Funacius/EduCloud/blob/main/frontend/src/components/ThumbnailCropEditor.tsx)

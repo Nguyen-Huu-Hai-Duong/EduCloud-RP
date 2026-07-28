@@ -39,9 +39,3 @@ pre: "<b>1.3.</b>"
 - Established router → service → model separation.
 - Added a safe database diagnostic script.
 - Prepared Student, Instructor, and Admin development data.
-
-## Project evidence
-
-- [Database setup](https://github.com/Funacius/EduCloud/blob/main/backend/app/database.py)
-- [Database migrations](https://github.com/Funacius/EduCloud/blob/main/backend/app/database_migrations.py)
-- [Database diagnostic](https://github.com/Funacius/EduCloud/blob/main/backend/scripts/check_database.py)

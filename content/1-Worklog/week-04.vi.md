@@ -36,9 +36,3 @@ pre: "<b>1.4.</b>"
 - Các route Instructor/Admin được bảo vệ ở cả frontend lẫn backend.
 - Public registration không thể tự gán quyền Admin.
 - Cấu trúc cho phép chuyển sang Cognito mà không thay đổi toàn bộ ứng dụng.
-
-## Minh chứng từ dự án
-
-- [Authentication routes](https://github.com/Funacius/EduCloud/blob/main/backend/app/routes/auth_routes.py)
-- [Authorization middleware](https://github.com/Funacius/EduCloud/blob/main/backend/app/middleware/auth_middleware.py)
-- [Frontend authentication context](https://github.com/Funacius/EduCloud/blob/main/frontend/src/auth/AuthContext.tsx)
