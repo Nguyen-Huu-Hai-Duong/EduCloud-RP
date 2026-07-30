@@ -14,7 +14,6 @@ PostgreSQL được quản lý. Nội dung dưới đây giải thích các quy�
 và hướng dẫn triển khai lại ứng dụng trong AWS account của riêng bạn.
 
 - **Website đang chạy:** [Mở EduCloud Lite](https://main.djk00b5qbck73.amplifyapp.com/courses)
-- **Sơ đồ kiến trúc:** [Tải file draw.io có thể chỉnh sửa](../files/educloud-aws-architecture.drawio)
 - **Mã nguồn:** [EduCloud trên GitHub](https://github.com/Funacius/EduCloud)
 
 ![Sơ đồ kiến trúc AWS của EduCloud Lite](/images/educloud-aws-architecture.png)

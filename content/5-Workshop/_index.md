@@ -14,7 +14,6 @@ This guide explains the decisions behind the architecture and provides a
 repeatable path for deploying the application in your own AWS account.
 
 - **Live application:** [Open EduCloud Lite](https://main.djk00b5qbck73.amplifyapp.com/courses)
-- **Architecture diagram:** [Download the editable draw.io file](../files/educloud-aws-architecture.drawio)
 - **Source code:** [EduCloud on GitHub](https://github.com/Funacius/EduCloud)
 
 ![EduCloud Lite AWS architecture diagram](/images/educloud-aws-architecture.png)

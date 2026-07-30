@@ -41,5 +41,3 @@ multi-AZ có high availability đầy đủ.
 
 EduCloud chỉ cung cấp khóa học miễn phí. Pricing, checkout và xử lý thanh toán
 được chủ động loại khỏi kiến trúc hiện tại.
-
-[Tải file kiến trúc có thể chỉnh sửa](/files/educloud-aws-architecture.drawio)

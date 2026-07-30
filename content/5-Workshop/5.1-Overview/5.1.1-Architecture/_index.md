@@ -40,5 +40,3 @@ for the internship submission. It is a practical deployment target, not a
 high-availability multi-AZ production design.
 
 EduCloud offers free courses only. Pricing, checkout, and payment services are intentionally excluded from this architecture.
-
-[Download the editable architecture diagram](/files/educloud-aws-architecture.drawio)
