@@ -14,8 +14,8 @@ Trang này tổng hợp mã nguồn, các đường link triển khai thực t�
 
 - **Repository mã nguồn EduCloud:** [github.com/Funacius/EduCloud](https://github.com/Funacius/EduCloud)
 - **Ứng dụng đang chạy thật:** [main.djk00b5qbck73.amplifyapp.com](https://main.djk00b5qbck73.amplifyapp.com/courses)
-- **Trang báo cáo công khai (tiếng Anh):** [funacius.github.io/Fcaj-workshop](https://funacius.github.io/Fcaj-workshop/)
-- **Trang báo cáo công khai (tiếng Việt):** [funacius.github.io/Fcaj-workshop/vi](https://funacius.github.io/Fcaj-workshop/vi/)
+- **Trang báo cáo công khai (tiếng Anh):** [nguyen-huu-hai-duong.github.io/EduCloud-RP](https://nguyen-huu-hai-duong.github.io/EduCloud-RP/)
+- **Trang báo cáo công khai (tiếng Việt):** [nguyen-huu-hai-duong.github.io/EduCloud-RP/vi](https://nguyen-huu-hai-duong.github.io/EduCloud-RP/vi/)
 
 ### Tài liệu học tập từ First Cloud AI Journey
 
