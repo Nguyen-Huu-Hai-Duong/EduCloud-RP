@@ -16,7 +16,6 @@ và hướng dẫn triển khai lại ứng dụng trong AWS account của riên
 - **Website đang chạy:** [Mở EduCloud Lite](https://main.djk00b5qbck73.amplifyapp.com/courses)
 - **Sơ đồ kiến trúc:** [Tải file draw.io có thể chỉnh sửa](../files/educloud-aws-architecture.drawio)
 - **Mã nguồn:** [EduCloud trên GitHub](https://github.com/Funacius/EduCloud)
-- **Hướng dẫn build và deploy:** [Tải tài liệu PDF](../files/EduCloud-Build-Deployment-Guide.pdf)
 
 ![Sơ đồ kiến trúc AWS của EduCloud Lite](/images/educloud-aws-architecture.png)
 
