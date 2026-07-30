@@ -47,6 +47,5 @@ pre: "<b>1.8.</b>"
 
 - [Website EduCloud Lite](https://main.djk00b5qbck73.amplifyapp.com/courses)
 - [Repository mã nguồn EduCloud](https://github.com/Funacius/EduCloud)
-- [Báo cáo thực tập công khai](https://nguyen-huu-hai-duong.github.io/EduCloud-RP/vi/)
 
 > Sau ngày 31/07 sẽ không mở rộng thêm tính năng nào cho project. Thời gian còn lại của kỳ thực tập được dành riêng cho việc học AWS và First Cloud AI Journey.

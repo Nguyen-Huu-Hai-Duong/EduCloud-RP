@@ -47,6 +47,5 @@ pre: "<b>1.8.</b>"
 
 - [EduCloud Lite live application](https://main.djk00b5qbck73.amplifyapp.com/courses)
 - [EduCloud source repository](https://github.com/Funacius/EduCloud)
-- [Public internship report](https://nguyen-huu-hai-duong.github.io/EduCloud-RP/)
 
 > No new project features are planned after July 31. The rest of the internship is set aside for AWS and First Cloud AI Journey learning.

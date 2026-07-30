@@ -14,8 +14,6 @@ This page collects the source code, live deployment links, and documentation ref
 
 - **EduCloud source repository:** [github.com/Funacius/EduCloud](https://github.com/Funacius/EduCloud)
 - **Live application:** [main.djk00b5qbck73.amplifyapp.com](https://main.djk00b5qbck73.amplifyapp.com/courses)
-- **Public report site (English):** [nguyen-huu-hai-duong.github.io/EduCloud-RP](https://nguyen-huu-hai-duong.github.io/EduCloud-RP/)
-- **Public report site (Vietnamese):** [nguyen-huu-hai-duong.github.io/EduCloud-RP/vi](https://nguyen-huu-hai-duong.github.io/EduCloud-RP/vi/)
 
 ### First Cloud AI Journey Learning Materials
 
