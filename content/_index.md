@@ -14,7 +14,7 @@ chapter: false
 
 &emsp; **Email:** duong.nguyenhuuhai@hcmut.edu.vn
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** Ho Chi Minh City University of Technology
 
 &emsp; **Major:** Computer Science
 

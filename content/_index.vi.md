@@ -14,7 +14,7 @@ chapter: false
 
 &emsp; **Email:** duong.nguyenhuuhai@hcmut.edu.vn
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Trường:** Đại học Bách Khoa TP.HCM
 
 &emsp; **Ngành:** Khoa học máy tính
 
