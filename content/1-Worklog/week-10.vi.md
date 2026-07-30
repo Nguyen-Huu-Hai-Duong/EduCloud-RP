@@ -27,7 +27,7 @@ pre: "<b>1.10.</b>"
 ## Nguồn học tập
 
 - [The First Cloud Journey](https://cloudjourney.awsstudygroup.com/)
-- [Báo cáo sự kiện FCAJ x Agentic AI Build Week 2026](../../4-eventparticipated/event-02/)
+- [Báo cáo sự kiện FCAJ x Agentic AI Build Week 2026](../../4-eventparticipated/4.1-event1/)
 - [Workshop EduCloud Lite](../../5-workshop/)
 
 ## Kết quả học tập dự kiến

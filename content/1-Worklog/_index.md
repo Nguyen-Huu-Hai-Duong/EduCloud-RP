@@ -2,7 +2,7 @@
 title: "Worklog"
 weight: 1
 chapter: false
-pre: "<b>1.</b>"
+pre: " <b> 1. </b> "
 ---
 
 This worklog covers the official internship period from **June 1, 2026 to

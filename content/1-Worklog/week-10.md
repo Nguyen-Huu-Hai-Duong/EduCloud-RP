@@ -27,7 +27,7 @@ pre: "<b>1.10.</b>"
 ## Learning references
 
 - [The First Cloud Journey](https://cloudjourney.awsstudygroup.com/)
-- [FCAJ x Agentic AI Build Week 2026 event report](../../4-eventparticipated/event-02/)
+- [FCAJ x Agentic AI Build Week 2026 event report](../../4-eventparticipated/4.1-event1/)
 - [EduCloud Lite workshop](../../5-workshop/)
 
 ## Expected learning results
