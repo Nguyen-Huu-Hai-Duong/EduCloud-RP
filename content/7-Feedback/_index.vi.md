@@ -8,33 +8,33 @@ pre: " <b> 7. </b> "
 
 # Chia sẻ, đóng góp ý kiến
 
-Dưới đây là những cảm nhận thật của tôi sau khi trải qua chương trình First Cloud AI Journey (FCAJ) trong lúc xây dựng và đưa EduCloud Lite lên hoạt động thật.
+Đây là những chia sẻ chân thật của mình sau quãng thời gian tham gia chương trình First Cloud AI Journey (FCAJ), song song với việc xây dựng và đưa EduCloud Lite vào hoạt động thực tế.
 
 ### Đánh giá chung
 
 **1. Môi trường làm việc**
 
-Chương trình xoay quanh việc tự học và tự làm là chính, chứ không giám sát sát sao hằng ngày. Điều này khá phù hợp với một project như EduCloud Lite: tôi có thể tự tìm hiểu một dịch vụ AWS, thử một phương án deploy, thấy nó fail rồi tự điều chỉnh mà không cần chờ ai. Thứ giúp tôi không bị lạc hướng chính là cấu trúc của chương trình — dàn bài báo cáo và tài liệu học tập cho tôi một đích đến rõ ràng, ngay cả khi tôi đang tự loay hoay xử lý một vấn đề.
+Môi trường làm việc chung khá dễ chịu, không gian văn phòng thoáng đãng và rộng rãi. Mình cũng có dịp làm quen với các bạn đến từ nhiều trường đại học khác nhau, khá là thú vị.
 
 **2. Hỗ trợ từ mentor / định hướng chương trình**
 
-Giá trị rõ ràng nhất đến từ chính cấu trúc report và workshop template: việc chia bài nộp thành worklog, proposal, blogs, events, workshop, self-assessment và feedback giúp tôi biết chính xác "hoàn thành" ở từng phần nghĩa là gì, và tránh cho kết quả cuối cùng biến thành một mớ ghi chú rời rạc.
+Đội ngũ mentor cùng team admin luôn nhiệt tình và dễ gần. Cho dù project có bận đến đâu, mọi người vẫn dành thời gian hướng dẫn, hỗ trợ và giải đáp thắc mắc cho mình xuyên suốt quá trình làm việc.
 
 **3. Mức độ phù hợp với chuyên ngành**
 
-EduCloud Lite bám khá sát nền tảng Khoa học máy tính của tôi — thiết kế backend API, phát triển frontend, mô hình hóa database, xác thực và debug đều xuất hiện dưới hình thức này hay hình thức khác. Phần chương trình bổ sung thêm so với kiến thức trên trường là khía cạnh vận hành: chính sách CORS, quyền IAM, cấu hình biến môi trường, quy tắc lưu trữ cloud và các health check — những thứ chỉ thực sự bộc lộ khi có gì đó chạy thật trên production.
+Những đầu việc mình đảm nhận bám khá sát chuyên ngành đang theo học. Bên cạnh đó, nhờ tham gia các buổi event do phía công ty tổ chức, mình còn tiếp thu thêm nhiều kiến thức thực tế về quy trình làm việc và cách một doanh nghiệp vận hành — những điều mà ở giảng đường ít khi có cơ hội trải nghiệm.
 
 **4. Cơ hội học hỏi và phát triển kỹ năng**
 
-Kỳ thực tập này là lúc các dịch vụ AWS riêng lẻ không còn là những chủ đề tách biệt mà trở thành một hệ thống thống nhất. Tôi đã deploy FastAPI trên Elastic Beanstalk, host frontend React bằng Amplify, giao việc xác thực cho Cognito, lưu secret trong Parameter Store, phân phối file riêng tư qua S3 và CloudFront, và kết nối backend với database Supabase PostgreSQL được quản lý sẵn. Việc debug những lỗi chỉ xuất hiện sau khi deploy — chứ không phải lúc chạy local — có lẽ là bước tiến kỹ năng lớn nhất của tôi.
+Đây là giai đoạn mà các dịch vụ AWS không còn nằm rời rạc mỗi nơi một kiểu, mà ghép lại thành một hệ thống vận hành thống nhất. Mình đã tự tay deploy FastAPI lên Elastic Beanstalk, host frontend React qua Amplify, giao phần xác thực cho Cognito, cất secret trong Parameter Store, phân phối file riêng tư bằng S3 kết hợp CloudFront, và nối backend với database Supabase PostgreSQL đã được quản lý sẵn. Có lẽ bước tiến kỹ năng lớn nhất của mình nằm ở việc xử lý những lỗi chỉ lộ ra sau khi deploy thật, chứ không phải khi còn chạy ở local.
 
 **5. Văn hóa chương trình và tinh thần học tập**
 
-Cách tiếp cận của FCAJ là học qua việc đưa sản phẩm ra thật, chứ không phải học qua đọc lý thuyết. Thay vì chỉ tìm hiểu các dịch vụ AWS một cách trừu tượng, tôi phải làm ra thứ thật sự chạy được công khai, giải thích được lý do đằng sau từng lựa chọn kiến trúc và có minh chứng đi kèm. Sự khác biệt đó — giữa một bản prototype chạy local và một ứng dụng có thể triển khai, truy cập công khai — là điều hữu ích nhất mà chương trình đã thúc đẩy tôi hướng tới.
+FCAJ chọn cách học bằng việc thật sự tạo ra sản phẩm, thay vì chỉ dừng lại ở lý thuyết suông. Mình không chỉ tìm hiểu các dịch vụ AWS một cách chung chung, mà phải làm ra một thứ chạy được công khai, giải thích rõ được lý do phía sau mỗi lựa chọn kiến trúc và có minh chứng đi kèm. Chính sự khác biệt giữa một bản prototype chỉ chạy local với một ứng dụng triển khai được, truy cập công khai — đó mới là điều giá trị nhất mà chương trình đã đẩy mình hướng tới.
 
 **6. Chính sách / lợi ích của kỳ thực tập**
 
-Lợi ích lớn nhất không phải là một đãi ngộ theo nghĩa thông thường, mà là quyền tự định hình project của riêng mình và dành thêm thời gian cho những phần thực sự khó, như luồng xác thực của Cognito, kiểm soát truy cập CloudFront/S3 hay cấu hình Elastic Beanstalk, thay vì phải đi theo một kịch bản cố định.
+Dù chỉ là thực tập sinh, mình vẫn cảm nhận được các chính sách hỗ trợ của chương trình khá chu đáo. Thời gian làm việc linh động giúp mình cân đối được giữa việc học ở trường và thực tập. Công ty cũng tạo điều kiện hết mức về tài nguyên — cấp tài khoản cloud, server... — để tụi mình thực hành trực tiếp một cách hiệu quả nhất.
 
 ---
 
@@ -42,22 +42,22 @@ Lợi ích lớn nhất không phải là một đãi ngộ theo nghĩa thông t
 
 **Điều gì khiến tôi hài lòng nhất trong kỳ thực tập?**
 
-Khoảnh khắc thấy EduCloud Lite chạy công khai qua một URL Amplify, với các luồng đăng nhập, xem khóa học, công cụ cho Instructor, hồ sơ cá nhân, upload, làm bài đánh giá và cấp chứng chỉ đều hoạt động cùng nhau như một hệ thống thống nhất, chứ không phải những bản demo rời rạc.
+Điều làm mình hài lòng nhất chính là được trải nghiệm thật trong một môi trường doanh nghiệp hòa đồng, năng động và vui vẻ. Được gặp các anh chị đi trước, có những đồng đội luôn sẵn lòng hỗ trợ nhau. Việc được trực tiếp thực hành với các công nghệ mới giúp mình vỡ ra rất nhiều điều mà trước đây chỉ hiểu trên lý thuyết.
 
 **Theo tôi, chương trình nên cải thiện điều gì cho các bạn thực tập sinh sau?**
 
-Sẽ hữu ích nếu có một checklist deployment ngắn gọn ngay từ đầu — đặc biệt cho IAM role, Parameter Store, CORS, hành vi của CloudFront, bucket policy của S3 và cấu hình Cognito. Đây chính xác là những phần mà người mới tiếp cận AWS rất dễ mất nhiều thời gian để thử sai.
+Mình nghĩ phần onboarding (tiếp nhận và hướng dẫn ban đầu) nên được xây dựng chi tiết và bài bản hơn một chút, để các bạn mới vào đỡ bỡ ngỡ. Ngoài ra, nếu có lịch review tiến độ rõ ràng hơn thì các bạn thực tập sinh sẽ nắm bắt định hướng nhanh và nâng cao chất lượng công việc tốt hơn.
 
 **Tôi có giới thiệu kỳ thực tập này cho bạn bè không?**
 
-Có, đặc biệt cho các bạn đã có kỹ năng phát triển web cơ bản và muốn học cách đưa một ứng dụng từ "chạy được trên máy mình" thành một hệ thống có cấu trúc, bảo mật và triển khai công khai.
+Có chứ, nhất là với những bạn đã có nền tảng phát triển web cơ bản và muốn học cách đưa một ứng dụng từ trạng thái "chỉ chạy trên máy mình" thành một hệ thống có cấu trúc rõ ràng, bảo mật và triển khai công khai được.
 
 ---
 
 ### Đề xuất & mong muốn
 
-- Chia sẻ một reference architecture tối giản ngay từ đầu, để sinh viên biết đích đến của việc deploy trước khi bắt tay vào xây dựng.
-- Khuyến khích chụp ảnh và ghi worklog theo từng tuần, thay vì phải nhớ lại và dựng minh chứng gần sát hạn nộp.
-- Thêm một hướng dẫn ngắn về cách ước lượng chi phí AWS và dọn dẹp tài nguyên sau khi nộp bài.
-- Tổng hợp các lỗi thường gặp khi troubleshoot cho đăng nhập Cognito, CORS, hành vi origin của CloudFront, quyền truy cập S3 OAC và log deployment của Elastic Beanstalk.
-- Tiếp tục để sinh viên tự chọn đề tài project — làm một thứ mình thực sự quan tâm khiến cả quá trình học chủ động và hứng thú hơn nhiều.
+- Cung cấp sẵn một reference architecture ở mức tối giản ngay từ đầu, để sinh viên hình dung được đích đến của việc deploy trước khi bắt tay vào làm.
+- Khuyến khích ghi worklog và chụp ảnh minh chứng theo từng tuần, thay vì để đến gần hạn nộp mới cố nhớ lại và dựng lại từ đầu.
+- Bổ sung một hướng dẫn ngắn gọn về cách ước tính chi phí AWS và dọn dẹp tài nguyên sau khi hoàn tất nộp bài.
+- Tập hợp lại các lỗi hay gặp khi troubleshoot: đăng nhập Cognito, CORS, hành vi origin của CloudFront, quyền truy cập S3 OAC, và log deployment từ Elastic Beanstalk.
+- Duy trì việc để sinh viên tự chọn đề tài project — vì làm một thứ bản thân thực sự quan tâm sẽ khiến cả quá trình học chủ động và hào hứng hơn nhiều.
