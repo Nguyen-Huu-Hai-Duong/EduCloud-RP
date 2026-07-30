@@ -109,6 +109,6 @@ Sự kiện giúp tôi thấy cách nhiều đội chuyển ý tưởng Agentic 
 
 #### Minh chứng sự kiện
 
-*Thêm ảnh minh chứng sự kiện của bạn tại đây*
+![Minh chứng sự kiện FCAJ x Agentic AI Build Week 2026](/images/events/event-03.jpg)
 
 > Nhìn chung, FCAJ x Agentic AI Build Week 2026 giúp tôi có góc nhìn thực tế về cách các đội xây dựng, đánh giá, trình bày và cải tiến giải pháp Agentic AI trên AWS. Sự kiện cũng mang lại nhiều bài học có thể áp dụng trực tiếp cho EduCloud Lite trong tài liệu kiến trúc, kế hoạch triển khai, kiểm soát chi phí và kiểm thử end-to-end.

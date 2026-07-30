@@ -109,6 +109,6 @@ The event showed me how several teams turned Agentic AI ideas into products that
 
 #### Event evidence
 
-*Add your event photos here*
+![Evidence from FCAJ x Agentic AI Build Week 2026](/images/events/event-03.jpg)
 
 > Overall, FCAJ x Agentic AI Build Week 2026 gave me a practical view of how teams build, evaluate, present, and iterate on Agentic AI solutions on AWS. The event also produced several lessons I can apply directly to EduCloud Lite's architecture documentation, deployment planning, cost control, and end-to-end testing.
