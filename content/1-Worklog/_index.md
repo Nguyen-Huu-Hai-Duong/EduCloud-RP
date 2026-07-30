@@ -24,11 +24,3 @@ AI Journey and AWS learning rather than additional project scope.
 | [Week 9](week-09/) | Aug 03 - Aug 07 | First Cloud Journey operations and security study | Well-Architected review and AWS learning notes |
 | [Week 10](week-10/) | Aug 10 - Aug 15 | Generative AI, Agentic AI, and AWS learning review | Final learning summary and development roadmap |
 
-## Skills developed
-
-- Requirements analysis and layered LMS architecture.
-- React, TypeScript, Vite, FastAPI, SQLAlchemy, and PostgreSQL.
-- Cognito, JWT, and Student/Instructor/Admin authorization.
-- S3, CloudFront, Elastic Beanstalk, Amplify, IAM, and Parameter Store.
-- Automated testing, production troubleshooting, and Hugo documentation.
-- Continued AWS security, operations, cost, and Agentic AI learning after the workshop submission.

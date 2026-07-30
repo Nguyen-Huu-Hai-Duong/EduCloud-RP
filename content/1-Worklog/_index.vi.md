@@ -30,11 +30,4 @@ Dưới đây là nội dung tóm tắt các tuần:
 
 **Tuần 10:** [Học Generative AI, Agentic AI và tổng kết AWS (dự kiến)](week-10/)
 
-#### Năng lực tích lũy
 
-- Phân tích yêu cầu và thiết kế một hệ thống LMS theo kiến trúc nhiều lớp (routes/services/models/schemas).
-- Xây dựng REST API bằng FastAPI, SQLAlchemy và PostgreSQL cho các tính năng auth, course, lesson, enrollment, progress, assessment và certificate.
-- Xây dựng JWT, middleware xác thực và phân quyền Student/Instructor/Admin ở tầng API.
-- Triển khai backend lên AWS Elastic Beanstalk; sử dụng S3, CloudFront, IAM, Parameter Store và CloudWatch.
-- Viết test tự động bằng pytest, phối hợp với thành viên frontend và biên soạn tài liệu kỹ thuật bằng Hugo.
-- Tiếp tục học bảo mật, vận hành, chi phí và Agentic AI trên AWS sau khi nộp workshop.
