@@ -9,30 +9,30 @@ pre: "<b>1.7.</b>"
 
 ## Mục tiêu
 
-- Cho phép Instructor cấu hình bài đánh giá cuối khóa.
-- Chấm điểm và kiểm soát thời gian, số lần thi ở backend.
-- Chỉ cấp chứng chỉ khi hoàn thành bài học và thi đạt.
+- Cho phép Instructor tự cấu hình bài đánh giá cuối khóa.
+- Kiểm soát thời gian làm bài, chấm điểm và số lần thi ngay ở backend.
+- Chỉ cấp chứng chỉ khi Student đã hoàn thành bài học và thi đạt.
 
 ## Giai đoạn học AWS
 
 | Nội dung học | Nguồn tài liệu | Áp dụng vào EduCloud |
 | --- | --- | --- |
-| Metrics, logs, alarms và dashboard cho ứng dụng. | [AWS CloudWatch Workshop](https://000008.awsstudygroup.com/) | Xác định dữ liệu cần theo dõi cho lượt làm bài, lỗi submit và latency. |
-| Thiết kế ứng dụng có trạng thái nhất quán, xử lý retry và thao tác idempotent. | [Application Modernization on AWS](https://cloudjourney.awsstudygroup.com/) | Bảo đảm submit bài và cấp chứng chỉ không tạo bản ghi trùng. |
+| Metrics, log, alarm và dashboard phục vụ giám sát ứng dụng. | [AWS CloudWatch Workshop](https://000008.awsstudygroup.com/) | Xác định những chỉ số cần theo dõi cho lượt làm bài, lỗi submit và độ trễ. |
+| Cách thiết kế ứng dụng giữ trạng thái nhất quán, xử lý retry và đảm bảo thao tác idempotent. | [Application Modernization on AWS](https://cloudjourney.awsstudygroup.com/) | Đảm bảo việc submit bài thi và cấp chứng chỉ không sinh ra bản ghi trùng lặp. |
 
 ## Công việc thực hiện
 
 | Ngày | Công việc | Kết quả |
 | --- | --- | --- |
-| 20/07 | Thiết kế bảng course_assessments, assessment_questions và assessment_attempts. | Database lưu được cấu hình, câu hỏi và lịch sử làm bài. |
-| 21/07 | Xây dựng Assessment Editor với thời gian, điểm đạt, số lần thi, publish và nhiều hơn bốn đáp án. | Instructor tạo được final assessment linh hoạt. |
-| 22/07 | Thêm chế độ một đáp án, chọn tất cả đáp án đúng hoặc chọn một trong các đáp án đúng; hỗ trợ kéo thả option. | Câu hỏi đáp ứng nhiều cách chấm khác nhau. |
-| 23/07 | Xây dựng Student Assessment Page với timer, question navigator, trạng thái đã trả lời, Previous/Next và auto-submit. | Trải nghiệm làm bài rõ ràng, có thể quay lại câu bất kỳ. |
-| 24/07 | Triển khai scoring, deadline, attempt limit, điều kiện eligible và cấp certificate idempotent; tạo trang Print/Save PDF. | Chứng chỉ chỉ được cấp sau khi hoàn tất lesson và thi đạt. |
+| 20/07 | Thiết kế các bảng course_assessments, assessment_questions và assessment_attempts. | Database lưu được cấu hình bài thi, câu hỏi và lịch sử làm bài. |
+| 21/07 | Xây dựng Assessment Editor gồm thời gian làm bài, điểm đạt, số lần thi, trạng thái publish và tùy chỉnh số đáp án. | Instructor tạo được bài đánh giá cuối khóa linh hoạt. |
+| 22/07 | Bổ sung chế độ chấm một đáp án, chọn hết đáp án đúng hoặc chọn một trong các đáp án đúng; hỗ trợ kéo thả để sắp xếp đáp án. | Câu hỏi đáp ứng được nhiều kiểu chấm điểm khác nhau. |
+| 23/07 | Xây dựng trang làm bài cho Student có đếm giờ, thanh điều hướng câu hỏi, đánh dấu câu đã trả lời và tự động nộp bài. | Trải nghiệm làm bài và xem lại rõ ràng, mạch lạc hơn. |
+| 24/07 | Triển khai chấm điểm, deadline, điều kiện đủ điều kiện thi và cấp chứng chỉ idempotent ở backend, kèm giao diện in. | Áp dụng đầy đủ quy tắc hoàn thành xuyên suốt hệ thống. |
 
 ## Kết quả đạt được
 
-- Backend kiểm soát thời gian và số lần thi, không phụ thuộc đồng hồ trình duyệt.
-- Hỗ trợ tối đa 12 option và nhiều đáp án đúng.
-- Navigator hiển thị câu đã làm và cho phép xem lại.
-- Certificate có tên Student, khóa học, ngày cấp và chức năng in PDF.
+- Thời gian làm bài và số lần thi được kiểm soát ở backend, không phụ thuộc đồng hồ trình duyệt.
+- Hỗ trợ tối đa 12 đáp án và nhiều đáp án đúng cùng lúc.
+- Có thanh điều hướng câu hỏi có thể bấm chọn, cho phép xem lại từng câu.
+- Chứng chỉ có thể in, chỉ được cấp sau khi hoàn thành và thi đạt.

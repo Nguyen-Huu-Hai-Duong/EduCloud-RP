@@ -9,30 +9,30 @@ pre: "<b>1.6.</b>"
 
 ## Mục tiêu
 
-- Xây dựng catalog khóa học công khai và luồng ghi danh.
-- Tạo Learning Page cho Student học theo curriculum.
-- Lưu tiến độ từng bài học và tính phần trăm hoàn thành.
+- Xây dựng catalog công khai cho các khóa học đã publish và luồng ghi danh.
+- Dựng Learning Page cho Student.
+- Lưu tiến độ theo từng bài học và tính phần trăm hoàn thành.
 
 ## Giai đoạn học AWS
 
 | Nội dung học | Nguồn tài liệu | Áp dụng vào EduCloud |
 | --- | --- | --- |
-| Luồng frontend đăng nhập, truy cập API và sử dụng storage theo access level. | [Amplify Authentication and Storage](https://000134.awsstudygroup.com/) | Thiết kế điều kiện chỉ người đã ghi danh mới truy cập nội dung học. |
-| Cache nội dung tĩnh tại edge và bảo vệ origin S3. | [CloudFront with S3 Origin](https://000094.awsstudygroup.com/) | Chuẩn bị hướng phân phối video, thumbnail và tài liệu cho Learning Page. |
+| Luồng frontend đăng nhập, gọi API và dùng storage theo từng access level. | [Amplify Authentication and Storage](https://000134.awsstudygroup.com/) | Thiết kế điều kiện chỉ Student đã ghi danh mới truy cập được nội dung học. |
+| Cách CDN cache nội dung tại edge và bảo vệ origin S3. | [CloudFront with S3 Origin](https://000094.awsstudygroup.com/) | Vạch hướng phân phối video, thumbnail và tài liệu cho Learning Page. |
 
 ## Công việc thực hiện
 
 | Ngày | Công việc | Kết quả |
 | --- | --- | --- |
-| 13/07 | Xây dựng course catalog, tìm kiếm, course card và trang chi tiết khóa học. | Người dùng xem được khóa học Published từ Supabase. |
-| 14/07 | Triển khai enrollment service/API với unique constraint và kiểm tra role Student. | Ghi danh idempotent, không tạo bản ghi trùng. |
-| 15/07 | Xây dựng Learning Page gồm playlist bài học, video, notes và tài liệu. | Student đã ghi danh mới xem được nội dung đầy đủ. |
-| 16/07 | Tạo progress API để complete/undo lesson; tính số bài và phần trăm hoàn thành. | Tiến độ được lưu theo từng Student và lesson. |
-| 17/07 | Xây dựng My Learning dashboard và resume từ bài chưa hoàn thành đầu tiên; kiểm tra thống kê Instructor. | Student tiếp tục học đúng vị trí và Instructor thấy số ghi danh. |
+| 13/07 | Xây dựng catalog khóa học, tìm kiếm, course card và trang chi tiết. | Người dùng xem được các khóa học Published lấy từ Supabase. |
+| 14/07 | Triển khai luồng ghi danh idempotent chỉ dành cho Student, có ràng buộc unique. | Ngăn được việc tạo bản ghi ghi danh trùng lặp. |
+| 15/07 | Dựng Learning Page gồm playlist bài học, video, ghi chú và tài liệu. | Chỉ Student đã ghi danh mới xem được nội dung đầy đủ. |
+| 16/07 | Xây API complete/undo cho tiến độ và tính phần trăm hoàn thành. | Tiến độ học được lưu riêng theo từng Student và bài học. |
+| 17/07 | Thêm My Learning, tự động tiếp tục ở bài chưa hoàn thành đầu tiên và số liệu ghi danh cho Instructor. | Student học liên tục đúng vị trí, Instructor xem được báo cáo theo thời gian thực. |
 
 ## Kết quả đạt được
 
-- Public API chỉ trả outline, không làm lộ video và tài liệu riêng tư.
-- Student ghi danh và theo dõi tiến độ trên Supabase.
+- API công khai chỉ trả về outline, không làm lộ tài nguyên bài học riêng tư.
+- Dữ liệu ghi danh và tiến độ của Student được lưu trên Supabase.
 - Learning Page hỗ trợ chuyển bài và đánh dấu hoàn thành.
-- Dashboard phản ánh dữ liệu thật thay vì số liệu cố định.
+- Dashboard hiển thị dữ liệu thật từ database thay vì số liệu cố định.

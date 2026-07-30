@@ -9,33 +9,33 @@ pre: "<b>1.3.</b>"
 
 ## Objectives
 
-- Design the React, FastAPI, and PostgreSQL request flow.
-- Connect FastAPI to Supabase PostgreSQL through SQLAlchemy.
-- Establish models, schemas, services, and routes.
-- Prepare reusable environment, migration, and seed tooling.
+- Map out the request flow across React, FastAPI, and PostgreSQL.
+- Wire FastAPI up to Supabase PostgreSQL via SQLAlchemy.
+- Put together the models, schemas, services, and routes.
+- Build reusable tooling for environment setup, migrations, and seeding.
 
 ## AWS Learning Phase
 
 | Learning content | Reference | Application in EduCloud |
 | --- | --- | --- |
-| IAM users, policies, roles, and least-privilege access. | [Access Control with AWS IAM](https://000002.awsstudygroup.com/) | Separated AWS infrastructure permissions from Student, Instructor, and Admin application roles. |
-| VPC, subnets, routing, security groups, and how an application is accessed from the Internet. | [Amazon VPC Workshop](https://000003.awsstudygroup.com/) | Designed the network flow for backend and database access. |
-| EC2, Amazon Linux, compute resources, and application hosting concepts. | [Introduction to Amazon EC2](https://000004.awsstudygroup.com/) | Understood the infrastructure layer behind Elastic Beanstalk. |
-| Relational databases, PostgreSQL, SSL, backups, and network isolation. | [Amazon RDS Workshop](https://000005.awsstudygroup.com/) | Designed SQLAlchemy models and secure Supabase PostgreSQL connectivity. |
+| IAM users, policies, roles, and the principle of least-privilege access. | [Access Control with AWS IAM](https://000002.awsstudygroup.com/) | Kept AWS infrastructure permissions distinct from the Student, Instructor, and Admin roles inside the app. |
+| VPCs, subnets, routing, security groups, and how an application gets reached from the Internet. | [Amazon VPC Workshop](https://000003.awsstudygroup.com/) | Mapped out the network path for backend and database access. |
+| EC2, Amazon Linux, compute resources, and the basics of hosting an application. | [Introduction to Amazon EC2](https://000004.awsstudygroup.com/) | Got a feel for the infrastructure layer sitting underneath Elastic Beanstalk. |
+| Relational databases, PostgreSQL, SSL, backups, and network isolation. | [Amazon RDS Workshop](https://000005.awsstudygroup.com/) | Shaped the SQLAlchemy models and a secure connection to Supabase PostgreSQL. |
 
 ## Work completed
 
 | Date | Activity | Outcome |
 | --- | --- | --- |
-| Jun 22 | Designed the React -> FastAPI -> PostgreSQL architecture and separated frontend, backend, and database responsibilities. | Produced the EduCloud request flow and technical stack. |
-| Jun 23 | Implemented environment configuration, `.env.example`, and SQLAlchemy with the Supabase SSL pooler URI. | Kept secrets outside source control and established a stable database connection. |
-| Jun 24 | Added User, Course, Lesson, Enrollment, and Progress models. | Represented core business relationships. |
-| Jun 25 | Added Pydantic schemas, services, routers, and response helpers. | Established a consistent backend structure. |
-| Jun 26 | Added startup creation, compatibility migrations, database checks, and development seeds. | Made new environments reproducible. |
+| Jun 22 | Laid out the React → FastAPI → PostgreSQL architecture and split up frontend, backend, and database responsibilities. | Produced EduCloud's request flow and technical stack. |
+| Jun 23 | Set up environment configuration, `.env.example`, and wired SQLAlchemy to the Supabase SSL pooler URI. | Kept secrets out of source control and got a stable database connection running. |
+| Jun 24 | Built out the User, Course, Lesson, Enrollment, and Progress models. | Captured the core business relationships in the schema. |
+| Jun 25 | Added Pydantic schemas, services, routers, and response helpers. | Landed on a consistent backend structure. |
+| Jun 26 | Added startup table creation, compatibility migrations, database checks, and development seed data. | Made it possible to spin up new environments reliably. |
 
 ## Achievements
 
-- Connected FastAPI to Supabase with `psycopg2`.
-- Established router → service → model separation.
-- Added a safe database diagnostic script.
-- Prepared Student, Instructor, and Admin development data.
+- Got FastAPI talking to Supabase through `psycopg2`.
+- Settled on a clean router → service → model separation.
+- Added a diagnostic script that checks the database connection safely.
+- Prepped development data for the Student, Instructor, and Admin roles.

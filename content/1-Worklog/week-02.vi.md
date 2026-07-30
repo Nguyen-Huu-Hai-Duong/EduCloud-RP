@@ -9,32 +9,32 @@ pre: "<b>1.2.</b>"
 
 ## Mục tiêu
 
-- Hiểu các nhóm dịch vụ AWS cơ bản và cách thao tác bằng Console, CLI.
-- Tham gia nhóm thảo luận từ ngày 16/06 và thống nhất phương pháp phối hợp.
-- Khảo sát đề tài phù hợp, xác định EduCloud Lite là sản phẩm thực tập.
+- Nắm được các nhóm dịch vụ AWS chính và cách thao tác qua cả Console lẫn CLI.
+- Gia nhập nhóm thảo luận kể từ ngày 16/06 và thống nhất cách nhóm sẽ phối hợp làm việc.
+- Khảo sát các hướng đề tài khả thi và chốt EduCloud Lite làm sản phẩm cho kỳ thực tập.
 
 ## Giai đoạn học AWS
 
 | Giai đoạn | Nội dung học | Nguồn tài liệu | Áp dụng |
 | --- | --- | --- | --- |
-| Tổng quan | Compute, Storage, Database, Networking, Security và Monitoring. | [Explore AWS Services](https://cloudjourney.awsstudygroup.com/) | Nhận diện nhóm dịch vụ cần thiết cho một hệ thống LMS. |
-| Tài khoản và chi phí | AWS Free Tier, credit, dịch vụ dễ phát sinh phí và cách đặt ngân sách cảnh báo. | [AWS Free Tier](https://000001.awsstudygroup.com/), [AWS Budgets](https://000007.awsstudygroup.com/) | Định hướng kiến trúc tối thiểu, ưu tiên dịch vụ chi phí thấp. |
-| Công cụ quản trị | Cài đặt AWS CLI, profile, Region mặc định và các định dạng output. | [Getting Started with AWS CLI](https://000011.awsstudygroup.com/) | Chuẩn bị cho việc kiểm tra và triển khai tài nguyên bằng lệnh. |
+| Tổng quan | Compute, Storage, Database, Networking, Security và Monitoring. | [Explore AWS Services](https://cloudjourney.awsstudygroup.com/) | Xác định được nhóm dịch vụ AWS mà một hệ thống LMS thực sự cần dùng. |
+| Tài khoản và chi phí | AWS Free Tier, credit, các dịch vụ dễ phát sinh phí và cách thiết lập cảnh báo ngân sách. | [AWS Free Tier](https://000001.awsstudygroup.com/), [AWS Budgets](https://000007.awsstudygroup.com/) | Định hình hướng kiến trúc chi phí thấp và thói quen dọn dẹp tài nguyên. |
+| Công cụ quản trị | Cài AWS CLI, cấu hình profile, Region mặc định và các định dạng output. | [Getting Started with AWS CLI](https://000011.awsstudygroup.com/) | Sẵn sàng kiểm tra và triển khai tài nguyên AWS trực tiếp bằng dòng lệnh. |
 
 ## Công việc thực hiện
 
 | Ngày | Công việc | Kết quả |
 | --- | --- | --- |
-| 15/06 | Tìm hiểu các nhóm dịch vụ AWS, tạo checklist tài khoản và cấu hình công cụ cần thiết. | Có bản đồ dịch vụ ban đầu và môi trường học tập. |
-| 16/06 | Tham gia nhóm thảo luận, làm quen thành viên, thống nhất kênh trao đổi và cách chia sẻ tiến độ. | Bắt đầu phối hợp nhóm từ ngày **16/06/2026**. |
-| 17/06 | Thảo luận các đề tài có thể triển khai; khảo sát nhu cầu quản lý khóa học trực tuyến. | Chọn hướng xây dựng EduCloud Lite. |
-| 18/06 | Xác định ba vai trò Student, Instructor, Admin và các luồng đăng nhập, khóa học, ghi danh, học tập. | Hình thành các use case cốt lõi. |
-| 19/06 | Chia yêu cầu thành backlog; xác định MVP, tính năng mở rộng và rủi ro chi phí/bảo mật. | Có phạm vi dự án và kế hoạch triển khai theo giai đoạn. |
+| 15/06 | Rà soát các nhóm dịch vụ AWS, lập checklist tài khoản và các công cụ cần thiết. | Có được bản đồ dịch vụ AWS đầu tiên cùng môi trường học tập sẵn sàng. |
+| 16/06 | Gia nhập nhóm thảo luận, làm quen các thành viên, thống nhất kênh trao đổi và cách cập nhật tiến độ. | Nhóm chính thức bắt đầu phối hợp từ ngày **16/06/2026**. |
+| 17/06 | Bàn bạc các đề tài có thể triển khai, tìm hiểu nhu cầu thực tế của việc quản lý khóa học trực tuyến. | Chốt được hướng xây dựng EduCloud Lite. |
+| 18/06 | Xác định ba vai trò Student, Instructor, Admin cùng các luồng đăng nhập, khóa học, ghi danh và học tập. | Hình thành bộ use case cốt lõi. |
+| 19/06 | Chia nhỏ yêu cầu thành backlog, xác định phạm vi MVP, các phần mở rộng và rủi ro về chi phí/bảo mật. | Hoàn thiện phạm vi dự án ban đầu và kế hoạch triển khai theo từng giai đoạn. |
 
 ## Kết quả đạt được
 
-- Hiểu vai trò của Compute, Storage, Database, Networking, Security và Monitoring.
-- Biết cấu hình AWS CLI và lựa chọn Region phù hợp.
-- Biết sử dụng AWS Budgets và chú ý dọn dẹp tài nguyên để hạn chế chi phí.
-- Tham gia nhóm thảo luận từ ngày 16/06 và thống nhất đề tài **EduCloud Lite**.
-- Hoàn thành danh sách vai trò, use case và backlog đầu tiên của dự án.
+- Hiểu được vai trò của từng nhóm Compute, Storage, Database, Networking, Security và Monitoring.
+- Biết cách cấu hình AWS CLI và chọn Region phù hợp.
+- Nắm được cách dùng AWS Budgets và hình thành thói quen dọn dẹp tài nguyên để hạn chế tốn credit.
+- Tham gia nhóm thảo luận từ ngày 16/06 và chốt **EduCloud Lite** làm đề tài chính thức.
+- Hoàn thành phiên bản đầu tiên của danh sách vai trò, use case và backlog.
