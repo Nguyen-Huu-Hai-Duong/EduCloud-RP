@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 # Tự đánh giá
 
-Từ **01/06/2026** đến **15/08/2026**, tôi tham gia chương trình **First Cloud AI Journey (FCAJ)** với vai trò thành viên trong **nhóm 3 người** xây dựng **EduCloud Lite** — nền tảng quản lý học tập chạy trên cloud. Phần mình phụ trách trong quá trình xây dựng là **Course & Lesson API phía backend**; các đồng đội phụ trách phần backend còn lại, frontend và triển khai AWS production. Song song đó, tôi học các dịch vụ AWS mà team sử dụng (Cognito, S3, CloudFront, Elastic Beanstalk, CloudWatch) và viết báo cáo Hugo song ngữ này.
+Từ **01/06/2026** đến **15/08/2026**, tôi tham gia chương trình **First Cloud AI Journey (FCAJ)** với vai trò thành viên trong **nhóm 5 người** xây dựng **EduCloud Lite** — nền tảng quản lý học tập chạy trên cloud. Phần mình phụ trách trong quá trình xây dựng là **Course & Lesson API phía backend**; các đồng đội phụ trách phần backend còn lại, frontend và triển khai AWS production. Song song đó, tôi học các dịch vụ AWS mà team sử dụng (Cognito, S3, CloudFront, Elastic Beanstalk, CloudWatch) và viết báo cáo Hugo song ngữ này.
 
 Các mức đánh giá dưới đây phản ánh đúng phạm vi vai trò đó: làm chủ tốt phần API mình phụ trách, đồng thời phối hợp với đồng đội nhiều hơn so với một project làm một mình.
 
@@ -21,7 +21,7 @@ Các mức đánh giá dưới đây phản ánh đúng phạm vi vai trò đó:
 | 5 | **Kỷ luật làm việc** | Bám sát tiến độ phần API, nhưng việc thu thập minh chứng và hoàn thiện báo cáo nhiều lúc bị dồn lại muộn hơn dự kiến | ☐ | ✅ | ☐ |
 | 6 | **Tư duy cải tiến** | Điều chỉnh cấu trúc response của API theo phản hồi tích hợp từ đồng đội làm frontend | ✅ | ☐ | ☐ |
 | 7 | **Giao tiếp** | Trực tiếp thống nhất API contract với hai đồng đội và viết tài liệu endpoint để họ không cần hỏi lại từng chi tiết | ✅ | ☐ | ☐ |
-| 8 | **Làm việc nhóm** | Làm chủ một mảng rõ ràng (Course & Lesson API) trong nhóm 3 người, đồng thời bám sát các phần auth, frontend và deployment mà đồng đội phụ trách | ✅ | ☐ | ☐ |
+| 8 | **Làm việc nhóm** | Làm chủ một mảng rõ ràng (Course & Lesson API) trong nhóm 5 người, đồng thời bám sát các phần auth, frontend và deployment mà đồng đội phụ trách | ✅ | ☐ | ☐ |
 | 9 | **Tác phong chuyên nghiệp** | Xử lý cẩn thận thông tin đăng nhập, tài nguyên AWS và các link public trong suốt quá trình phát triển, kiểm thử | ✅ | ☐ | ☐ |
 | 10 | **Kỹ năng giải quyết vấn đề** | Truy vết và sửa các lỗi thiếu nhất quán dữ liệu, lỗi tích hợp phát hiện khi test Course/Lesson API cùng các tính năng của đồng đội | ☐ | ✅ | ☐ |
 | 11 | **Đóng góp cho project** | Bàn giao Course & Lesson backend API và tự viết toàn bộ báo cáo Hugo song ngữ ghi lại hệ thống | ✅ | ☐ | ☐ |

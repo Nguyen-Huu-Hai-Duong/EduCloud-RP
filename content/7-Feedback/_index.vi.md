@@ -8,7 +8,7 @@ pre: " <b> 7. </b> "
 
 # Chia sẻ, đóng góp ý kiến
 
-Đây là những chia sẻ chân thật của mình sau quãng thời gian tham gia chương trình First Cloud AI Journey (FCAJ), song song với việc làm thành viên trong nhóm 3 người xây dựng và đưa EduCloud Lite vào hoạt động thực tế.
+Đây là những chia sẻ chân thật của mình sau quãng thời gian tham gia chương trình First Cloud AI Journey (FCAJ), song song với việc làm thành viên trong nhóm 5 người xây dựng và đưa EduCloud Lite vào hoạt động thực tế.
 
 ### Đánh giá chung
 

@@ -7,7 +7,7 @@ pre: " <b> 1. </b> "
 
 This worklog covers the official internship period from **June 1, 2026 to
 August 15, 2026**. My first recorded First Cloud AI Journey activity was on
-June 5. EduCloud Lite is a 3-person team project; my part of the build was the
+June 5. EduCloud Lite is a 5-person team project; my part of the build was the
 **Course & Lesson backend API**, alongside learning the AWS services the team
 used for deployment and writing this report. The workshop is scheduled for
 completion and submission by **July 31, 2026**; the final two weeks are

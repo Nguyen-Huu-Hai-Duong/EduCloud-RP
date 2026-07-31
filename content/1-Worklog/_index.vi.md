@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-Worklog này bao quát thời gian thực tập chính thức từ **01/06/2026** đến **15/08/2026**. Hoạt động First Cloud AI Journey đầu tiên được ghi nhận vào ngày **05/06**. EduCloud Lite là dự án nhóm 3 người; phần mình phụ trách trong quá trình xây dựng là **Course & Lesson API phía backend**, song song với việc học các dịch vụ AWS mà team dùng để triển khai và viết báo cáo này. Workshop được lên kế hoạch hoàn thiện và nộp trước **31/07/2026**; hai tuần cuối chỉ dành cho việc tiếp tục học First Cloud AI Journey và các dịch vụ AWS, không mở rộng thêm phạm vi project.
+Worklog này bao quát thời gian thực tập chính thức từ **01/06/2026** đến **15/08/2026**. Hoạt động First Cloud AI Journey đầu tiên được ghi nhận vào ngày **05/06**. EduCloud Lite là dự án nhóm 5 người; phần mình phụ trách trong quá trình xây dựng là **Course & Lesson API phía backend**, song song với việc học các dịch vụ AWS mà team dùng để triển khai và viết báo cáo này. Workshop được lên kế hoạch hoàn thiện và nộp trước **31/07/2026**; hai tuần cuối chỉ dành cho việc tiếp tục học First Cloud AI Journey và các dịch vụ AWS, không mở rộng thêm phạm vi project.
 
 Dưới đây là nội dung tóm tắt các tuần:
 

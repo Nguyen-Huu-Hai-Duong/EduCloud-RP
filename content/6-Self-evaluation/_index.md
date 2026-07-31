@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 # Self-Assessment
 
-Between **June 1, 2026** and **August 15, 2026**, I took part in the **First Cloud AI Journey (FCAJ)** program as part of a **3-person team** building **EduCloud Lite**, a cloud-hosted learning management platform. My part of the build was the **Course & Lesson backend API**; my teammates covered the rest of the backend, the frontend, and the production AWS deployment. Alongside that, I learned the AWS services the team used (Cognito, S3, CloudFront, Elastic Beanstalk, CloudWatch) and wrote this bilingual Hugo report.
+Between **June 1, 2026** and **August 15, 2026**, I took part in the **First Cloud AI Journey (FCAJ)** program as part of a **5-person team** building **EduCloud Lite**, a cloud-hosted learning management platform. My part of the build was the **Course & Lesson backend API**; my teammates covered the rest of the backend, the frontend, and the production AWS deployment. Alongside that, I learned the AWS services the team used (Cognito, S3, CloudFront, Elastic Beanstalk, CloudWatch) and wrote this bilingual Hugo report.
 
 The ratings below reflect that scoped role: strong ownership of the API area I was responsible for, and closer collaboration with teammates than a solo project would involve.
 
@@ -21,7 +21,7 @@ The ratings below reflect that scoped role: strong ownership of the API area I w
 | 5 | **Discipline** | Kept up with the API work on schedule, though evidence collection and report polishing were often left until later than ideal | ☐ | ✅ | ☐ |
 | 6 | **Progressive mindset** | Iterated the API's response shapes based on integration feedback from the teammate building the frontend | ✅ | ☐ | ☐ |
 | 7 | **Communication** | Coordinated the API contract directly with two teammates and documented the endpoints so they didn't need to ask me for every detail | ✅ | ☐ | ☐ |
-| 8 | **Teamwork** | Owned one clear area (Course & Lesson API) inside a 3-person team, while staying aligned with the auth, frontend, and deployment work others were doing | ✅ | ☐ | ☐ |
+| 8 | **Teamwork** | Owned one clear area (Course & Lesson API) inside a 5-person team, while staying aligned with the auth, frontend, and deployment work others were doing | ✅ | ☐ | ☐ |
 | 9 | **Professional conduct** | Handled credentials, AWS resources, and public links carefully throughout development and testing | ✅ | ☐ | ☐ |
 | 10 | **Problem-solving skills** | Diagnosed and fixed data-consistency and integration bugs found while testing the Course/Lesson API against teammates' features | ☐ | ✅ | ☐ |
 | 11 | **Contribution to project** | Delivered the Course & Lesson backend API and authored the complete bilingual Hugo report documenting the whole system | ✅ | ☐ | ☐ |
