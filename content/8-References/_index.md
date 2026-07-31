@@ -15,6 +15,17 @@ This page collects the source code, live deployment links, and documentation ref
 - **EduCloud source repository:** [github.com/Funacius/EduCloud](https://github.com/Funacius/EduCloud)
 - **Live application:** [main.djk00b5qbck73.amplifyapp.com](https://main.djk00b5qbck73.amplifyapp.com/courses)
 
+### Demo Accounts
+
+Use these accounts to sign in and test the live application. They are development-only accounts, not real user data. The password is shared separately with the reviewer.
+
+| Role | Email |
+| --- | --- |
+| Student | `student@educloud.local` |
+| Instructor | `instructor@educloud.local` |
+| Admin | `admin@educloud.local` |
+| Admin (backup) | `admin2@educloud.local` |
+
 ### First Cloud AI Journey Learning Materials
 
 - **The First Cloud Journey portal:** [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/)

@@ -15,6 +15,17 @@ Trang này tổng hợp mã nguồn, các đường link triển khai thực t�
 - **Repository mã nguồn EduCloud:** [github.com/Funacius/EduCloud](https://github.com/Funacius/EduCloud)
 - **Ứng dụng đang chạy thật:** [main.djk00b5qbck73.amplifyapp.com](https://main.djk00b5qbck73.amplifyapp.com/courses)
 
+### Tài khoản demo
+
+Dùng các tài khoản dưới đây để đăng nhập và kiểm thử ứng dụng đang chạy thật. Đây là tài khoản chỉ dùng cho môi trường phát triển, không phải dữ liệu người dùng thật. Mật khẩu sẽ được gửi riêng cho người chấm bài.
+
+| Vai trò | Email |
+| --- | --- |
+| Student | `student@educloud.local` |
+| Instructor | `instructor@educloud.local` |
+| Admin | `admin@educloud.local` |
+| Admin (dự phòng) | `admin2@educloud.local` |
+
 ### Tài liệu học tập từ First Cloud AI Journey
 
 - **Cổng thông tin The First Cloud Journey:** [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com/)
