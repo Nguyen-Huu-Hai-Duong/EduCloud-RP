@@ -11,10 +11,10 @@ pre: "<b>1.8.</b>"
 
 ## Mục tiêu
 
-- Khóa phạm vi tính năng của EduCloud Lite, tránh thêm thay đổi rủi ro trước khi nộp bài.
-- Rà soát lại luồng Student, Instructor, các dịch vụ AWS đang chạy và toàn bộ public link.
-- Hoàn tất Hugo workshop song ngữ, ảnh minh chứng, sơ đồ kiến trúc và hồ sơ nộp bài.
-- Đảm bảo nộp workshop chậm nhất vào ngày 31/07/2026.
+- Cùng team khóa phạm vi tính năng của EduCloud Lite, tránh thêm thay đổi rủi ro trước khi nộp bài.
+- Hỗ trợ rà soát lại luồng Student, Instructor, các dịch vụ AWS đang chạy và toàn bộ public link.
+- Tự viết và hoàn thiện báo cáo Hugo workshop song ngữ, ảnh minh chứng và hồ sơ nộp bài của riêng mình.
+- Đảm bảo nộp báo cáo chậm nhất vào ngày 31/07/2026.
 
 ## Kiểm tra cuối project và AWS
 
@@ -30,8 +30,8 @@ pre: "<b>1.8.</b>"
 | Ngày | Công việc | Kết quả cần đạt |
 | --- | --- | --- |
 | 27/07 | Chỉnh lại mốc thời gian thực tập và phạm vi worklog; bổ sung nốt nội dung và minh chứng còn thiếu trong báo cáo. | Báo cáo phản ánh đúng kỳ thực tập thực tế 01/06-15/08. |
-| 28/07 | Chạy checklist production cho login, xem khóa học, ghi danh, học bài, làm assessment, cấp certificate và tạo nội dung phía Instructor. | Các luồng demo quan trọng chạy thông suốt trên website công khai. |
-| 29/07 | Rà lại sơ đồ kiến trúc AWS, ảnh chụp, đoạn code, hướng dẫn repository và tài khoản demo. | Mentor có thể hiểu và làm theo đúng nội dung nộp bài. |
+| 28/07 | Cùng team chạy checklist production cho login, xem khóa học, ghi danh, học bài, làm assessment, cấp certificate và tạo nội dung phía Instructor. | Các luồng demo quan trọng chạy thông suốt trên website công khai. |
+| 29/07 | Tự viết lại sơ đồ kiến trúc AWS, ảnh chụp, đoạn code, hướng dẫn repository và tài khoản demo cho báo cáo của mình. | Người chấm bài có thể hiểu và làm theo đúng nội dung nộp bài. |
 | 30/07 | Đọc lại toàn bộ trang tiếng Anh và tiếng Việt; kiểm tra điều hướng, dấu trang đã xem, hình ảnh, liên kết và giao diện responsive. | Hugo report nhất quán, không còn placeholder hay tài nguyên lỗi. |
 | 31/07 | Chuẩn bị gói nộp bài cuối cùng, gửi kèm website, repository mã nguồn, link workshop và các file PDF được chọn. | Nộp workshop đúng hạn. |
 

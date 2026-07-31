@@ -11,10 +11,10 @@ pre: "<b>1.8.</b>"
 
 ## Objectives
 
-- Lock the EduCloud Lite feature set and avoid risky changes ahead of submission.
-- Verify the live Student and Instructor journeys, AWS services, and public links all work.
-- Wrap up the bilingual Hugo workshop, evidence, architecture diagram, and submission package.
-- Get the workshop submitted no later than July 31, 2026.
+- Join the team in locking the EduCloud Lite feature set and avoiding risky changes ahead of submission.
+- Help verify the live Student and Instructor journeys, AWS services, and public links all work.
+- Write and finalize my own bilingual Hugo workshop report, evidence, and submission package.
+- Get my workshop report submitted no later than July 31, 2026.
 
 ## Final AWS and Project Review
 
@@ -30,8 +30,8 @@ pre: "<b>1.8.</b>"
 | Date | Activity | Target outcome |
 | --- | --- | --- |
 | Jul 27 | Fix the internship dates and worklog scope; fill in remaining report content and evidence. | Report matches the actual June 1-August 15 internship period. |
-| Jul 28 | Run through the production checklist: login, browsing courses, enrollment, learning, assessment, certificate, and Instructor authoring. | Critical demo journeys work end to end on the public website. |
-| Jul 29 | Review the AWS architecture, screenshots, code snippets, repository instructions, and demo-account guidance. | Submission is understandable and reproducible by the mentor. |
+| Jul 28 | Joined the team to run through the production checklist: login, browsing courses, enrollment, learning, assessment, certificate, and Instructor authoring. | Critical demo journeys work end to end on the public website. |
+| Jul 29 | Wrote up the AWS architecture, screenshots, code snippets, repository instructions, and demo-account guidance for my report. | Submission is understandable and reproducible by the reviewer. |
 | Jul 30 | Proofread the English and Vietnamese sites; check navigation, visited-page markers, images, links, and responsive layout. | Hugo report reads consistently, with no placeholders or broken assets. |
 | Jul 31 | Put together the final submission package and send the live website, source repository, workshop link, and selected PDF files. | Workshop submitted before the deadline. |
 

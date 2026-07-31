@@ -1,5 +1,5 @@
 ---
-title: "Tuần 4 - Xác thực cơ bản và phân quyền"
+title: "Tuần 4 - Đào sâu kiến thức AWS và chuẩn bị backend"
 menuTitle: "Tuần 4"
 weight: 4
 pre: "<b>1.4.</b>"
@@ -9,30 +9,29 @@ pre: "<b>1.4.</b>"
 
 ## Mục tiêu
 
-- Dựng luồng đăng ký, đăng nhập và phiên JWT cho môi trường phát triển.
-- Giới hạn API và giao diện theo đúng vai trò người dùng.
-- Giữ lớp xác thực đủ linh hoạt để sau này chuyển sang Cognito.
+- Tìm hiểu Cognito User Pool và cách xác thực sẽ hoạt động trong EduCloud Lite.
+- Xem lại thiết kế IAM Policy và nguyên tắc least privilege kỹ hơn.
+- Dựng môi trường phát triển backend cục bộ và lên kế hoạch code API cho tuần sau.
 
 ## Giai đoạn học AWS
 
 | Nội dung học | Nguồn tài liệu | Áp dụng vào EduCloud |
 | --- | --- | --- |
-| Cấu trúc IAM Policy, Role, cấp quyền tạm thời và nguyên tắc least privilege. | [Access Control with AWS IAM](https://000002.awsstudygroup.com/) | Áp dụng tư duy tương tự để dựng authorization helper và giới hạn API theo vai trò. |
-| User Pool, JWT và điểm khác biệt giữa xác thực người dùng với việc cấp quyền truy cập tài nguyên AWS. | [Amazon Cognito Across Sites](https://000141.awsstudygroup.com/) | Chuẩn bị sẵn kiến trúc để chuyển từ JWT local sang Cognito khi lên production. |
+| Cấu trúc IAM Policy và nguyên tắc cấp quyền tối thiểu. | [Access Control with AWS IAM](https://000002.awsstudygroup.com/) | Củng cố mô hình phân quyền dự kiến áp dụng cho các route API. |
+| User Pool, app client, JWT và sự khác biệt giữa xác thực và cấp quyền. | [Amazon Cognito Workshop](https://000141.awsstudygroup.com/) | Làm rõ cách danh tính (Cognito) và role ứng dụng sẽ được tách riêng trong thiết kế. |
 
 ## Công việc thực hiện
 
 | Ngày | Công việc | Kết quả |
 | --- | --- | --- |
-| 29/06 | Dựng user schema, cơ chế băm mật khẩu và API đăng ký/đăng nhập cho môi trường dev. | Tạo và xác thực được tài khoản local một cách an toàn. |
-| 30/06 | Tạo JWT mang theo user id, email, role và thời hạn; xử lý xác thực Bearer token. | Backend nhận diện đúng người dùng ở từng request. |
-| 01/07 | Dựng auth middleware và các authorization helper cho Student, Instructor, Admin. | Các API mutation chỉ được thực hiện bởi đúng vai trò. |
-| 02/07 | Tạo `AuthContext`, lưu session, tự động đính kèm token và `RequireRole` ở phía frontend. | Điều hướng và các trang riêng được bảo vệ đúng theo role. |
-| 03/07 | Thử nghiệm truy cập chéo vai trò; bổ sung phản hồi 401/403, security headers và giới hạn tần suất xác thực cơ bản. | Giảm nguy cơ leo thang quyền và lộ route nhạy cảm. |
+| 29/06 | Xem lại cấu trúc IAM Policy và nguyên tắc least privilege kỹ hơn. | Củng cố mô hình phân quyền dự kiến cho API. |
+| 30/06 | Học tài liệu Cognito Workshop để hiểu User Pool, app client và JWT. | Hiểu được cách xác thực và phân quyền sẽ tách biệt nhau sau này. |
+| 01/07 | Dựng môi trường phát triển Python/FastAPI cục bộ, đọc qua khung project ban đầu của team. | Sẵn sàng bắt đầu đóng góp code backend. |
+| 02/07 | Xem lại schema database dự kiến (users, courses, lessons) cùng team. | Thống nhất mô hình dữ liệu trước khi viết code API. |
+| 03/07 | Lên kế hoạch các endpoint Course và Lesson API sẽ xây dựng tuần sau. | Có danh sách việc rõ ràng để bước vào tuần 5. |
 
 ## Kết quả đạt được
 
-- Hoàn tất authentication cho môi trường dev với phiên JWT kéo dài 12 giờ.
-- Chức năng Instructor/Admin được bảo vệ ở cả frontend lẫn backend.
-- Đảm bảo đăng ký công khai không thể tự gán quyền Admin.
-- Giữ được lối đi rõ ràng để chuyển sang Cognito mà không phải đập đi làm lại toàn bộ ứng dụng.
+- Hiểu rõ sự khác biệt giữa xác thực (Cognito) và phân quyền ở tầng ứng dụng.
+- Chuẩn bị xong môi trường phát triển local để bắt đầu đóng góp code backend.
+- Lên kế hoạch cho phần Course và Lesson API sẽ làm ở tuần tiếp theo.

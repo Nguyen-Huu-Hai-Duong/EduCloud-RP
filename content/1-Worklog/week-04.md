@@ -1,5 +1,5 @@
 ---
-title: "Week 4 - Basic authentication and authorization"
+title: "Week 4 - Deepening AWS knowledge and backend preparation"
 menuTitle: "Week 4"
 weight: 4
 pre: "<b>1.4.</b>"
@@ -9,30 +9,29 @@ pre: "<b>1.4.</b>"
 
 ## Objectives
 
-- Build out development-mode registration, login, and JWT sessions.
-- Lock down APIs and pages according to user role.
-- Keep the authentication layer swappable so Cognito can be dropped in later.
+- Study Cognito User Pools and how authentication would eventually work in EduCloud Lite.
+- Review IAM policy design and least-privilege patterns in more depth.
+- Set up a local backend development environment and plan the API work for the following week.
 
 ## AWS Learning Phase
 
 | Learning content | Reference | Application in EduCloud |
 | --- | --- | --- |
-| How IAM policies are structured and the idea of least-privilege authorization. | [Access Control with AWS IAM](https://000002.awsstudygroup.com/) | Carried the same permission mindset into Admin, Instructor, and Student route protection. |
-| User Pools, app clients, JWTs, and the distinction between authentication and authorization. | [Amazon Cognito Workshop](https://000141.awsstudygroup.com/) | Set the authentication layer up so it could later move from local JWT to Cognito. |
+| How IAM policies are structured and the idea of least-privilege authorization. | [Access Control with AWS IAM](https://000002.awsstudygroup.com/) | Reinforced the permission model the team planned to apply to API routes. |
+| User Pools, app clients, JWTs, and the distinction between authentication and authorization. | [Amazon Cognito Workshop](https://000141.awsstudygroup.com/) | Clarified how identity (Cognito) and application roles would stay separate in the design. |
 
 ## Work completed
 
 | Date | Activity | Outcome |
 | --- | --- | --- |
-| Jun 29 | Added user schemas, password hashing, and development register/login endpoints. | Made local account authentication possible. |
-| Jun 30 | Started issuing JWTs carrying identity, role, and expiry, and parsed Bearer tokens on incoming requests. | Requests to protected endpoints could now be tied to a specific user. |
-| Jul 01 | Added auth middleware plus authorization helpers for the Student, Instructor, and Admin roles. | Mutating actions were now limited to the right roles. |
-| Jul 02 | Added `AuthContext`, session persistence, automatic token attachment, and `RequireRole` on the frontend. | Locked down frontend navigation and role-specific pages. |
-| Jul 03 | Tested cross-role access attempts and added 401/403 responses, security headers, and basic auth throttling. | Cut down the risk of privilege escalation. |
+| Jun 29 | Reviewed IAM policy structure and least-privilege authorization patterns in more depth. | Reinforced the permission model planned for the API. |
+| Jun 30 | Went through the Amazon Cognito workshop to understand User Pools, app clients, and JWTs. | Understood how authentication and authorization would later be kept separate. |
+| Jul 01 | Set up a local Python/FastAPI development environment and read through the team's early project skeleton. | Got ready to start contributing backend code. |
+| Jul 02 | Reviewed the planned database schema (users, courses, lessons) with the team. | Aligned on the data model before writing API code. |
+| Jul 03 | Planned out the Course and Lesson API endpoints to build the following week. | Had a clear task list going into week 5. |
 
 ## Achievements
 
-- Finished development-mode authentication with 12-hour JWT sessions.
-- Locked down Instructor and Admin functionality on both the frontend and backend.
-- Made sure public registration can't self-assign the Admin role.
-- Kept a clean migration path open for moving to Cognito later.
+- Understood the distinction between authentication (Cognito) and application-level authorization.
+- Got the local development environment ready to start contributing backend code.
+- Planned the Course and Lesson API work for the following week.
