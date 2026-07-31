@@ -21,10 +21,9 @@ Dùng các tài khoản dưới đây để đăng nhập và kiểm thử ứng
 
 | Vai trò | Email |
 | --- | --- |
-| Student | `student@educloud.local` |
-| Instructor | `instructor@educloud.local` |
-| Admin | `admin@educloud.local` |
-| Admin (dự phòng) | `admin2@educloud.local` |
+| Student | `student2@educloud.edu` |
+| Instructor | `instructor@educloud.edu` |
+| Admin | `admin3@educloud.local` |
 
 ### Tài liệu học tập từ First Cloud AI Journey
 

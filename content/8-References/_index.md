@@ -21,10 +21,9 @@ Use these accounts to sign in and test the live application. They are developmen
 
 | Role | Email |
 | --- | --- |
-| Student | `student@educloud.local` |
-| Instructor | `instructor@educloud.local` |
-| Admin | `admin@educloud.local` |
-| Admin (backup) | `admin2@educloud.local` |
+| Student | `student2@educloud.edu` |
+| Instructor | `instructor@educloud.edu` |
+| Admin | `admin3@educloud.local` |
 
 ### First Cloud AI Journey Learning Materials
 
