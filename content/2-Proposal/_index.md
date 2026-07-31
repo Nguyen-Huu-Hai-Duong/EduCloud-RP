@@ -20,6 +20,10 @@ AWS services in a way that is practical for an internship submission: clear
 architecture, managed authentication, private storage, HTTPS delivery, and
 cost-aware operations.
 
+EduCloud Lite is built by a **3-person team**. This report focuses on my part
+of the work — the **Course & Lesson backend API** — alongside the AWS services
+the team used for deployment, which I document throughout this report.
+
 ## 2. Problem Statement
 
 Small training teams and workshop organizers often need more than static

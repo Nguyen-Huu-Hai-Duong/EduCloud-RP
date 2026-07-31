@@ -8,33 +8,33 @@ pre: " <b> 6. </b> "
 
 # Self-Assessment
 
-Between **June 1, 2026** and **August 15, 2026**, I took part in the **First Cloud AI Journey (FCAJ)** program and used it as the driving force behind **EduCloud Lite**, a cloud-hosted learning management platform covering course authoring, lesson delivery, enrollment, progress tracking, final assessments, certificate issuance, authentication, private file storage, and a public AWS deployment.
+Between **June 1, 2026** and **August 15, 2026**, I took part in the **First Cloud AI Journey (FCAJ)** program as part of a **3-person team** building **EduCloud Lite**, a cloud-hosted learning management platform. My part of the build was the **Course & Lesson backend API**; my teammates covered the rest of the backend, the frontend, and the production AWS deployment. Alongside that, I learned the AWS services the team used (Cognito, S3, CloudFront, Elastic Beanstalk, CloudWatch) and wrote this bilingual Hugo report.
 
-Because most of the implementation work was carried out independently rather than as part of a daily standing team, the ratings below lean more heavily on delivery, technical depth, and documentation than on day-to-day collaboration.
+The ratings below reflect that scoped role: strong ownership of the API area I was responsible for, and closer collaboration with teammates than a solo project would involve.
 
 | No. | Criteria | Description | Good | Fair | Average |
 |---:|---|---|:---:|:---:|:---:|
-| 1 | **Professional knowledge & skills** | Put full-stack web development, backend API design, database modeling, authentication, and AWS deployment knowledge into practice | ✅ | ☐ | ☐ |
-| 2 | **Ability to learn** | Picked up new AWS services (Cognito, Elastic Beanstalk, S3, CloudFront, Amplify, Parameter Store) as the project required them | ☐ | ✅ | ☐ |
-| 3 | **Proactiveness** | Went looking for the next feature or fix rather than waiting to be assigned one, especially around the deployment pipeline | ✅ | ☐ | ☐ |
-| 4 | **Sense of responsibility** | Delivered the core features needed for a working public website and kept the submission package organized | ✅ | ☐ | ☐ |
-| 5 | **Discipline** | Followed the project roadmap and deployment steps, though evidence collection and report polishing were often left until later than ideal | ☐ | ✅ | ☐ |
-| 6 | **Progressive mindset** | Treated bugs found during testing as something to fix and learn from, iterating on Cognito, S3, CloudFront, Amplify, and the Hugo report | ☐ | ✅ | ☐ |
-| 7 | **Communication** | Tracked progress mainly through documentation and screenshots rather than frequent live discussion | ☐ | ✅ | ☐ |
-| 8 | **Teamwork** | Stayed aligned with the shared program direction and templates, but most build work happened solo | ☐ | ✅ | ☐ |
+| 1 | **Professional knowledge & skills** | Applied backend API design, database modeling, and testing to the Course & Lesson API; built a working knowledge of the AWS services the team used | ✅ | ☐ | ☐ |
+| 2 | **Ability to learn** | Learned Cognito, S3, CloudFront, Elastic Beanstalk, and CloudWatch mostly by studying the material and following the team's deployment rather than configuring them hands-on myself | ☐ | ✅ | ☐ |
+| 3 | **Proactiveness** | Tested my API against features teammates were building and flagged/fixed integration issues before they were asked about | ✅ | ☐ | ☐ |
+| 4 | **Sense of responsibility** | Delivered a tested, documented Course & Lesson API on schedule and completed the full bilingual report | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Kept up with the API work on schedule, though evidence collection and report polishing were often left until later than ideal | ☐ | ✅ | ☐ |
+| 6 | **Progressive mindset** | Iterated the API's response shapes based on integration feedback from the teammate building the frontend | ✅ | ☐ | ☐ |
+| 7 | **Communication** | Coordinated the API contract directly with two teammates and documented the endpoints so they didn't need to ask me for every detail | ✅ | ☐ | ☐ |
+| 8 | **Teamwork** | Owned one clear area (Course & Lesson API) inside a 3-person team, while staying aligned with the auth, frontend, and deployment work others were doing | ✅ | ☐ | ☐ |
 | 9 | **Professional conduct** | Handled credentials, AWS resources, and public links carefully throughout development and testing | ✅ | ☐ | ☐ |
-| 10 | **Problem-solving skills** | Traced and resolved issues spanning SQLAlchemy, Cognito, Supabase, Elastic Beanstalk, CloudFront, S3, CORS, and Amplify routing | ☐ | ✅ | ☐ |
-| 11 | **Contribution to project** | Shipped a working EduCloud Lite deployment, its architecture, the workshop guide, and the supporting blogs/events/report pages | ✅ | ☐ | ☐ |
-| 12 | **Overall** | Met the main goal of the internship: building and deploying a cloud-based learning platform with a documented process behind it | ✅ | ☐ | ☐ |
+| 10 | **Problem-solving skills** | Diagnosed and fixed data-consistency and integration bugs found while testing the Course/Lesson API against teammates' features | ☐ | ✅ | ☐ |
+| 11 | **Contribution to project** | Delivered the Course & Lesson backend API and authored the complete bilingual Hugo report documenting the whole system | ✅ | ☐ | ☐ |
+| 12 | **Overall** | Met the internship goal: owning a real backend component inside a team project and producing a complete, documented report | ✅ | ☐ | ☐ |
 
 ## Where I Can Improve
 
-- Check in with the team more often instead of defaulting to solo work and written updates.
-- Capture evidence — AWS console screenshots, event photos, deployment checks — as I go, rather than reconstructing it near the deadline.
-- Add Infrastructure as Code so the AWS setup doesn't rely on manual console steps to reproduce.
-- Add automated end-to-end tests for login, course publishing, enrollment, assessments, certificates, and media loading.
-- Round out production readiness with proper monitoring, alarms, a backup strategy, and tighter cost controls.
+- Get more hands-on with the AWS deployment steps myself instead of mostly following along with what teammates configured.
+- Capture evidence — screenshots, test results — as I go, rather than reconstructing it near the deadline.
+- Add automated tests for the Course & Lesson API earlier in the process instead of mostly at the end of week 5.
+- Push for a shared integration environment earlier, so API contract mismatches with the frontend surface sooner.
+- Spend more time understanding the parts of the system I didn't build (auth, assessments, certificates) so I can speak to the whole product, not just my piece.
 
 ## Overall Evaluation
 
-Looking back, I'd rate my own performance as solid. The project moved from a local full-stack prototype to a publicly reachable, cloud-hosted application with real authentication, backend APIs, private storage, a managed database, and a structured bilingual report to go with it. The part I most want to work on isn't the engineering itself — it's communicating progress and gathering evidence more consistently as the work happens, instead of catching up on both right before a deadline.
+Looking back, I'd rate my own performance as solid within the scope I owned. I delivered a working, tested Course & Lesson API that the rest of the team built on, learned the AWS services behind the deployment well enough to document them accurately, and produced a complete bilingual report covering the whole project. The part I most want to work on is depth outside my own area — getting more hands-on with the AWS console work my teammates did, rather than mostly observing and documenting it after the fact.

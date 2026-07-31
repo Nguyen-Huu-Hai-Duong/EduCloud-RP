@@ -8,7 +8,7 @@ pre: " <b> 7. </b> "
 
 # Chia sẻ, đóng góp ý kiến
 
-Đây là những chia sẻ chân thật của mình sau quãng thời gian tham gia chương trình First Cloud AI Journey (FCAJ), song song với việc xây dựng và đưa EduCloud Lite vào hoạt động thực tế.
+Đây là những chia sẻ chân thật của mình sau quãng thời gian tham gia chương trình First Cloud AI Journey (FCAJ), song song với việc làm thành viên trong nhóm 3 người xây dựng và đưa EduCloud Lite vào hoạt động thực tế.
 
 ### Đánh giá chung
 
@@ -26,7 +26,7 @@ Những đầu việc mình đảm nhận bám khá sát chuyên ngành đang th
 
 **4. Cơ hội học hỏi và phát triển kỹ năng**
 
-Đây là giai đoạn mà các dịch vụ AWS không còn nằm rời rạc mỗi nơi một kiểu, mà ghép lại thành một hệ thống vận hành thống nhất. Mình đã tự tay deploy FastAPI lên Elastic Beanstalk, host frontend React qua Amplify, giao phần xác thực cho Cognito, cất secret trong Parameter Store, phân phối file riêng tư bằng S3 kết hợp CloudFront, và nối backend với database Supabase PostgreSQL đã được quản lý sẵn. Có lẽ bước tiến kỹ năng lớn nhất của mình nằm ở việc xử lý những lỗi chỉ lộ ra sau khi deploy thật, chứ không phải khi còn chạy ở local.
+Đây là giai đoạn mà các dịch vụ AWS không còn nằm rời rạc mỗi nơi một kiểu, mà ghép lại thành một hệ thống vận hành thống nhất. Mình xây dựng Course & Lesson backend API và kết nối nó với database Supabase PostgreSQL quản lý sẵn, trong khi theo sát khi đồng đội tích hợp Cognito, deploy backend lên Elastic Beanstalk và phân phối file riêng tư qua S3 kết hợp CloudFront. Chứng kiến một lần deploy thật làm lộ ra những lỗi chưa từng thấy khi chạy local — rồi tìm hiểu lý do — có lẽ là bước tiến kỹ năng lớn nhất của mình, kể cả với những phần mình không trực tiếp deploy.
 
 **5. Văn hóa chương trình và tinh thần học tập**
 

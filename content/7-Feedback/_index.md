@@ -8,7 +8,7 @@ pre: " <b> 7. </b> "
 
 # Sharing and Feedback
 
-Here are my honest reflections from my time in the First Cloud AI Journey (FCAJ) program, alongside building and shipping EduCloud Lite into a real, working application.
+Here are my honest reflections from my time in the First Cloud AI Journey (FCAJ) program, alongside working as part of a 3-person team building and shipping EduCloud Lite into a real, working application.
 
 ### Overall Evaluation
 
@@ -26,7 +26,7 @@ The work I was assigned lined up closely with my major. On top of that, attendin
 
 **4. Learning & Skill Development Opportunities**
 
-This internship is where the individual AWS services stopped being separate topics and became one connected system. I deployed FastAPI on Elastic Beanstalk, hosted the React frontend on Amplify, handed identity over to Cognito, kept secrets in Parameter Store, served private files through S3 and CloudFront, and connected the backend to a managed Supabase PostgreSQL database. Debugging issues that only surfaced after a real deployment — not while running locally — was probably my single biggest skill jump.
+This internship is where the individual AWS services stopped being separate topics and became one connected system. I built the Course & Lesson backend API and connected it to a managed Supabase PostgreSQL database, while following closely as my teammates wired the app into Cognito, deployed the backend on Elastic Beanstalk, and served private files through S3 and CloudFront. Watching a real deployment surface issues that never showed up locally — and digging into why — was probably my single biggest skill jump, even for the parts I wasn't the one deploying.
 
 **5. Program Culture & Learning Spirit**
 

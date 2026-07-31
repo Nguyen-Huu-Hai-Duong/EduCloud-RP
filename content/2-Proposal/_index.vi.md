@@ -19,6 +19,10 @@ Dự án tập trung xây dựng một ứng dụng web hoàn chỉnh và triể
 dịch vụ AWS theo hướng phù hợp với bài thực tập: kiến trúc rõ ràng, xác thực
 được quản lý, lưu trữ private, phân phối qua HTTPS và kiểm soát chi phí.
 
+EduCloud Lite được xây dựng bởi **nhóm 3 người**. Báo cáo này tập trung vào
+phần việc của mình — **Course & Lesson API phía backend** — cùng với các dịch
+vụ AWS mà team dùng để triển khai, được mình ghi lại xuyên suốt báo cáo.
+
 ## 2. Vấn đề cần giải quyết
 
 Các nhóm đào tạo nhỏ hoặc workshop thường cần nhiều hơn một trang tài liệu tĩnh
