@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.3.</b>"
 ---
 
-# Cấu hình CloudFront origins
-
 Tạo một CloudFront distribution với hai origin:
 
 - Elastic Beanstalk custom origin cho default/API behavior.

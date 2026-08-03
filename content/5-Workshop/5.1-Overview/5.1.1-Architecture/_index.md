@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.1.1.</b>"
 ---
 
-# Architecture
-
 ![EduCloud AWS production architecture](/images/educloud-aws-architecture.png)
 
 EduCloud Lite uses a small managed AWS architecture:

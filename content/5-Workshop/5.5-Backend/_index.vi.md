@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.5.</b>"
 ---
 
-# Deploy FastAPI bằng Elastic Beanstalk
-
 Elastic Beanstalk chạy FastAPI backend và là lựa chọn managed deployment đơn
 giản cho workshop.
 

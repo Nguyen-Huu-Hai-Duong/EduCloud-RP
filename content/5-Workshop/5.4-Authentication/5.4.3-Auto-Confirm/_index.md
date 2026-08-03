@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.4.3.</b>"
 ---
 
-# Optional Auto Confirm Lambda
-
 The repository contains:
 
 ```text

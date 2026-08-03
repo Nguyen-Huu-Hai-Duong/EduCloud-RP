@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.3.</b>"
 ---
 
-# Configure CloudFront Origins
-
 Create one CloudFront distribution with two origins:
 
 - Elastic Beanstalk custom origin for the default/API behavior.

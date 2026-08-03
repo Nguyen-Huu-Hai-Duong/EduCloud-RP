@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.4.</b>"
 ---
 
-# Authentication with Amazon Cognito
-
 Cognito manages user identity and password recovery. EduCloud Lite stores the
 application role in PostgreSQL, so authentication and authorization remain
 separate.

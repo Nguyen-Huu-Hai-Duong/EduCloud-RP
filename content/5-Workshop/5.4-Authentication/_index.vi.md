@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.4.</b>"
 ---
 
-# Xác thực bằng Amazon Cognito
-
 Cognito quản lý danh tính và password recovery. EduCloud Lite lưu role ứng dụng
 trong PostgreSQL, vì vậy authentication và authorization được tách riêng.
 

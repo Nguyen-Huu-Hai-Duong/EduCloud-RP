@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.1.2.</b>"
 ---
 
-# Request Flow
-
 ## Main flows
 
 1. GitHub pushes to `main` trigger an Amplify build.

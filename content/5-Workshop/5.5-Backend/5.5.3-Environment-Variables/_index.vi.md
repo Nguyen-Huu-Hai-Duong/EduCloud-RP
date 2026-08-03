@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.5.3.</b>"
 ---
 
-# Cấu hình environment variables
-
 Cấu hình hai giá trị secret-backed từ Parameter Store và các setting plain-text:
 
 | Name | Source / example |

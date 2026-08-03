@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.4.2.</b>"
 ---
 
-# Cấu hình App Client
-
 Tạo public app client cho React frontend:
 
 - App type: public client.

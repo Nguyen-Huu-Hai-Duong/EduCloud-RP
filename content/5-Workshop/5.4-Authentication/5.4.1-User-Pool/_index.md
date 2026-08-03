@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.4.1.</b>"
 ---
 
-# Create a User Pool
-
 Create a Cognito User Pool in `ap-southeast-1`:
 
 - Sign-in option: email.

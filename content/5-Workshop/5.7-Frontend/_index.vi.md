@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.7.</b>"
 ---
 
-# Deploy React bằng Amplify Hosting
-
 Amplify Hosting build React/Vite frontend từ GitHub và publish SPA thành website
 public.
 

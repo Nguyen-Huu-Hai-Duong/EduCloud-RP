@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.8.</b>"
 ---
 
-# Kiểm tra và xử lý lỗi
-
 Kiểm tra lần lượt: đăng nhập Cognito, phân quyền, tạo khóa học miễn phí, upload
 thumbnail, multipart video và tài liệu, tạo final assessment, publish, học bằng
 Student, gửi review, mở chứng chỉ, gửi Instructor application và duyệt bằng

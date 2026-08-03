@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.</b>"
 ---
 
-# Private S3 Storage and CloudFront Delivery
-
 This module moves course files from local storage to a private S3 bucket and
 serves them through CloudFront.
 

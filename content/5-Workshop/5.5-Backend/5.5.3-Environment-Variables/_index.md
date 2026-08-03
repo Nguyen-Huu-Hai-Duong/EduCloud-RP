@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.5.3.</b>"
 ---
 
-# Configure Environment Variables
-
 Configure the two secret-backed values from Parameter Store and the remaining
 plain-text settings:
 

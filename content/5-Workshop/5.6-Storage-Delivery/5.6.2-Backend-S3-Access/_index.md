@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.2.</b>"
 ---
 
-# Grant Backend S3 Access
-
 Attach a least-privilege policy to the Elastic Beanstalk EC2 instance role:
 
 ```json

@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.2.</b>"
 ---
 
-# Prerequisites
-
 ## Accounts
 
 - An AWS account with permission to use IAM, Cognito, Lambda, Systems Manager,

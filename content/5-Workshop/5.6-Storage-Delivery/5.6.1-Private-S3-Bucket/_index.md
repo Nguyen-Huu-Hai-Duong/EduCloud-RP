@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.1.</b>"
 ---
 
-# Create a Private S3 Bucket
-
 Create a separate upload bucket:
 
 - Bucket type: General purpose.

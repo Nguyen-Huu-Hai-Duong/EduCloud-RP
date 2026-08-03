@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.5.2.</b>"
 ---
 
-# Tạo Elastic Beanstalk
-
 Tạo Elastic Beanstalk environment:
 
 - Tier: Web server environment.

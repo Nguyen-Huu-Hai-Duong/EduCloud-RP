@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.3.2.</b>"
 ---
 
-# Create the Supabase Connection
-
 1. Create a Supabase project.
 2. Open **Connect**.
 3. Choose **Direct** and select **Session Pooler**.

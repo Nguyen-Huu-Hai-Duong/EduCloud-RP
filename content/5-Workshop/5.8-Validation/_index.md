@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.8.</b>"
 ---
 
-# Validation and Troubleshooting
-
 ## Smoke test
 
 1. Open the Amplify URL in a private browser window.

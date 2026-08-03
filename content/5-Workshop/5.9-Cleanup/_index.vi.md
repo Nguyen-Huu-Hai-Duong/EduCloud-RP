@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.9.</b>"
 ---
 
-# Dọn dẹp tài nguyên
-
 Chỉ xóa tài nguyên sau khi giáo viên đã xem website và đã lưu đầy đủ minh chứng.
 
 Thứ tự đề xuất:

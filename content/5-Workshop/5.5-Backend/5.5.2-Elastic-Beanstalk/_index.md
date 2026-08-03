@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.5.2.</b>"
 ---
 
-# Create Elastic Beanstalk
-
 Create an Elastic Beanstalk environment:
 
 - Tier: Web server environment.

@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.1.2.</b>"
 ---
 
-# Luồng request
-
 ## Các luồng chính
 
 1. Push lên nhánh `main` kích hoạt Amplify build.

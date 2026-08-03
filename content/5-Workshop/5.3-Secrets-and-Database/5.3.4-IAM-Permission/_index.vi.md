@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.3.4.</b>"
 ---
 
-# Cấp quyền IAM
-
 Attach inline policy vào Elastic Beanstalk EC2 instance role. Nếu dùng lại đoạn
 này, thay `ACCOUNT_ID` bằng account ID của bạn:
 

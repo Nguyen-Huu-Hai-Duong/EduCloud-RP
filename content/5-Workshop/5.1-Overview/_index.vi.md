@@ -6,8 +6,6 @@ disableTitle: true
 pre: "<b>5.1.</b>"
 ---
 
-# GIỚI THIỆU
-
 Phần này trình bày bối cảnh, bài toán và kiến trúc triển khai EduCloud Lite trước khi tạo tài nguyên AWS. Nội dung giúp các bước thực hành phía sau liên kết thành một giải pháp hoàn chỉnh thay vì chỉ là các thao tác rời rạc trên console.
 
 ## Bối cảnh dự án và bài toán cần giải quyết

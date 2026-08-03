@@ -5,8 +5,6 @@ chapter: true
 pre: "<b>5.</b>"
 ---
 
-# EduCloud Lite – Nền tảng học tập trên AWS
-
 Chào mừng bạn đến với workshop kỹ thuật của **EduCloud Lite**, một nền tảng
 quản lý học tập trên cloud được xây dựng bằng React, FastAPI, Amazon Cognito,
 Amazon S3, CloudFront, AWS Amplify, Elastic Beanstalk và cơ sở dữ liệu

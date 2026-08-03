@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.2.</b>"
 ---
 
-# Chuẩn bị
-
 Cần có AWS account, GitHub repository, Supabase/PostgreSQL database, Git, Python
 3.11+, Node.js 18+, AWS CLI v2 và PowerShell.
 

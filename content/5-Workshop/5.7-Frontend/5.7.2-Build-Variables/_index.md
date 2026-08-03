@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.7.2.</b>"
 ---
 
-# Configure Build Variables
-
 Add these Amplify environment variables:
 
 | Key | Value |

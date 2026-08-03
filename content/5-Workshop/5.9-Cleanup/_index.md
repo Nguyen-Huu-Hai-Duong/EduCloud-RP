@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.9.</b>"
 ---
 
-# Cleanup
-
 Delete resources only after the instructor has reviewed the live project and all
 required screenshots have been saved.
 

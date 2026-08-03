@@ -5,8 +5,6 @@ chapter: true
 pre: "<b>5.</b>"
 ---
 
-# EduCloud Lite – AWS Cloud Learning Platform
-
 Welcome to the technical workshop for **EduCloud Lite**, a cloud-based learning
 management platform built with React, FastAPI, Amazon Cognito, Amazon S3,
 CloudFront, AWS Amplify, Elastic Beanstalk, and a managed PostgreSQL database.

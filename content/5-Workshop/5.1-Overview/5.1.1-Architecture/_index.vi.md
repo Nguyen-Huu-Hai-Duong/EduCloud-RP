@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.1.1.</b>"
 ---
 
-# Kiến trúc hệ thống
-
 ![Kiến trúc AWS EduCloud](/images/educloud-aws-architecture.png)
 
 EduCloud Lite sử dụng một kiến trúc AWS gọn để phục vụ bài nộp:

@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.7.3.</b>"
 ---
 
-# Add SPA Rewrite
-
 Add a `200` rewrite that serves `/index.html` for application routes while
 excluding real static assets. This allows URLs such as `/login`, `/profile`, and
 `/instructor` to load after refresh.

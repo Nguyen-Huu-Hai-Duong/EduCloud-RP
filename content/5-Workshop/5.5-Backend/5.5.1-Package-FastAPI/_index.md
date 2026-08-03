@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.5.1.</b>"
 ---
 
-# Package FastAPI
-
 Create the ZIP from inside `backend` so `main.py`, `requirements.txt`, `Procfile`,
 and `app/` are at the archive root:
 

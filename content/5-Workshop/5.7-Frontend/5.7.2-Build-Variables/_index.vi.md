@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.7.2.</b>"
 ---
 
-# Cấu hình build variables
-
 Thêm các Amplify environment variables:
 
 | Key | Value |

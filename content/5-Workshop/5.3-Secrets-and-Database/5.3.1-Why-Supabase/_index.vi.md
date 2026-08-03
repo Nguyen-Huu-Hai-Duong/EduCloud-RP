@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.3.1.</b>"
 ---
 
-# Vì sao dùng Supabase thay vì Aurora PostgreSQL?
-
 EduCloud Lite là project thực tập cần triển khai nhanh, chi phí thấp và dễ để
 người khác làm theo. Vì vậy Supabase PostgreSQL được chọn cho bản nộp đầu tiên.
 

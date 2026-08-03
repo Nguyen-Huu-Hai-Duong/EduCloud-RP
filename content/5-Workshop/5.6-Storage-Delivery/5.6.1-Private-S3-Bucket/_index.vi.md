@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.1.</b>"
 ---
 
-# Tạo S3 private bucket
-
 Tạo upload bucket riêng:
 
 - Bucket type: General purpose.

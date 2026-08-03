@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.7.1.</b>"
 ---
 
-# Connect GitHub to Amplify
-
 In Amplify Hosting:
 
 1. Choose GitHub.

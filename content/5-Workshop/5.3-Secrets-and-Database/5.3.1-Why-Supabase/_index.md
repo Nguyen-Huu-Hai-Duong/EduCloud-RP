@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.3.1.</b>"
 ---
 
-# Why Supabase instead of Aurora PostgreSQL?
-
 EduCloud Lite is an internship project that prioritizes fast setup, low cost,
 and reproducibility for other students. For this version, Supabase PostgreSQL is
 a better fit than provisioning Aurora PostgreSQL.

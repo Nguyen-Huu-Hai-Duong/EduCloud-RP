@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.3.3.</b>"
 ---
 
-# Store Secrets in Parameter Store
-
 Generate a JWT secret:
 
 ```powershell

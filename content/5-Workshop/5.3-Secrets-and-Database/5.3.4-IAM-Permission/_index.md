@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.3.4.</b>"
 ---
 
-# Grant IAM Permission
-
 Attach an inline policy to the Elastic Beanstalk EC2 instance role. Replace the
 account ID if you reuse this snippet:
 

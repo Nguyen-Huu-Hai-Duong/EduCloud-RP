@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.4.</b>"
 ---
 
-# Thêm OAC bucket policy
-
 Với S3 origin, copy bucket policy do CloudFront OAC tạo và dán vào S3 bucket
 policy. Vẫn giữ **Block Public Access** bật.
 

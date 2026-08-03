@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.</b>"
 ---
 
-# S3 private và CloudFront
-
 Module này chuyển file khóa học từ local storage sang S3 private bucket và phân
 phối file qua CloudFront.
 

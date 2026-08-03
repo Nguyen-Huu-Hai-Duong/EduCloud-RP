@@ -6,8 +6,6 @@ disableTitle: true
 pre: "<b>5.1.</b>"
 ---
 
-# INTRODUCTION
-
 This introduction explains the EduCloud Lite deployment architecture before any AWS resources are created. It provides the project context, the problems the platform solves, and the technical decisions that connect the later hands-on steps.
 
 ## Project context and problem statement

@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.6.2.</b>"
 ---
 
-# Cấp quyền S3 cho backend
-
 Attach least-privilege policy vào Elastic Beanstalk EC2 instance role:
 
 ```json

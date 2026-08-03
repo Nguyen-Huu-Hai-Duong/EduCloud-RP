@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.5.1.</b>"
 ---
 
-# Đóng gói FastAPI
-
 Tạo ZIP từ trong thư mục `backend` để `main.py`, `requirements.txt`, `Procfile`
 và `app/` nằm ngay ở root của file ZIP:
 

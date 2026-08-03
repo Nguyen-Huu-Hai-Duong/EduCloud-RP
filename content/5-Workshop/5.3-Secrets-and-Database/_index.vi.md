@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.3.</b>"
 ---
 
-# Cấu hình secret và database
-
 EduCloud Lite cần PostgreSQL để lưu users, courses, lessons, learning progress,
 assessments và certificates. Backend đọc database URL và JWT secret từ AWS
 Systems Manager Parameter Store thay vì lưu secret trực tiếp trong source code.

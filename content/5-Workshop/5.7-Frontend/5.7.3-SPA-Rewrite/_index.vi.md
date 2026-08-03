@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.7.3.</b>"
 ---
 
-# Thêm SPA rewrite
-
 Thêm rewrite `200` để serve `/index.html` cho application routes nhưng vẫn loại
 trừ static assets thật. Nhờ vậy các route như `/login`, `/profile`, `/instructor`
 không bị 404 khi refresh.

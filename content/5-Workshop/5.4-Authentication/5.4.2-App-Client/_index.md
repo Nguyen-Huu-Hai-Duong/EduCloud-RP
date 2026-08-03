@@ -5,8 +5,6 @@ chapter: false
 pre: "<b>5.4.2.</b>"
 ---
 
-# Configure the App Client
-
 Create a public app client for the React frontend:
 
 - App type: public client.
