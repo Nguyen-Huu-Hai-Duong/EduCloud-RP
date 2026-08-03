@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 8. </b> "
 ---
 
-# References
-
 This page collects the source code, live deployment links, and documentation referenced throughout this report.
 
 ### Source Code & Live Deployment

@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-# Tự đánh giá
-
 Từ **01/06/2026** đến **15/08/2026**, tôi tham gia chương trình **First Cloud AI Journey (FCAJ)** với vai trò thành viên trong **nhóm 5 người** xây dựng **EduCloud Lite** — nền tảng quản lý học tập chạy trên cloud. Phần mình phụ trách trong quá trình xây dựng là **Course & Lesson API phía backend**; các đồng đội phụ trách phần backend còn lại, frontend và triển khai AWS production. Song song đó, tôi học các dịch vụ AWS mà team sử dụng (Cognito, S3, CloudFront, Elastic Beanstalk, CloudWatch) và viết báo cáo Hugo song ngữ này.
 
 Các mức đánh giá dưới đây phản ánh đúng phạm vi vai trò đó: làm chủ tốt phần API mình phụ trách, đồng thời phối hợp với đồng đội nhiều hơn so với một project làm một mình.

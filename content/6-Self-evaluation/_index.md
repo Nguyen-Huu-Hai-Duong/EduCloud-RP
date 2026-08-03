@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-# Self-Assessment
-
 Between **June 1, 2026** and **August 15, 2026**, I took part in the **First Cloud AI Journey (FCAJ)** program as part of a **5-person team** building **EduCloud Lite**, a cloud-hosted learning management platform. My part of the build was the **Course & Lesson backend API**; my teammates covered the rest of the backend, the frontend, and the production AWS deployment. Alongside that, I learned the AWS services the team used (Cognito, S3, CloudFront, Elastic Beanstalk, CloudWatch) and wrote this bilingual Hugo report.
 
 The ratings below reflect that scoped role: strong ownership of the API area I was responsible for, and closer collaboration with teammates than a solo project would involve.

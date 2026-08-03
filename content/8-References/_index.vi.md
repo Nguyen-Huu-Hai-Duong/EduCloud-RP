@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 8. </b> "
 ---
 
-# Tài liệu tham khảo
-
 Trang này tổng hợp mã nguồn, các đường link triển khai thực tế và tài liệu đã được tham khảo xuyên suốt báo cáo này.
 
 ### Mã nguồn & triển khai thực tế

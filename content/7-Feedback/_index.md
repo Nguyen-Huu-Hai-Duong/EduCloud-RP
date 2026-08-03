@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-# Sharing and Feedback
-
 Here are my honest reflections from my time in the First Cloud AI Journey (FCAJ) program, alongside working as part of a 5-person team building and shipping EduCloud Lite into a real, working application.
 
 ### Overall Evaluation
