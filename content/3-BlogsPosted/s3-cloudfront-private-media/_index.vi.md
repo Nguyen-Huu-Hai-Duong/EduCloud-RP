@@ -5,8 +5,6 @@ weight: 2
 pre: "<b>3.2.</b>"
 ---
 
-## Phân phối tài nguyên khóa học private với Amazon S3 và CloudFront
-
 Trong quá trình triển khai EduCloud Lite, một vấn đề quan trọng là cách lưu trữ
 và phân phối tài nguyên khóa học. Thumbnail, tài liệu và video cần tải nhanh cho
 người học, nhưng bucket lưu trữ không nên được mở public trực tiếp.

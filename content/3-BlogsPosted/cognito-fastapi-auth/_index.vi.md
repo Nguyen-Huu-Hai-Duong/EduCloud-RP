@@ -5,8 +5,6 @@ weight: 3
 pre: "<b>3.3.</b>"
 ---
 
-## Thiết kế xác thực với Amazon Cognito và FastAPI
-
 Khi EduCloud Lite chuyển từ môi trường local sang production, authentication là
 một trong những phần thay đổi nhiều nhất. Tài khoản demo local rất tiện trong
 giai đoạn phát triển, nhưng một website public cần luồng định danh an toàn hơn

@@ -5,8 +5,6 @@ weight: 1
 pre: "<b>3.1.</b>"
 ---
 
-## Triển khai EduCloud Lite trên AWS: Từ LMS local đến website public
-
 Xin chào AWS Study Group VN! Trong kỳ thực tập First Cloud AI Journey, tôi xây
 dựng **EduCloud Lite**, một nền tảng quản lý học tập gọn nhẹ hỗ trợ publish
 khóa học, ghi danh sinh viên, theo dõi tiến độ bài học, làm final assessment và

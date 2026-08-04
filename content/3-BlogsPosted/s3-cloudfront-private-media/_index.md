@@ -5,8 +5,6 @@ weight: 2
 pre: "<b>3.2.</b>"
 ---
 
-## Private Course Media Delivery with Amazon S3 and CloudFront
-
 Hello AWS Study Group VN! While deploying EduCloud Lite, one of the most
 important problems I had to solve was course media delivery. In a learning
 platform, thumbnails, documents, and videos should load quickly for students,

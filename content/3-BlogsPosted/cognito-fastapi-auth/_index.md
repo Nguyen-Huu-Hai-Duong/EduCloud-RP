@@ -5,8 +5,6 @@ weight: 3
 pre: "<b>3.3.</b>"
 ---
 
-## Authentication Design with Amazon Cognito and FastAPI
-
 Hello AWS Study Group VN! Authentication was one of the biggest changes when
 EduCloud Lite moved from local testing to production. Local demo accounts were
 useful during development, but a public website needs a safer identity flow for

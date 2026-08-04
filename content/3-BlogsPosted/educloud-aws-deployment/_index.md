@@ -5,8 +5,6 @@ weight: 1
 pre: "<b>3.1.</b>"
 ---
 
-## Deploying EduCloud Lite on AWS: From Local LMS to Public Website
-
 Hello AWS Study Group VN! During my First Cloud AI Journey internship, I built
 **EduCloud Lite**, a lightweight learning management platform that supports
 course publishing, student enrollment, lesson progress tracking, final
