@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Báo cáo tóm tắt: "FCAJ x Agentic AI Build Week 2026 — Trao giải Hackathon và trình diễn dự án Agentic AI"
-
 ### Thông tin sự kiện
 
 - **Tên sự kiện:** FCAJ x Agentic AI Build Week 2026 — Trao giải Hackathon và trình diễn dự án

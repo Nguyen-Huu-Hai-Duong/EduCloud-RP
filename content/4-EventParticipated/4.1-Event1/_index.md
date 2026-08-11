@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: "FCAJ x Agentic AI Build Week 2026 — Hackathon Awards and Project Showcase"
-
 ### Event Information
 
 - **Event name:** FCAJ x Agentic AI Build Week 2026 — Hackathon Awards and Project Showcase
