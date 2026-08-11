@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Internship Report</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/</link><description>Recent content on Internship Report</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1 - Joining the internship program</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-01/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> June 5, 2026 - June 12, 2026&lt;/p>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;ul>
+&lt;li>Finish onboarding for the First Cloud AI Journey internship.&lt;/li>
+&lt;li>Get familiar with the program&amp;rsquo;s rules, learning roadmap, reporting format, and evidence requirements.&lt;/li>
+&lt;li>Set up accounts, tooling, and a weekly progress-tracking approach for the internship.&lt;/li>
+&lt;/ul>
+&lt;h2 id="program-learning-phase">Program Learning Phase&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Phase&lt;/th>
+ &lt;th style="text-align: left">Learning content&lt;/th>
+ &lt;th style="text-align: left">Reference&lt;/th>
+ &lt;th style="text-align: left">Result&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Kickoff&lt;/td>
+ &lt;td style="text-align: left">Looked into the First Cloud Journey&amp;rsquo;s goals, AWS topic groupings, and its workshop-based learning approach.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">The First Cloud Journey&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Gained a clear picture of the overall learning path and how to locate suitable workshops.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Preparation&lt;/td>
+ &lt;td style="text-align: left">Went through the internship&amp;rsquo;s requirements, report structure, worklog expectations, and how evidence should be collected.&lt;/td>
+ &lt;td style="text-align: left">Internship guidelines and report template&lt;/td>
+ &lt;td style="text-align: left">Put together a checklist of materials to finish over the course of the internship.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="work-completed">Work completed&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Activity&lt;/th>
+ &lt;th style="text-align: left">Outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 05&lt;/td>
+ &lt;td style="text-align: left">Got the internship details and formally joined the First Cloud AI Journey program.&lt;/td>
+ &lt;td style="text-align: left">Nailed down the scope, internship period, and point of contact.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 08&lt;/td>
+ &lt;td style="text-align: left">Went through the program&amp;rsquo;s rules, reporting requirements, and evaluation criteria.&lt;/td>
+ &lt;td style="text-align: left">Drew up the list of required submissions and worklog rules.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 09&lt;/td>
+ &lt;td style="text-align: left">Browsed the Cloud Journey portal and how its workshops are organized by AWS service area.&lt;/td>
+ &lt;td style="text-align: left">Figured out how to pick references that fit the project&amp;rsquo;s needs.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 10&lt;/td>
+ &lt;td style="text-align: left">Set up the working environment: GitHub, VS Code, Draw.io, and folders for documentation.&lt;/td>
+ &lt;td style="text-align: left">Ended up with a consistent workspace for source code and report material.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 11 - Jun 12&lt;/td>
+ &lt;td style="text-align: left">Mapped out the worklog schedule through August 15, along with the screenshot-evidence layout and progress-tracking format.&lt;/td>
+ &lt;td style="text-align: left">Finished the first draft of the internship work plan.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="achievements">Achievements&lt;/h2>
+&lt;ul>
+&lt;li>Formally joined the internship program on &lt;strong>June 5, 2026&lt;/strong>.&lt;/li>
+&lt;li>Got a solid grasp of the program&amp;rsquo;s learning, reporting, and evidence-collection process.&lt;/li>
+&lt;li>Found the Cloud Journey workshop library and worked out how to pick relevant workshops.&lt;/li>
+&lt;li>Got the tools ready to start AWS learning and EduCloud implementation the following week.&lt;/li>
+&lt;/ul></description></item><item><title>Week 2 - AWS fundamentals, group discussion, and topic selection</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-02/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> June 15, 2026 - June 19, 2026&lt;/p>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;ul>
+&lt;li>Get a handle on the core AWS service categories and how to use both the Console and the CLI.&lt;/li>
+&lt;li>Join the team&amp;rsquo;s discussion group starting June 16 and settle on how the group would collaborate.&lt;/li>
+&lt;li>Survey realistic project ideas and land on EduCloud Lite as the internship&amp;rsquo;s chosen project.&lt;/li>
+&lt;/ul>
+&lt;h2 id="aws-learning-phase">AWS Learning Phase&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Phase&lt;/th>
+ &lt;th style="text-align: left">Learning content&lt;/th>
+ &lt;th style="text-align: left">Reference&lt;/th>
+ &lt;th style="text-align: left">Application&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Overview&lt;/td>
+ &lt;td style="text-align: left">Compute, Storage, Database, Networking, Security, and Monitoring.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">Explore AWS Services&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Pinpointed the AWS service categories an LMS would actually need.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Account and cost&lt;/td>
+ &lt;td style="text-align: left">AWS Free Tier, credits, services that tend to rack up charges, and budget alerts.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000001.awsstudygroup.com/">AWS Free Tier&lt;/a>, &lt;a href="https://000007.awsstudygroup.com/">AWS Budgets&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Shaped the low-cost architecture direction and a habit of cleaning up resources.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Administration tools&lt;/td>
+ &lt;td style="text-align: left">Installing the AWS CLI, working with profiles, setting a default Region, and output formats.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000011.awsstudygroup.com/">Getting Started with AWS CLI&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Got ready to check and deploy AWS resources straight from the command line.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="work-completed">Work completed&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Activity&lt;/th>
+ &lt;th style="text-align: left">Outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 15&lt;/td>
+ &lt;td style="text-align: left">Went over the AWS service categories and drew up a checklist for accounts and required tools.&lt;/td>
+ &lt;td style="text-align: left">Put together the first AWS service map and a working learning environment.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 16&lt;/td>
+ &lt;td style="text-align: left">Joined the discussion group, met the other members, and agreed on communication channels and how to share progress.&lt;/td>
+ &lt;td style="text-align: left">Group collaboration officially kicked off on &lt;strong>June 16, 2026&lt;/strong>.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 17&lt;/td>
+ &lt;td style="text-align: left">Talked through possible project topics and looked into what online course management would actually require.&lt;/td>
+ &lt;td style="text-align: left">Landed on the EduCloud Lite direction.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 18&lt;/td>
+ &lt;td style="text-align: left">Defined the Student, Instructor, and Admin roles along with the login, course, enrollment, and learning flows.&lt;/td>
+ &lt;td style="text-align: left">Shaped the core set of use cases.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 19&lt;/td>
+ &lt;td style="text-align: left">Broke the requirements down into a backlog and pinned down MVP scope, possible extensions, and cost/security risks.&lt;/td>
+ &lt;td style="text-align: left">Wrapped up the initial project scope and a phased delivery plan.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="achievements">Achievements&lt;/h2>
+&lt;ul>
+&lt;li>Understood what Compute, Storage, Database, Networking, Security, and Monitoring are each responsible for.&lt;/li>
+&lt;li>Learned how to configure the AWS CLI and pick a suitable Region.&lt;/li>
+&lt;li>Picked up how to use AWS Budgets and started planning cleanup habits to keep credit usage down.&lt;/li>
+&lt;li>Joined the group discussion starting June 16 and locked in &lt;strong>EduCloud Lite&lt;/strong> as the project topic.&lt;/li>
+&lt;li>Put together the first version of the roles, use cases, and backlog items.&lt;/li>
+&lt;/ul></description></item><item><title>Week 3 - Architecture planning and AWS service selection</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-03/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> June 22, 2026 - June 26, 2026&lt;/p>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;ul>
+&lt;li>Study the planned React -&amp;gt; FastAPI -&amp;gt; PostgreSQL request flow with the team.&lt;/li>
+&lt;li>Learn IAM, VPC, EC2, and RDS fundamentals to evaluate which AWS services the project would need.&lt;/li>
+&lt;li>Help the team settle on the technology and database choices before development started.&lt;/li>
+&lt;/ul>
+&lt;h2 id="aws-learning-phase">AWS Learning Phase&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Learning content&lt;/th>
+ &lt;th style="text-align: left">Reference&lt;/th>
+ &lt;th style="text-align: left">Application in EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">IAM users, policies, roles, and the principle of least-privilege access.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000002.awsstudygroup.com/">Access Control with AWS IAM&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Shaped how AWS infrastructure permissions would later stay separate from the Student, Instructor, and Admin roles inside the app.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">VPCs, subnets, routing, security groups, and how an application gets reached from the Internet.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000003.awsstudygroup.com/">Amazon VPC Workshop&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Built a mental model of the network path a hosted backend would need.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">EC2, Amazon Linux, compute resources, and the basics of hosting an application.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000004.awsstudygroup.com/">Introduction to Amazon EC2&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Got a feel for the infrastructure layer behind a managed compute service like Elastic Beanstalk.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Relational databases, PostgreSQL, SSL, backups, and network isolation.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000005.awsstudygroup.com/">Amazon RDS Workshop&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Informed the team&amp;rsquo;s discussion about using a managed PostgreSQL database instead of self-hosting one.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="work-completed">Work completed&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Activity&lt;/th>
+ &lt;th style="text-align: left">Outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 22&lt;/td>
+ &lt;td style="text-align: left">Reviewed the team&amp;rsquo;s draft React -&amp;gt; FastAPI -&amp;gt; PostgreSQL architecture and discussed how frontend, backend, and database responsibilities would split.&lt;/td>
+ &lt;td style="text-align: left">Confirmed the overall technical direction for EduCloud Lite.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 23&lt;/td>
+ &lt;td style="text-align: left">Studied IAM users, policies, and least-privilege access as background for later API authorization design.&lt;/td>
+ &lt;td style="text-align: left">Built a working model for keeping AWS access separate from application roles.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 24&lt;/td>
+ &lt;td style="text-align: left">Went through the Amazon VPC workshop material to understand the networking basics behind a hosted backend.&lt;/td>
+ &lt;td style="text-align: left">Understood how a deployed backend would be reached from the Internet.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 25&lt;/td>
+ &lt;td style="text-align: left">Studied EC2 and Amazon Linux fundamentals as background for the team&amp;rsquo;s later Elastic Beanstalk deployment.&lt;/td>
+ &lt;td style="text-align: left">Got a working sense of what runs underneath a managed compute service.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 26&lt;/td>
+ &lt;td style="text-align: left">Went through the RDS workshop material and discussed with the team why a managed PostgreSQL database (Supabase) made sense for this project.&lt;/td>
+ &lt;td style="text-align: left">Contributed to the team&amp;rsquo;s decision to use Supabase for the database layer.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="achievements">Achievements&lt;/h2>
+&lt;ul>
+&lt;li>Understood the planned request flow and where each AWS service would fit into it.&lt;/li>
+&lt;li>Built a working understanding of IAM, VPC, EC2, and RDS fundamentals ahead of hands-on development.&lt;/li>
+&lt;li>Contributed to the team&amp;rsquo;s decision to use Supabase as the application database.&lt;/li>
+&lt;/ul></description></item><item><title>Week 4 - Deepening AWS knowledge and backend preparation</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-04/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> June 29, 2026 - July 3, 2026&lt;/p>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;ul>
+&lt;li>Study Cognito User Pools and how authentication would eventually work in EduCloud Lite.&lt;/li>
+&lt;li>Review IAM policy design and least-privilege patterns in more depth.&lt;/li>
+&lt;li>Set up a local backend development environment and plan the API work for the following week.&lt;/li>
+&lt;/ul>
+&lt;h2 id="aws-learning-phase">AWS Learning Phase&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Learning content&lt;/th>
+ &lt;th style="text-align: left">Reference&lt;/th>
+ &lt;th style="text-align: left">Application in EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">How IAM policies are structured and the idea of least-privilege authorization.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000002.awsstudygroup.com/">Access Control with AWS IAM&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Reinforced the permission model the team planned to apply to API routes.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">User Pools, app clients, JWTs, and the distinction between authentication and authorization.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000141.awsstudygroup.com/">Amazon Cognito Workshop&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Clarified how identity (Cognito) and application roles would stay separate in the design.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="work-completed">Work completed&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Activity&lt;/th>
+ &lt;th style="text-align: left">Outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 29&lt;/td>
+ &lt;td style="text-align: left">Reviewed IAM policy structure and least-privilege authorization patterns in more depth.&lt;/td>
+ &lt;td style="text-align: left">Reinforced the permission model planned for the API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jun 30&lt;/td>
+ &lt;td style="text-align: left">Went through the Amazon Cognito workshop to understand User Pools, app clients, and JWTs.&lt;/td>
+ &lt;td style="text-align: left">Understood how authentication and authorization would later be kept separate.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 01&lt;/td>
+ &lt;td style="text-align: left">Set up a local Python/FastAPI development environment and read through the team&amp;rsquo;s early project skeleton.&lt;/td>
+ &lt;td style="text-align: left">Got ready to start contributing backend code.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 02&lt;/td>
+ &lt;td style="text-align: left">Reviewed the planned database schema (users, courses, lessons) with the team.&lt;/td>
+ &lt;td style="text-align: left">Aligned on the data model before writing API code.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 03&lt;/td>
+ &lt;td style="text-align: left">Planned out the Course and Lesson API endpoints to build the following week.&lt;/td>
+ &lt;td style="text-align: left">Had a clear task list going into week 5.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="achievements">Achievements&lt;/h2>
+&lt;ul>
+&lt;li>Understood the distinction between authentication (Cognito) and application-level authorization.&lt;/li>
+&lt;li>Got the local development environment ready to start contributing backend code.&lt;/li>
+&lt;li>Planned the Course and Lesson API work for the following week.&lt;/li>
+&lt;/ul></description></item><item><title>Week 5 - Building the Course &amp; Lesson backend API</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-05/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> July 6, 2026 - July 10, 2026&lt;/p>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;ul>
+&lt;li>Build the Course API: models, schemas, CRUD routes, and ownership checks.&lt;/li>
+&lt;li>Build the Lesson API: ordered curriculum, notes, and video/material URL fields.&lt;/li>
+&lt;li>Learn S3 fundamentals in support of the team&amp;rsquo;s later upload and storage work.&lt;/li>
+&lt;/ul>
+&lt;h2 id="aws-learning-phase">AWS Learning Phase&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Learning content&lt;/th>
+ &lt;th style="text-align: left">Reference&lt;/th>
+ &lt;th style="text-align: left">Application in EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">S3 object storage, bucket privacy settings, and storing uploaded learning resources.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000069.awsstudygroup.com/">Amazon S3 Security Best Practices&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Prepared for the team&amp;rsquo;s later work on private course-asset storage.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Amplify&amp;rsquo;s authentication and storage patterns built on Cognito and S3.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000134.awsstudygroup.com/">Amplify Authentication and Storage&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Gave context for how uploads would eventually connect to the Course/Lesson data I was building the API for.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="work-completed">Work completed&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Activity&lt;/th>
+ &lt;th style="text-align: left">Outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 06&lt;/td>
+ &lt;td style="text-align: left">Built the Course model, schema, and CRUD endpoints, including ownership checks so Instructors can only modify courses they own.&lt;/td>
+ &lt;td style="text-align: left">Instructors can create, update, and manage courses through the API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 07&lt;/td>
+ &lt;td style="text-align: left">Added validation for course metadata: title, description, price, tags, and status transitions.&lt;/td>
+ &lt;td style="text-align: left">Prevented invalid course data from being saved.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 08&lt;/td>
+ &lt;td style="text-align: left">Built the Lesson model and CRUD endpoints with order indexes, notes, and video/material URL fields.&lt;/td>
+ &lt;td style="text-align: left">Enabled ordered lesson curricula through the API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 09&lt;/td>
+ &lt;td style="text-align: left">Wrote tests for the Course and Lesson endpoints and fixed the issues they turned up.&lt;/td>
+ &lt;td style="text-align: left">Confirmed the API behaved correctly for common and edge cases.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 10&lt;/td>
+ &lt;td style="text-align: left">Finalized and merged the Course &amp;amp; Lesson backend API with the team.&lt;/td>
+ &lt;td style="text-align: left">Completed my core backend contribution to the project.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="achievements">Achievements&lt;/h2>
+&lt;ul>
+&lt;li>Shipped the Course and Lesson CRUD API, including ownership checks.&lt;/li>
+&lt;li>Learned S3 fundamentals ahead of the team&amp;rsquo;s later upload and storage work.&lt;/li>
+&lt;li>Delivered a tested, working piece of the backend the rest of the team could build on.&lt;/li>
+&lt;/ul></description></item><item><title>Week 6 - Extending and testing the backend API</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-06/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> July 13, 2026 - July 17, 2026&lt;/p>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;ul>
+&lt;li>Support the team as they built authentication, enrollment, and dashboard features on top of the Course/Lesson API.&lt;/li>
+&lt;li>Extend and refine the Course/Lesson API based on integration feedback from the frontend.&lt;/li>
+&lt;li>Learn CloudFront fundamentals for later use in delivering course media.&lt;/li>
+&lt;/ul>
+&lt;h2 id="aws-learning-phase">AWS Learning Phase&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Learning content&lt;/th>
+ &lt;th style="text-align: left">Reference&lt;/th>
+ &lt;th style="text-align: left">Application in EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">How a CDN behaves, cache settings, and serving content from a private origin.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000094.awsstudygroup.com/">CloudFront with S3 Origin&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Prepared me to understand and later document how the team would deliver course media.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Frontend hosting, static website deployment, and routing for single-page apps.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000057.awsstudygroup.com/">Deploy Static Website on AWS&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Gave context for how the React app the team was building would eventually be hosted.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="work-completed">Work completed&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Activity&lt;/th>
+ &lt;th style="text-align: left">Outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 13&lt;/td>
+ &lt;td style="text-align: left">Reviewed integration feedback from the teammate building the frontend and adjusted the Course/Lesson API response shapes.&lt;/td>
+ &lt;td style="text-align: left">Aligned the API contract with what the frontend actually needed.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 14&lt;/td>
+ &lt;td style="text-align: left">Helped test the enrollment flow the team was building against my Course API to make sure published-course data stayed consistent.&lt;/td>
+ &lt;td style="text-align: left">Found and fixed a data-consistency issue in the Course API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 15&lt;/td>
+ &lt;td style="text-align: left">Studied CloudFront and S3 origin patterns to understand how course media would later be delivered.&lt;/td>
+ &lt;td style="text-align: left">Got ready to help review the delivery setup during the deployment week.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 16&lt;/td>
+ &lt;td style="text-align: left">Documented the Course &amp;amp; Lesson API endpoints for the rest of the team.&lt;/td>
+ &lt;td style="text-align: left">Made the API easier for teammates to use without asking me directly.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 17&lt;/td>
+ &lt;td style="text-align: left">Joined the team&amp;rsquo;s review of the Supabase-backed workflows and role-based dashboards being built that week.&lt;/td>
+ &lt;td style="text-align: left">Stayed aligned with how my API was being used elsewhere in the app.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="achievements">Achievements&lt;/h2>
+&lt;ul>
+&lt;li>Extended and stabilized the Course/Lesson API based on real integration needs from the frontend.&lt;/li>
+&lt;li>Documented the Course/Lesson API for the rest of the team.&lt;/li>
+&lt;li>Built a working understanding of CloudFront ahead of the deployment phase.&lt;/li>
+&lt;/ul></description></item><item><title>Week 7 - Supporting integration and learning the AWS deployment process</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-07/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> July 20, 2026 - July 24, 2026&lt;/p>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;ul>
+&lt;li>Support the team&amp;rsquo;s final push on role workflows, assessments, and deployment.&lt;/li>
+&lt;li>Learn how the team&amp;rsquo;s Elastic Beanstalk, S3, and CloudFront deployment worked so I could document it accurately for the report.&lt;/li>
+&lt;li>Keep the Course/Lesson API working correctly as new features landed on top of it.&lt;/li>
+&lt;/ul>
+&lt;h2 id="aws-learning-phase">AWS Learning Phase&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Learning content&lt;/th>
+ &lt;th style="text-align: left">Reference&lt;/th>
+ &lt;th style="text-align: left">Application in EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">CloudWatch metrics, logs, alarms, and dashboard concepts.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000008.awsstudygroup.com/">AWS CloudWatch Workshop&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Prepared me to understand and later document how the deployed app could be monitored.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Patterns for running applications reliably: health checks, idempotency, and recoverable request handling.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">Explore AWS Services&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Gave me the background to review the assessment/certificate logic teammates were adding for idempotency issues.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="work-completed">Work completed&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Activity&lt;/th>
+ &lt;th style="text-align: left">Outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 20&lt;/td>
+ &lt;td style="text-align: left">Retested my Course/Lesson API against the newly added assessment and certificate features to check for conflicts.&lt;/td>
+ &lt;td style="text-align: left">Confirmed my API still behaved correctly alongside the new features.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 21&lt;/td>
+ &lt;td style="text-align: left">Followed along as the team configured Elastic Beanstalk for the backend deployment.&lt;/td>
+ &lt;td style="text-align: left">Learned the deployment steps I would later document in the workshop report.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 22&lt;/td>
+ &lt;td style="text-align: left">Followed along as the team set up S3 and CloudFront for private course-media delivery.&lt;/td>
+ &lt;td style="text-align: left">Understood the OAC and bucket-policy setup well enough to write it up later.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 23&lt;/td>
+ &lt;td style="text-align: left">Reviewed CloudWatch basics for monitoring the deployed backend.&lt;/td>
+ &lt;td style="text-align: left">Got ready to document the monitoring setup in the report.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 24&lt;/td>
+ &lt;td style="text-align: left">Helped verify the team&amp;rsquo;s final build before deployment and fixed a small bug in the Course API found during that check.&lt;/td>
+ &lt;td style="text-align: left">Contributed to a clean final build.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="achievements">Achievements&lt;/h2>
+&lt;ul>
+&lt;li>Kept the Course/Lesson API working correctly through the team&amp;rsquo;s final integration push.&lt;/li>
+&lt;li>Learned the team&amp;rsquo;s AWS deployment process well enough to document it in detail for the workshop report.&lt;/li>
+&lt;li>Found and fixed a bug during final verification before deployment.&lt;/li>
+&lt;/ul></description></item><item><title>Week 8 - Final validation, report, and submission</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-08/</guid><description>&lt;p>&lt;strong>Period:&lt;/strong> July 27, 2026 - July 31, 2026&lt;/p>
+&lt;p>&lt;strong>Submission deadline:&lt;/strong> July 31, 2026&lt;/p>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;ul>
+&lt;li>Join the team in locking the EduCloud Lite feature set and avoiding risky changes ahead of submission.&lt;/li>
+&lt;li>Help verify the live Student and Instructor journeys, AWS services, and public links all work.&lt;/li>
+&lt;li>Write and finalize my own bilingual Hugo workshop report, evidence, and submission package.&lt;/li>
+&lt;li>Get my workshop report submitted no later than July 31, 2026.&lt;/li>
+&lt;/ul>
+&lt;h2 id="final-aws-and-project-review">Final AWS and Project Review&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Review area&lt;/th>
+ &lt;th style="text-align: left">Validation activity&lt;/th>
+ &lt;th style="text-align: left">Submission evidence&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Identity and security&lt;/td>
+ &lt;td style="text-align: left">Check Cognito login, first-login password change, recovery, JWT exchange, IAM roles, and Parameter Store secrets.&lt;/td>
+ &lt;td style="text-align: left">Authentication screenshots, configuration notes, and source links.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Application hosting&lt;/td>
+ &lt;td style="text-align: left">Check Elastic Beanstalk health, the Amplify deployment, CloudFront routing, CORS, and SPA rewrites.&lt;/td>
+ &lt;td style="text-align: left">Public EduCloud link and a successful deployment status.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Storage and data&lt;/td>
+ &lt;td style="text-align: left">Confirm private S3 delivery, Supabase connectivity, upload paths, and database-backed roles.&lt;/td>
+ &lt;td style="text-align: left">Architecture diagram and workshop screenshots.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Documentation&lt;/td>
+ &lt;td style="text-align: left">Review the proposal, worklog, blogs, events, workshop steps, self-assessment, and feedback pages in both languages.&lt;/td>
+ &lt;td style="text-align: left">Public Hugo report and GitHub repository.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="work-plan-and-current-progress">Work plan and current progress&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Activity&lt;/th>
+ &lt;th style="text-align: left">Target outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 27&lt;/td>
+ &lt;td style="text-align: left">Fix the internship dates and worklog scope; fill in remaining report content and evidence.&lt;/td>
+ &lt;td style="text-align: left">Report matches the actual June 1-August 15 internship period.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 28&lt;/td>
+ &lt;td style="text-align: left">Joined the team to run through the production checklist: login, browsing courses, enrollment, learning, assessment, certificate, and Instructor authoring.&lt;/td>
+ &lt;td style="text-align: left">Critical demo journeys work end to end on the public website.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 29&lt;/td>
+ &lt;td style="text-align: left">Wrote up the AWS architecture, screenshots, code snippets, repository instructions, and demo-account guidance for my report.&lt;/td>
+ &lt;td style="text-align: left">Submission is understandable and reproducible by the reviewer.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 30&lt;/td>
+ &lt;td style="text-align: left">Proofread the English and Vietnamese sites; check navigation, visited-page markers, images, links, and responsive layout.&lt;/td>
+ &lt;td style="text-align: left">Hugo report reads consistently, with no placeholders or broken assets.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Jul 31&lt;/td>
+ &lt;td style="text-align: left">Put together the final submission package and send the live website, source repository, workshop link, and selected PDF files.&lt;/td>
+ &lt;td style="text-align: left">Workshop submitted before the deadline.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="current-results">Current results&lt;/h2>
+&lt;ul>
+&lt;li>EduCloud Lite is live at an independent Amplify URL.&lt;/li>
+&lt;li>The FastAPI backend runs on Elastic Beanstalk and pulls production secrets from Parameter Store.&lt;/li>
+&lt;li>Cognito, Supabase, S3, CloudFront, and Amplify are all wired into the deployed application.&lt;/li>
+&lt;li>The architecture diagram, bilingual Hugo report, demo links, and mentor accounts are all documented.&lt;/li>
+&lt;li>What&amp;rsquo;s left is final validation, evidence review, proofreading, and submission.&lt;/li>
+&lt;/ul>
+&lt;h2 id="submission-links">Submission links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://main.djk00b5qbck73.amplifyapp.com/courses">EduCloud Lite live application&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Funacius/EduCloud">EduCloud source repository&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>No new project features are planned after July 31. The rest of the internship is set aside for AWS and First Cloud AI Journey learning.&lt;/p></description></item><item><title>Week 9 - AWS operations, security, and cost learning</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-09/</guid><description>&lt;p>&lt;strong>Learning period:&lt;/strong> August 3, 2026 - August 7, 2026&lt;/p>
+&lt;h2 id="learning-objectives">Learning objectives&lt;/h2>
+&lt;ul>
+&lt;li>Continue the First Cloud AI Journey learning path after submitting EduCloud Lite.&lt;/li>
+&lt;li>Review AWS operational excellence, security, reliability, and cost-optimization concepts.&lt;/li>
+&lt;li>Reflect on the deployed architecture without adding new application features.&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning-plan">Learning plan&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic&lt;/th>
+ &lt;th style="text-align: left">Expected outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 03&lt;/td>
+ &lt;td style="text-align: left">Review the AWS Shared Responsibility Model, IAM users, roles, policies, and least privilege.&lt;/td>
+ &lt;td style="text-align: left">Explain the responsibility boundary for Cognito, Elastic Beanstalk, S3, and Parameter Store.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 04&lt;/td>
+ &lt;td style="text-align: left">Study CloudWatch metrics, logs, alarms, dashboards, and Elastic Beanstalk health reporting.&lt;/td>
+ &lt;td style="text-align: left">Prepare a monitoring checklist for small web applications.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 05&lt;/td>
+ &lt;td style="text-align: left">Review S3 security, Block Public Access, encryption, lifecycle rules, and CloudFront private-origin access.&lt;/td>
+ &lt;td style="text-align: left">Understand secure and cost-aware file delivery patterns.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 06&lt;/td>
+ &lt;td style="text-align: left">Study AWS Budgets, cost allocation, pricing factors, and resource-cleanup practices.&lt;/td>
+ &lt;td style="text-align: left">Create a personal cost-control checklist for student AWS accounts.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 07&lt;/td>
+ &lt;td style="text-align: left">Review the AWS Well-Architected pillars and assess EduCloud as a learning case.&lt;/td>
+ &lt;td style="text-align: left">Record strengths, limitations, and future improvements without changing the submitted build.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="learning-references">Learning references&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://cloudjourney.awsstudygroup.com/">The First Cloud Journey&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://000002.awsstudygroup.com/">Access Control with AWS IAM&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://000007.awsstudygroup.com/">AWS Budgets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://000008.awsstudygroup.com/">AWS CloudWatch Workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://000069.awsstudygroup.com/">Amazon S3 Security Best Practices&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="expected-learning-results">Expected learning results&lt;/h2>
+&lt;ul>
+&lt;li>Better understanding of least privilege and the AWS shared responsibility model.&lt;/li>
+&lt;li>Ability to identify the minimum monitoring and alerting required for a deployed application.&lt;/li>
+&lt;li>Improved awareness of storage security, CDN behavior, backup, and lifecycle trade-offs.&lt;/li>
+&lt;li>A reusable checklist for controlling costs and cleaning up temporary AWS resources.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This week is dedicated to learning and reflection only; it does not extend the submitted EduCloud Lite feature scope.&lt;/p></description></item><item><title>Week 10 - Generative AI, Agentic AI, and AWS learning review</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/1-worklog/week-10/</guid><description>&lt;p>&lt;strong>Learning period:&lt;/strong> August 10, 2026 - August 15, 2026&lt;/p>
+&lt;h2 id="learning-objectives">Learning objectives&lt;/h2>
+&lt;ul>
+&lt;li>Build a clearer foundation in Generative AI and Agentic AI on AWS.&lt;/li>
+&lt;li>Review the architecture lessons shared through First Cloud AI Journey and Agentic AI Build Week.&lt;/li>
+&lt;li>Summarize the internship learning outcomes and define a realistic next learning path.&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning-plan">Learning plan&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Date&lt;/th>
+ &lt;th style="text-align: left">Topic&lt;/th>
+ &lt;th style="text-align: left">Expected outcome&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 10&lt;/td>
+ &lt;td style="text-align: left">Review Generative AI foundations, foundation models, prompting, embeddings, and responsible AI.&lt;/td>
+ &lt;td style="text-align: left">Distinguish conventional application logic, model inference, and retrieval-augmented workflows.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 11&lt;/td>
+ &lt;td style="text-align: left">Study Amazon Bedrock concepts, model access, knowledge bases, guardrails, and evaluation.&lt;/td>
+ &lt;td style="text-align: left">Understand the managed building blocks available for secure Generative AI applications.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 12&lt;/td>
+ &lt;td style="text-align: left">Review AI Agent concepts: goals, plans, tools, memory, verification, observability, and human approval.&lt;/td>
+ &lt;td style="text-align: left">Describe a production-oriented agent workflow rather than treating an LLM response as a complete system.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 13&lt;/td>
+ &lt;td style="text-align: left">Revisit the Agentic AI Build Week presentations for KFC Bot Agent, S.H.E.P.H.E.R.D, SA Professional Native App, and SignalScout.&lt;/td>
+ &lt;td style="text-align: left">Compare how different teams handled architecture, cost, latency, scope, and business value.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 14&lt;/td>
+ &lt;td style="text-align: left">Map the most relevant lessons to possible future EduCloud improvements without implementing them.&lt;/td>
+ &lt;td style="text-align: left">Produce a roadmap for optional AI study support, content assistance, and operational improvements.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Aug 15&lt;/td>
+ &lt;td style="text-align: left">Summarize technical skills, AWS knowledge, limitations, and the next certification or workshop goals.&lt;/td>
+ &lt;td style="text-align: left">Complete the internship learning reflection.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="learning-references">Learning references&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://cloudjourney.awsstudygroup.com/">The First Cloud Journey&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/4-eventparticipated/4.1-event1/">FCAJ x Agentic AI Build Week 2026 event report&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/5-workshop/">EduCloud Lite workshop&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="expected-learning-results">Expected learning results&lt;/h2>
+&lt;ul>
+&lt;li>Understand the main responsibilities of a production Agentic AI system.&lt;/li>
+&lt;li>Recognize when managed AWS AI services are appropriate and when a simpler architecture is sufficient.&lt;/li>
+&lt;li>Evaluate AI ideas using security, cost, latency, observability, explainability, and user-value criteria.&lt;/li>
+&lt;li>Finish the internship with a focused learning roadmap instead of adding untested features after submission.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>August 15, 2026 is the final internship date. This page records the learning plan for the post-submission period, not additional EduCloud implementation.&lt;/p></description></item></channel></rss>

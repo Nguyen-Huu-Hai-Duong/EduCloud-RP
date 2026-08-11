@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Báo cáo thực tập</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/</link><description>Recent content on Báo cáo thực tập</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/index.xml" rel="self" type="application/rss+xml"/><item><title>Tuần 1 - Tham gia chương trình thực tập</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-01/</guid><description>&lt;p>&lt;strong>Thời gian:&lt;/strong> 05/06/2026 - 12/06/2026&lt;/p>
+&lt;h2 id="mục-tiêu">Mục tiêu&lt;/h2>
+&lt;ul>
+&lt;li>Hoàn thành các bước gia nhập ban đầu cho kỳ thực tập First Cloud AI Journey.&lt;/li>
+&lt;li>Nắm được quy định của chương trình, lộ trình học, định dạng báo cáo và yêu cầu về minh chứng.&lt;/li>
+&lt;li>Chuẩn bị sẵn tài khoản, công cụ làm việc và cách theo dõi tiến độ theo từng tuần.&lt;/li>
+&lt;/ul>
+&lt;h2 id="giai-đoạn-tìm-hiểu-chương-trình">Giai đoạn tìm hiểu chương trình&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Giai đoạn&lt;/th>
+ &lt;th style="text-align: left">Nội dung tìm hiểu&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;th style="text-align: left">Kết quả&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Khởi động&lt;/td>
+ &lt;td style="text-align: left">Tìm hiểu về mục tiêu của First Cloud Journey, cách phân nhóm chủ đề AWS và mô hình học thông qua workshop thực hành.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">The First Cloud Journey&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Nắm được bức tranh tổng thể của lộ trình học và cách tìm workshop phù hợp.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Chuẩn bị&lt;/td>
+ &lt;td style="text-align: left">Xem lại các yêu cầu của kỳ thực tập, cấu trúc báo cáo, quy định ghi worklog và cách thu thập minh chứng.&lt;/td>
+ &lt;td style="text-align: left">Tài liệu chương trình và mẫu báo cáo thực tập&lt;/td>
+ &lt;td style="text-align: left">Lập được checklist các đầu việc cần hoàn thành trong suốt kỳ thực tập.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="công-việc-thực-hiện">Công việc thực hiện&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Kết quả&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">05/06&lt;/td>
+ &lt;td style="text-align: left">Nhận thông tin thực tập và chính thức trở thành thành viên chương trình First Cloud AI Journey.&lt;/td>
+ &lt;td style="text-align: left">Chốt được phạm vi, thời gian thực tập và đầu mối liên hệ.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08/06&lt;/td>
+ &lt;td style="text-align: left">Xem lại quy định chương trình, yêu cầu báo cáo và các tiêu chí đánh giá.&lt;/td>
+ &lt;td style="text-align: left">Liệt kê được các đầu mục cần nộp và nguyên tắc ghi worklog.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09/06&lt;/td>
+ &lt;td style="text-align: left">Tìm hiểu cổng thông tin Cloud Journey và cách các workshop được phân theo nhóm dịch vụ AWS.&lt;/td>
+ &lt;td style="text-align: left">Biết cách chọn tài liệu tham khảo phù hợp với nhu cầu dự án.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10/06&lt;/td>
+ &lt;td style="text-align: left">Thiết lập môi trường làm việc gồm GitHub, VS Code, Draw.io và các thư mục lưu tài liệu.&lt;/td>
+ &lt;td style="text-align: left">Có được không gian làm việc thống nhất cho mã nguồn và tài liệu báo cáo.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11/06 - 12/06&lt;/td>
+ &lt;td style="text-align: left">Lên kế hoạch ghi worklog đến hết 15/08, cách lưu ảnh minh chứng và định dạng theo dõi tiến độ.&lt;/td>
+ &lt;td style="text-align: left">Hoàn thành bản nháp đầu tiên của kế hoạch làm việc cho kỳ thực tập.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kết-quả-đạt-được">Kết quả đạt được&lt;/h2>
+&lt;ul>
+&lt;li>Chính thức gia nhập chương trình thực tập vào ngày &lt;strong>05/06/2026&lt;/strong>.&lt;/li>
+&lt;li>Nắm rõ quy trình học tập, báo cáo và lưu minh chứng của chương trình.&lt;/li>
+&lt;li>Tìm ra kho workshop của Cloud Journey và biết cách chọn workshop phù hợp.&lt;/li>
+&lt;li>Chuẩn bị đầy đủ công cụ để bắt đầu học AWS và triển khai EduCloud vào tuần kế tiếp.&lt;/li>
+&lt;/ul></description></item><item><title>Tuần 2 - AWS cơ bản, thành lập nhóm và chọn đề tài</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-02/</guid><description>&lt;p>&lt;strong>Thời gian:&lt;/strong> 15/06/2026 - 19/06/2026&lt;/p>
+&lt;h2 id="mục-tiêu">Mục tiêu&lt;/h2>
+&lt;ul>
+&lt;li>Nắm được các nhóm dịch vụ AWS chính và cách thao tác qua cả Console lẫn CLI.&lt;/li>
+&lt;li>Gia nhập nhóm thảo luận kể từ ngày 16/06 và thống nhất cách nhóm sẽ phối hợp làm việc.&lt;/li>
+&lt;li>Khảo sát các hướng đề tài khả thi và chốt EduCloud Lite làm sản phẩm cho kỳ thực tập.&lt;/li>
+&lt;/ul>
+&lt;h2 id="giai-đoạn-học-aws">Giai đoạn học AWS&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Giai đoạn&lt;/th>
+ &lt;th style="text-align: left">Nội dung học&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;th style="text-align: left">Áp dụng&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Tổng quan&lt;/td>
+ &lt;td style="text-align: left">Compute, Storage, Database, Networking, Security và Monitoring.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">Explore AWS Services&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Xác định được nhóm dịch vụ AWS mà một hệ thống LMS thực sự cần dùng.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Tài khoản và chi phí&lt;/td>
+ &lt;td style="text-align: left">AWS Free Tier, credit, các dịch vụ dễ phát sinh phí và cách thiết lập cảnh báo ngân sách.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000001.awsstudygroup.com/">AWS Free Tier&lt;/a>, &lt;a href="https://000007.awsstudygroup.com/">AWS Budgets&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Định hình hướng kiến trúc chi phí thấp và thói quen dọn dẹp tài nguyên.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Công cụ quản trị&lt;/td>
+ &lt;td style="text-align: left">Cài AWS CLI, cấu hình profile, Region mặc định và các định dạng output.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000011.awsstudygroup.com/">Getting Started with AWS CLI&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Sẵn sàng kiểm tra và triển khai tài nguyên AWS trực tiếp bằng dòng lệnh.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="công-việc-thực-hiện">Công việc thực hiện&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Kết quả&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">15/06&lt;/td>
+ &lt;td style="text-align: left">Rà soát các nhóm dịch vụ AWS, lập checklist tài khoản và các công cụ cần thiết.&lt;/td>
+ &lt;td style="text-align: left">Có được bản đồ dịch vụ AWS đầu tiên cùng môi trường học tập sẵn sàng.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16/06&lt;/td>
+ &lt;td style="text-align: left">Gia nhập nhóm thảo luận, làm quen các thành viên, thống nhất kênh trao đổi và cách cập nhật tiến độ.&lt;/td>
+ &lt;td style="text-align: left">Nhóm chính thức bắt đầu phối hợp từ ngày &lt;strong>16/06/2026&lt;/strong>.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17/06&lt;/td>
+ &lt;td style="text-align: left">Bàn bạc các đề tài có thể triển khai, tìm hiểu nhu cầu thực tế của việc quản lý khóa học trực tuyến.&lt;/td>
+ &lt;td style="text-align: left">Chốt được hướng xây dựng EduCloud Lite.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">18/06&lt;/td>
+ &lt;td style="text-align: left">Xác định ba vai trò Student, Instructor, Admin cùng các luồng đăng nhập, khóa học, ghi danh và học tập.&lt;/td>
+ &lt;td style="text-align: left">Hình thành bộ use case cốt lõi.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">19/06&lt;/td>
+ &lt;td style="text-align: left">Chia nhỏ yêu cầu thành backlog, xác định phạm vi MVP, các phần mở rộng và rủi ro về chi phí/bảo mật.&lt;/td>
+ &lt;td style="text-align: left">Hoàn thiện phạm vi dự án ban đầu và kế hoạch triển khai theo từng giai đoạn.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kết-quả-đạt-được">Kết quả đạt được&lt;/h2>
+&lt;ul>
+&lt;li>Hiểu được vai trò của từng nhóm Compute, Storage, Database, Networking, Security và Monitoring.&lt;/li>
+&lt;li>Biết cách cấu hình AWS CLI và chọn Region phù hợp.&lt;/li>
+&lt;li>Nắm được cách dùng AWS Budgets và hình thành thói quen dọn dẹp tài nguyên để hạn chế tốn credit.&lt;/li>
+&lt;li>Tham gia nhóm thảo luận từ ngày 16/06 và chốt &lt;strong>EduCloud Lite&lt;/strong> làm đề tài chính thức.&lt;/li>
+&lt;li>Hoàn thành phiên bản đầu tiên của danh sách vai trò, use case và backlog.&lt;/li>
+&lt;/ul></description></item><item><title>Tuần 3 - Lên kế hoạch kiến trúc và chọn dịch vụ AWS</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-03/</guid><description>&lt;p>&lt;strong>Thời gian:&lt;/strong> 22/06/2026 - 26/06/2026&lt;/p>
+&lt;h2 id="mục-tiêu">Mục tiêu&lt;/h2>
+&lt;ul>
+&lt;li>Cùng team tìm hiểu luồng request dự kiến React -&amp;gt; FastAPI -&amp;gt; PostgreSQL.&lt;/li>
+&lt;li>Học IAM, VPC, EC2 và RDS để đánh giá dự án cần dùng những dịch vụ AWS nào.&lt;/li>
+&lt;li>Góp ý cùng team chốt công nghệ và lựa chọn database trước khi bắt tay code.&lt;/li>
+&lt;/ul>
+&lt;h2 id="giai-đoạn-học-aws">Giai đoạn học AWS&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Nội dung học&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;th style="text-align: left">Áp dụng vào EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">IAM User, Policy, Role và nguyên tắc cấp quyền tối thiểu.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000002.awsstudygroup.com/">Access Control with AWS IAM&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Định hình cách sau này tách quyền hạ tầng AWS khỏi các role Student/Instructor/Admin trong ứng dụng.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">VPC, subnet, route, Security Group và cách ứng dụng được truy cập từ Internet.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000003.awsstudygroup.com/">Amazon VPC Workshop&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Hình dung được luồng mạng mà một backend được host sẽ cần đến.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">EC2/Amazon Linux, cách triển khai ứng dụng và quản lý tài nguyên compute.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000004.awsstudygroup.com/">Introduction to Amazon EC2&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Hiểu được lớp hạ tầng nằm bên dưới một dịch vụ compute quản lý sẵn như Elastic Beanstalk.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Cơ sở dữ liệu quan hệ, PostgreSQL, SSL, backup và cách cô lập mạng.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000005.awsstudygroup.com/">Amazon RDS Workshop&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Góp phần vào việc team thảo luận chọn database PostgreSQL quản lý sẵn thay vì tự host.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="công-việc-thực-hiện">Công việc thực hiện&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Kết quả&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">22/06&lt;/td>
+ &lt;td style="text-align: left">Xem lại bản nháp kiến trúc React → FastAPI → PostgreSQL của team, thảo luận cách chia trách nhiệm frontend/backend/database.&lt;/td>
+ &lt;td style="text-align: left">Chốt được hướng kỹ thuật tổng thể cho EduCloud Lite.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">23/06&lt;/td>
+ &lt;td style="text-align: left">Tìm hiểu IAM User, Policy và nguyên tắc cấp quyền tối thiểu để chuẩn bị cho việc thiết kế authorization ở API sau này.&lt;/td>
+ &lt;td style="text-align: left">Có mô hình rõ ràng để tách quyền AWS khỏi role trong ứng dụng.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">24/06&lt;/td>
+ &lt;td style="text-align: left">Học tài liệu VPC Workshop để hiểu nền tảng mạng đằng sau một backend được host.&lt;/td>
+ &lt;td style="text-align: left">Hiểu được cách một backend triển khai sẽ được truy cập từ Internet.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">25/06&lt;/td>
+ &lt;td style="text-align: left">Tìm hiểu EC2 và Amazon Linux, chuẩn bị kiến thức nền cho việc team sẽ deploy bằng Elastic Beanstalk sau này.&lt;/td>
+ &lt;td style="text-align: left">Có cái nhìn tổng quan về lớp hạ tầng bên dưới một dịch vụ compute quản lý sẵn.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">26/06&lt;/td>
+ &lt;td style="text-align: left">Học tài liệu RDS Workshop và thảo luận cùng team lý do nên dùng database PostgreSQL quản lý sẵn (Supabase).&lt;/td>
+ &lt;td style="text-align: left">Góp phần vào quyết định dùng Supabase làm database cho dự án.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kết-quả-đạt-được">Kết quả đạt được&lt;/h2>
+&lt;ul>
+&lt;li>Hiểu được luồng request dự kiến và vị trí của từng dịch vụ AWS trong đó.&lt;/li>
+&lt;li>Nắm được kiến thức nền về IAM, VPC, EC2 và RDS trước khi bắt tay code thật.&lt;/li>
+&lt;li>Góp phần vào quyết định của team khi chọn Supabase làm database cho ứng dụng.&lt;/li>
+&lt;/ul></description></item><item><title>Tuần 4 - Đào sâu kiến thức AWS và chuẩn bị backend</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-04/</guid><description>&lt;p>&lt;strong>Thời gian:&lt;/strong> 29/06/2026 - 03/07/2026&lt;/p>
+&lt;h2 id="mục-tiêu">Mục tiêu&lt;/h2>
+&lt;ul>
+&lt;li>Tìm hiểu Cognito User Pool và cách xác thực sẽ hoạt động trong EduCloud Lite.&lt;/li>
+&lt;li>Xem lại thiết kế IAM Policy và nguyên tắc least privilege kỹ hơn.&lt;/li>
+&lt;li>Dựng môi trường phát triển backend cục bộ và lên kế hoạch code API cho tuần sau.&lt;/li>
+&lt;/ul>
+&lt;h2 id="giai-đoạn-học-aws">Giai đoạn học AWS&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Nội dung học&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;th style="text-align: left">Áp dụng vào EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Cấu trúc IAM Policy và nguyên tắc cấp quyền tối thiểu.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000002.awsstudygroup.com/">Access Control with AWS IAM&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Củng cố mô hình phân quyền dự kiến áp dụng cho các route API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">User Pool, app client, JWT và sự khác biệt giữa xác thực và cấp quyền.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000141.awsstudygroup.com/">Amazon Cognito Workshop&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Làm rõ cách danh tính (Cognito) và role ứng dụng sẽ được tách riêng trong thiết kế.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="công-việc-thực-hiện">Công việc thực hiện&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Kết quả&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">29/06&lt;/td>
+ &lt;td style="text-align: left">Xem lại cấu trúc IAM Policy và nguyên tắc least privilege kỹ hơn.&lt;/td>
+ &lt;td style="text-align: left">Củng cố mô hình phân quyền dự kiến cho API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">30/06&lt;/td>
+ &lt;td style="text-align: left">Học tài liệu Cognito Workshop để hiểu User Pool, app client và JWT.&lt;/td>
+ &lt;td style="text-align: left">Hiểu được cách xác thực và phân quyền sẽ tách biệt nhau sau này.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">01/07&lt;/td>
+ &lt;td style="text-align: left">Dựng môi trường phát triển Python/FastAPI cục bộ, đọc qua khung project ban đầu của team.&lt;/td>
+ &lt;td style="text-align: left">Sẵn sàng bắt đầu đóng góp code backend.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">02/07&lt;/td>
+ &lt;td style="text-align: left">Xem lại schema database dự kiến (users, courses, lessons) cùng team.&lt;/td>
+ &lt;td style="text-align: left">Thống nhất mô hình dữ liệu trước khi viết code API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">03/07&lt;/td>
+ &lt;td style="text-align: left">Lên kế hoạch các endpoint Course và Lesson API sẽ xây dựng tuần sau.&lt;/td>
+ &lt;td style="text-align: left">Có danh sách việc rõ ràng để bước vào tuần 5.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kết-quả-đạt-được">Kết quả đạt được&lt;/h2>
+&lt;ul>
+&lt;li>Hiểu rõ sự khác biệt giữa xác thực (Cognito) và phân quyền ở tầng ứng dụng.&lt;/li>
+&lt;li>Chuẩn bị xong môi trường phát triển local để bắt đầu đóng góp code backend.&lt;/li>
+&lt;li>Lên kế hoạch cho phần Course và Lesson API sẽ làm ở tuần tiếp theo.&lt;/li>
+&lt;/ul></description></item><item><title>Tuần 5 - Xây dựng Course &amp; Lesson API phía backend</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-05/</guid><description>&lt;p>&lt;strong>Thời gian:&lt;/strong> 06/07/2026 - 10/07/2026&lt;/p>
+&lt;h2 id="mục-tiêu">Mục tiêu&lt;/h2>
+&lt;ul>
+&lt;li>Xây dựng Course API: model, schema, CRUD route và kiểm tra quyền sở hữu.&lt;/li>
+&lt;li>Xây dựng Lesson API: curriculum có thứ tự, notes và các field URL video/tài liệu.&lt;/li>
+&lt;li>Học kiến thức nền S3 để chuẩn bị cho phần upload/storage team sẽ làm sau.&lt;/li>
+&lt;/ul>
+&lt;h2 id="giai-đoạn-học-aws">Giai đoạn học AWS&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Nội dung học&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;th style="text-align: left">Áp dụng vào EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Mô hình lưu trữ object của S3, cấu hình quyền riêng tư bucket và cách lưu tài nguyên học tập được tải lên.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000069.awsstudygroup.com/">Amazon S3 Security Best Practices&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Chuẩn bị nền tảng cho phần lưu trữ tài nguyên khóa học riêng tư mà team sẽ làm sau.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Cách Amplify kết hợp xác thực với storage dựa trên Cognito và S3.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000134.awsstudygroup.com/">Amplify Authentication and Storage&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Cho thêm bối cảnh về cách upload sau này sẽ kết nối với dữ liệu Course/Lesson mà mình đang xây API.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="công-việc-thực-hiện">Công việc thực hiện&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Kết quả&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">06/07&lt;/td>
+ &lt;td style="text-align: left">Dựng model, schema và CRUD endpoint cho Course, kèm kiểm tra quyền sở hữu để Instructor chỉ sửa được khóa học của mình.&lt;/td>
+ &lt;td style="text-align: left">Instructor tạo, cập nhật và quản lý khóa học được qua API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">07/07&lt;/td>
+ &lt;td style="text-align: left">Thêm validation cho metadata khóa học: tiêu đề, mô tả, giá, tag và chuyển trạng thái.&lt;/td>
+ &lt;td style="text-align: left">Ngăn được dữ liệu khóa học không hợp lệ bị lưu vào hệ thống.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">08/07&lt;/td>
+ &lt;td style="text-align: left">Dựng model Lesson và CRUD endpoint với order index, notes và field URL video/tài liệu.&lt;/td>
+ &lt;td style="text-align: left">Cho phép sắp xếp curriculum theo thứ tự qua API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">09/07&lt;/td>
+ &lt;td style="text-align: left">Viết test cho các endpoint Course và Lesson, sửa các lỗi phát hiện được.&lt;/td>
+ &lt;td style="text-align: left">Xác nhận API hoạt động đúng cho cả trường hợp thông thường lẫn edge case.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">10/07&lt;/td>
+ &lt;td style="text-align: left">Hoàn thiện và merge Course &amp;amp; Lesson backend API cùng team.&lt;/td>
+ &lt;td style="text-align: left">Hoàn thành phần đóng góp backend cốt lõi của mình cho dự án.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kết-quả-đạt-được">Kết quả đạt được&lt;/h2>
+&lt;ul>
+&lt;li>Hoàn thành CRUD API cho Course và Lesson, kèm kiểm tra quyền sở hữu.&lt;/li>
+&lt;li>Nắm được kiến thức nền S3 trước khi team làm phần upload/storage sau này.&lt;/li>
+&lt;li>Bàn giao một phần backend đã được kiểm thử, hoạt động ổn định để team tiếp tục xây dựng thêm.&lt;/li>
+&lt;/ul></description></item><item><title>Tuần 6 - Mở rộng và kiểm thử API backend</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-06/</guid><description>&lt;p>&lt;strong>Thời gian:&lt;/strong> 13/07/2026 - 17/07/2026&lt;/p>
+&lt;h2 id="mục-tiêu">Mục tiêu&lt;/h2>
+&lt;ul>
+&lt;li>Hỗ trợ team khi họ xây dựng auth, enrollment và dashboard dựa trên Course/Lesson API mình đã làm.&lt;/li>
+&lt;li>Mở rộng và tinh chỉnh Course/Lesson API theo phản hồi tích hợp từ frontend.&lt;/li>
+&lt;li>Học kiến thức nền CloudFront để phục vụ việc phân phối media khóa học sau này.&lt;/li>
+&lt;/ul>
+&lt;h2 id="giai-đoạn-học-aws">Giai đoạn học AWS&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Nội dung học&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;th style="text-align: left">Áp dụng vào EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Cách CDN hoạt động, cấu hình cache và phục vụ nội dung từ origin riêng tư.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000094.awsstudygroup.com/">CloudFront with S3 Origin&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Chuẩn bị để hiểu và sau này ghi lại cách team phân phối media khóa học.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Hosting frontend, deploy static website và routing cho single-page app.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000057.awsstudygroup.com/">Deploy Static Website on AWS&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Cho thêm bối cảnh về cách ứng dụng React mà team đang xây sẽ được host sau này.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="công-việc-thực-hiện">Công việc thực hiện&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Kết quả&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">13/07&lt;/td>
+ &lt;td style="text-align: left">Xem lại phản hồi tích hợp từ đồng đội làm frontend, điều chỉnh cấu trúc response của Course/Lesson API.&lt;/td>
+ &lt;td style="text-align: left">Khớp đúng API contract với những gì frontend thực sự cần.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14/07&lt;/td>
+ &lt;td style="text-align: left">Hỗ trợ test luồng enrollment mà team đang xây dựng dựa trên Course API để đảm bảo dữ liệu khóa học Published nhất quán.&lt;/td>
+ &lt;td style="text-align: left">Phát hiện và sửa một lỗi thiếu nhất quán dữ liệu trong Course API.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15/07&lt;/td>
+ &lt;td style="text-align: left">Tìm hiểu CloudFront và mô hình S3 origin để hiểu cách media khóa học sẽ được phân phối sau này.&lt;/td>
+ &lt;td style="text-align: left">Sẵn sàng hỗ trợ rà soát cấu hình phân phối ở tuần triển khai.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">16/07&lt;/td>
+ &lt;td style="text-align: left">Viết tài liệu cho các endpoint của Course &amp;amp; Lesson API cho các thành viên khác trong team.&lt;/td>
+ &lt;td style="text-align: left">Giúp team dùng API dễ dàng hơn mà không cần hỏi trực tiếp mình.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">17/07&lt;/td>
+ &lt;td style="text-align: left">Tham gia buổi review các luồng nghiệp vụ dùng Supabase và dashboard theo role mà team xây trong tuần đó.&lt;/td>
+ &lt;td style="text-align: left">Nắm được cách API của mình đang được sử dụng ở các phần khác của ứng dụng.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kết-quả-đạt-được">Kết quả đạt được&lt;/h2>
+&lt;ul>
+&lt;li>Mở rộng và ổn định Course/Lesson API dựa trên nhu cầu tích hợp thực tế từ frontend.&lt;/li>
+&lt;li>Viết tài liệu Course/Lesson API cho các thành viên còn lại trong team.&lt;/li>
+&lt;li>Nắm được kiến thức nền CloudFront trước giai đoạn triển khai.&lt;/li>
+&lt;/ul></description></item><item><title>Tuần 7 - Hỗ trợ tích hợp và học quy trình triển khai AWS</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-07/</guid><description>&lt;p>&lt;strong>Thời gian:&lt;/strong> 20/07/2026 - 24/07/2026&lt;/p>
+&lt;h2 id="mục-tiêu">Mục tiêu&lt;/h2>
+&lt;ul>
+&lt;li>Hỗ trợ team trong giai đoạn nước rút hoàn thiện role workflow, assessment và triển khai.&lt;/li>
+&lt;li>Tìm hiểu cách team deploy bằng Elastic Beanstalk, S3 và CloudFront để có thể ghi lại chính xác cho báo cáo.&lt;/li>
+&lt;li>Giữ cho Course/Lesson API hoạt động đúng khi các tính năng mới được thêm vào phía trên nó.&lt;/li>
+&lt;/ul>
+&lt;h2 id="giai-đoạn-học-aws">Giai đoạn học AWS&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Nội dung học&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;th style="text-align: left">Áp dụng vào EduCloud&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Metrics, log, alarm và dashboard của CloudWatch.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000008.awsstudygroup.com/">AWS CloudWatch Workshop&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Chuẩn bị để hiểu và sau này ghi lại cách ứng dụng đã deploy có thể được giám sát.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Các pattern giúp ứng dụng chạy ổn định: health check, idempotency và xử lý request có thể phục hồi.&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">Explore AWS Services&lt;/a>&lt;/td>
+ &lt;td style="text-align: left">Cho mình kiến thức nền để rà soát logic assessment/certificate mà đồng đội đang thêm vào, xem có vấn đề idempotency không.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="công-việc-thực-hiện">Công việc thực hiện&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Kết quả&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">20/07&lt;/td>
+ &lt;td style="text-align: left">Test lại Course/Lesson API với các tính năng assessment và certificate mới thêm để kiểm tra xung đột.&lt;/td>
+ &lt;td style="text-align: left">Xác nhận API của mình vẫn hoạt động đúng cùng các tính năng mới.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">21/07&lt;/td>
+ &lt;td style="text-align: left">Theo dõi team cấu hình Elastic Beanstalk để deploy backend.&lt;/td>
+ &lt;td style="text-align: left">Học được các bước triển khai để sau này ghi lại trong workshop report.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">22/07&lt;/td>
+ &lt;td style="text-align: left">Theo dõi team thiết lập S3 và CloudFront để phân phối media khóa học riêng tư.&lt;/td>
+ &lt;td style="text-align: left">Hiểu đủ về cấu hình OAC và bucket policy để viết lại thành hướng dẫn sau này.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">23/07&lt;/td>
+ &lt;td style="text-align: left">Xem lại kiến thức nền CloudWatch để giám sát backend sau khi deploy.&lt;/td>
+ &lt;td style="text-align: left">Sẵn sàng ghi lại phần cấu hình giám sát trong báo cáo.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">24/07&lt;/td>
+ &lt;td style="text-align: left">Hỗ trợ team kiểm tra bản build cuối trước khi deploy, sửa một lỗi nhỏ trong Course API phát hiện được lúc kiểm tra.&lt;/td>
+ &lt;td style="text-align: left">Góp phần vào một bản build cuối sạch sẽ.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kết-quả-đạt-được">Kết quả đạt được&lt;/h2>
+&lt;ul>
+&lt;li>Giữ cho Course/Lesson API hoạt động đúng xuyên suốt giai đoạn tích hợp nước rút của team.&lt;/li>
+&lt;li>Học đủ sâu quy trình triển khai AWS của team để có thể ghi lại chi tiết trong workshop report.&lt;/li>
+&lt;li>Phát hiện và sửa một lỗi trong bước kiểm tra cuối trước khi deploy.&lt;/li>
+&lt;/ul></description></item><item><title>Tuần 8 - Kiểm tra cuối, hoàn thiện báo cáo và nộp bài</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-08/</guid><description>&lt;p>&lt;strong>Thời gian:&lt;/strong> 27/07/2026 - 31/07/2026&lt;/p>
+&lt;p>&lt;strong>Hạn nộp workshop:&lt;/strong> 31/07/2026&lt;/p>
+&lt;h2 id="mục-tiêu">Mục tiêu&lt;/h2>
+&lt;ul>
+&lt;li>Cùng team khóa phạm vi tính năng của EduCloud Lite, tránh thêm thay đổi rủi ro trước khi nộp bài.&lt;/li>
+&lt;li>Hỗ trợ rà soát lại luồng Student, Instructor, các dịch vụ AWS đang chạy và toàn bộ public link.&lt;/li>
+&lt;li>Tự viết và hoàn thiện báo cáo Hugo workshop song ngữ, ảnh minh chứng và hồ sơ nộp bài của riêng mình.&lt;/li>
+&lt;li>Đảm bảo nộp báo cáo chậm nhất vào ngày 31/07/2026.&lt;/li>
+&lt;/ul>
+&lt;h2 id="kiểm-tra-cuối-project-và-aws">Kiểm tra cuối project và AWS&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Phạm vi kiểm tra&lt;/th>
+ &lt;th style="text-align: left">Hoạt động xác minh&lt;/th>
+ &lt;th style="text-align: left">Minh chứng nộp bài&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Danh tính và bảo mật&lt;/td>
+ &lt;td style="text-align: left">Kiểm tra login qua Cognito, đổi mật khẩu lần đầu, khôi phục mật khẩu, JWT exchange, IAM role và secret trong Parameter Store.&lt;/td>
+ &lt;td style="text-align: left">Ảnh chụp màn hình xác thực, ghi chú cấu hình và link mã nguồn.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Hosting ứng dụng&lt;/td>
+ &lt;td style="text-align: left">Kiểm tra tình trạng Elastic Beanstalk, việc deploy qua Amplify, routing của CloudFront, CORS và SPA rewrite.&lt;/td>
+ &lt;td style="text-align: left">Link EduCloud công khai và trạng thái deploy thành công.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Lưu trữ và dữ liệu&lt;/td>
+ &lt;td style="text-align: left">Xác nhận việc phân phối S3 ở chế độ private, kết nối Supabase, đường dẫn upload và role lấy từ database.&lt;/td>
+ &lt;td style="text-align: left">Sơ đồ kiến trúc và ảnh chụp workshop.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Tài liệu&lt;/td>
+ &lt;td style="text-align: left">Rà lại proposal, worklog, blogs, events, các bước workshop, self-assessment và feedback ở cả hai ngôn ngữ.&lt;/td>
+ &lt;td style="text-align: left">Hugo report công khai và repository GitHub.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kế-hoạch-công-việc-và-tiến-độ-hiện-tại">Kế hoạch công việc và tiến độ hiện tại&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Kết quả cần đạt&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">27/07&lt;/td>
+ &lt;td style="text-align: left">Chỉnh lại mốc thời gian thực tập và phạm vi worklog; bổ sung nốt nội dung và minh chứng còn thiếu trong báo cáo.&lt;/td>
+ &lt;td style="text-align: left">Báo cáo phản ánh đúng kỳ thực tập thực tế 01/06-15/08.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">28/07&lt;/td>
+ &lt;td style="text-align: left">Cùng team chạy checklist production cho login, xem khóa học, ghi danh, học bài, làm assessment, cấp certificate và tạo nội dung phía Instructor.&lt;/td>
+ &lt;td style="text-align: left">Các luồng demo quan trọng chạy thông suốt trên website công khai.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">29/07&lt;/td>
+ &lt;td style="text-align: left">Tự viết lại sơ đồ kiến trúc AWS, ảnh chụp, đoạn code, hướng dẫn repository và tài khoản demo cho báo cáo của mình.&lt;/td>
+ &lt;td style="text-align: left">Người chấm bài có thể hiểu và làm theo đúng nội dung nộp bài.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">30/07&lt;/td>
+ &lt;td style="text-align: left">Đọc lại toàn bộ trang tiếng Anh và tiếng Việt; kiểm tra điều hướng, dấu trang đã xem, hình ảnh, liên kết và giao diện responsive.&lt;/td>
+ &lt;td style="text-align: left">Hugo report nhất quán, không còn placeholder hay tài nguyên lỗi.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">31/07&lt;/td>
+ &lt;td style="text-align: left">Chuẩn bị gói nộp bài cuối cùng, gửi kèm website, repository mã nguồn, link workshop và các file PDF được chọn.&lt;/td>
+ &lt;td style="text-align: left">Nộp workshop đúng hạn.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="kết-quả-hiện-tại">Kết quả hiện tại&lt;/h2>
+&lt;ul>
+&lt;li>EduCloud Lite đã hoạt động tại một đường dẫn Amplify độc lập.&lt;/li>
+&lt;li>Backend FastAPI chạy trên Elastic Beanstalk, đọc secret production từ Parameter Store.&lt;/li>
+&lt;li>Cognito, Supabase, S3, CloudFront và Amplify đều đã được kết nối vào ứng dụng đang triển khai.&lt;/li>
+&lt;li>Sơ đồ kiến trúc, Hugo report song ngữ, link demo và tài khoản dành cho mentor đều đã được ghi lại đầy đủ.&lt;/li>
+&lt;li>Phần việc còn lại chỉ là kiểm tra cuối, rà soát minh chứng, đọc lại nội dung và nộp bài.&lt;/li>
+&lt;/ul>
+&lt;h2 id="liên-kết-nộp-bài">Liên kết nộp bài&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://main.djk00b5qbck73.amplifyapp.com/courses">Website EduCloud Lite&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Funacius/EduCloud">Repository mã nguồn EduCloud&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Sau ngày 31/07 sẽ không mở rộng thêm tính năng nào cho project. Thời gian còn lại của kỳ thực tập được dành riêng cho việc học AWS và First Cloud AI Journey.&lt;/p></description></item><item><title>Tuần 9 - Học vận hành, bảo mật và chi phí AWS</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-09/</guid><description>&lt;p>&lt;strong>Thời gian học:&lt;/strong> 03/08/2026 - 07/08/2026&lt;/p>
+&lt;h2 id="mục-tiêu-học-tập">Mục tiêu học tập&lt;/h2>
+&lt;ul>
+&lt;li>Tiếp tục lộ trình First Cloud AI Journey sau khi đã nộp EduCloud Lite.&lt;/li>
+&lt;li>Ôn tập kiến thức AWS về vận hành, bảo mật, độ tin cậy và tối ưu chi phí.&lt;/li>
+&lt;li>Đánh giá lại kiến trúc đã triển khai nhưng không bổ sung tính năng mới cho ứng dụng.&lt;/li>
+&lt;/ul>
+&lt;h2 id="kế-hoạch-học-tập">Kế hoạch học tập&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Chủ đề&lt;/th>
+ &lt;th style="text-align: left">Kết quả dự kiến&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">03/08&lt;/td>
+ &lt;td style="text-align: left">Ôn AWS Shared Responsibility Model, IAM user, role, policy và least privilege.&lt;/td>
+ &lt;td style="text-align: left">Giải thích được ranh giới trách nhiệm của Cognito, Elastic Beanstalk, S3 và Parameter Store.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">04/08&lt;/td>
+ &lt;td style="text-align: left">Học CloudWatch metrics, logs, alarms, dashboard và Elastic Beanstalk health reporting.&lt;/td>
+ &lt;td style="text-align: left">Có checklist giám sát dành cho ứng dụng web quy mô nhỏ.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">05/08&lt;/td>
+ &lt;td style="text-align: left">Ôn bảo mật S3, Block Public Access, encryption, lifecycle rule và private origin qua CloudFront.&lt;/td>
+ &lt;td style="text-align: left">Hiểu cách phân phối file an toàn và có ý thức chi phí.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">06/08&lt;/td>
+ &lt;td style="text-align: left">Học AWS Budgets, cost allocation, các yếu tố tính giá và quy trình dọn tài nguyên.&lt;/td>
+ &lt;td style="text-align: left">Tạo checklist kiểm soát chi phí cho tài khoản AWS sinh viên.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">07/08&lt;/td>
+ &lt;td style="text-align: left">Ôn các trụ cột AWS Well-Architected và dùng EduCloud làm ví dụ đánh giá.&lt;/td>
+ &lt;td style="text-align: left">Ghi nhận điểm mạnh, giới hạn và hướng cải thiện tương lai mà không sửa bản đã nộp.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="nguồn-học-tập">Nguồn học tập&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://cloudjourney.awsstudygroup.com/">The First Cloud Journey&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://000002.awsstudygroup.com/">Access Control with AWS IAM&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://000007.awsstudygroup.com/">AWS Budgets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://000008.awsstudygroup.com/">AWS CloudWatch Workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://000069.awsstudygroup.com/">Amazon S3 Security Best Practices&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="kết-quả-học-tập-dự-kiến">Kết quả học tập dự kiến&lt;/h2>
+&lt;ul>
+&lt;li>Hiểu rõ hơn về least privilege và mô hình trách nhiệm chia sẻ của AWS.&lt;/li>
+&lt;li>Xác định được mức giám sát và cảnh báo tối thiểu cho một ứng dụng đã triển khai.&lt;/li>
+&lt;li>Nâng cao nhận thức về bảo mật storage, hành vi CDN, backup và lifecycle.&lt;/li>
+&lt;li>Có checklist tái sử dụng để kiểm soát chi phí và dọn tài nguyên AWS tạm thời.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Tuần này chỉ dành cho học tập và tổng kết, không mở rộng phạm vi tính năng EduCloud Lite đã nộp.&lt;/p></description></item><item><title>Tuần 10 - Học Generative AI, Agentic AI và tổng kết AWS</title><link>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/1-worklog/week-10/</guid><description>&lt;p>&lt;strong>Thời gian học:&lt;/strong> 10/08/2026 - 15/08/2026&lt;/p>
+&lt;h2 id="mục-tiêu-học-tập">Mục tiêu học tập&lt;/h2>
+&lt;ul>
+&lt;li>Xây dựng nền tảng rõ ràng hơn về Generative AI và Agentic AI trên AWS.&lt;/li>
+&lt;li>Ôn lại bài học kiến trúc từ First Cloud AI Journey và Agentic AI Build Week.&lt;/li>
+&lt;li>Tổng kết kết quả thực tập và xác định lộ trình học tiếp theo có tính thực tế.&lt;/li>
+&lt;/ul>
+&lt;h2 id="kế-hoạch-học-tập">Kế hoạch học tập&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Ngày&lt;/th>
+ &lt;th style="text-align: left">Chủ đề&lt;/th>
+ &lt;th style="text-align: left">Kết quả dự kiến&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">10/08&lt;/td>
+ &lt;td style="text-align: left">Ôn nền tảng Generative AI, foundation model, prompting, embedding và responsible AI.&lt;/td>
+ &lt;td style="text-align: left">Phân biệt logic ứng dụng thông thường, model inference và quy trình retrieval-augmented.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">11/08&lt;/td>
+ &lt;td style="text-align: left">Tìm hiểu Amazon Bedrock, model access, knowledge base, guardrail và evaluation.&lt;/td>
+ &lt;td style="text-align: left">Hiểu các thành phần managed dành cho ứng dụng Generative AI an toàn.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">12/08&lt;/td>
+ &lt;td style="text-align: left">Ôn AI Agent: goal, plan, tool, memory, verification, observability và human approval.&lt;/td>
+ &lt;td style="text-align: left">Mô tả được quy trình agent hướng production thay vì xem câu trả lời LLM là một hệ thống hoàn chỉnh.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">13/08&lt;/td>
+ &lt;td style="text-align: left">Xem lại các bài trình bày Agentic AI Build Week gồm KFC Bot Agent, S.H.E.P.H.E.R.D, SA Professional Native App và SignalScout.&lt;/td>
+ &lt;td style="text-align: left">So sánh cách các đội xử lý kiến trúc, chi phí, độ trễ, phạm vi và giá trị kinh doanh.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">14/08&lt;/td>
+ &lt;td style="text-align: left">Liên hệ bài học với hướng cải thiện EduCloud trong tương lai nhưng không triển khai thêm.&lt;/td>
+ &lt;td style="text-align: left">Có roadmap cho hỗ trợ học bằng AI, hỗ trợ nội dung và cải thiện vận hành.&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">15/08&lt;/td>
+ &lt;td style="text-align: left">Tổng kết kỹ năng kỹ thuật, kiến thức AWS, hạn chế và mục tiêu chứng chỉ hoặc workshop tiếp theo.&lt;/td>
+ &lt;td style="text-align: left">Hoàn thành phần tổng kết học tập của kỳ thực tập.&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="nguồn-học-tập">Nguồn học tập&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://cloudjourney.awsstudygroup.com/">The First Cloud Journey&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/4-eventparticipated/4.1-event1/">Báo cáo sự kiện FCAJ x Agentic AI Build Week 2026&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://Nguyen-Huu-Hai-Duong.github.io/EduCloud-RP/vi/5-workshop/">Workshop EduCloud Lite&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="kết-quả-học-tập-dự-kiến">Kết quả học tập dự kiến&lt;/h2>
+&lt;ul>
+&lt;li>Hiểu các trách nhiệm chính trong một hệ thống Agentic AI dùng cho production.&lt;/li>
+&lt;li>Nhận biết khi nào nên dùng dịch vụ AI managed của AWS và khi nào kiến trúc đơn giản phù hợp hơn.&lt;/li>
+&lt;li>Đánh giá ý tưởng AI dựa trên bảo mật, chi phí, độ trễ, khả năng quan sát, khả năng giải thích và giá trị người dùng.&lt;/li>
+&lt;li>Kết thúc kỳ thực tập với lộ trình học tập tập trung thay vì thêm tính năng chưa kiểm thử sau khi nộp bài.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Ngày 15/08/2026 là ngày kết thúc thực tập. Trang này ghi lại kế hoạch học tập sau khi nộp workshop, không phải phần triển khai EduCloud bổ sung.&lt;/p></description></item></channel></rss>
