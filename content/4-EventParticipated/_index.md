@@ -25,3 +25,12 @@ During my internship, I participated in the following events, memorable experien
 &emsp;**Location:** Level 26, Bitexco Financial Tower, Ho Chi Minh City  
 
 &emsp;**Role:** Attendee  
+
+### [Event 3](4.3-Event3/)  
+&emsp;**Event Name:** AWS Security, Cloud Fundamentals and Monitoring  
+
+&emsp;**Date & Time:** July 11, 2026, 09:00–12:00  
+
+&emsp;**Location:** Level 26, Bitexco Financial Tower, Ho Chi Minh City  
+
+&emsp;**Role:** Attendee  

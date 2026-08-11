@@ -24,5 +24,14 @@ Trong quá trình thực tập, em đã tham gia các sự kiện dưới đây,
 
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco Financial Tower, TP. Hồ Chí Minh
 
+&emsp;**Vai trò trong sự kiện:** Người tham dự
+
+### [Event 3](4.3-Event3/)
+&emsp;**Tên sự kiện:** AWS Security, Cloud Fundamentals and Monitoring
+
+&emsp;**Thời gian:** 09:00–12:00, ngày 11/07/2026
+
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco Financial Tower, TP. Hồ Chí Minh
+
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
